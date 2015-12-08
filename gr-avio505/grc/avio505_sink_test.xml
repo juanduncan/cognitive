@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<block>
+  <name>sink_test</name>
+  <key>avio505_sink_test</key>
+  <category>avio505</category>
+  <import>import avio505</import>
+  <make>avio505.sink_test()</make>
+  
+
+
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+ 
+</block>

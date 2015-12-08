@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacegr_1_1avio505" kind="namespace">
+    <compoundname>gr::avio505</compoundname>
+    <innerclass refid="classgr_1_1avio505_1_1adc__three__ch__demux__rtdex" prot="public">gr::avio505::adc_three_ch_demux_rtdex</innerclass>
+    <innerclass refid="classgr_1_1avio505_1_1sink__test" prot="public">gr::avio505::sink_test</innerclass>
+    <innerclass refid="classgr_1_1avio505_1_1three__ch__multip__rtdex" prot="public">gr::avio505::three_ch_multip_rtdex</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-avio505/include/avio505/adc_three_ch_demux_rtdex.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

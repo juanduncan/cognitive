@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl" kind="class" prot="public">
+    <compoundname>gr::avio505::three_ch_multip_rtdex_impl</compoundname>
+    <basecompoundref refid="classgr_1_1avio505_1_1three__ch__multip__rtdex" prot="public" virt="non-virtual">gr::avio505::three_ch_multip_rtdex</basecompoundref>
+    <includes refid="three__ch__multip__rtdex__impl_8h" local="no">three_ch_multip_rtdex_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1a00b00e8a4942cdbafc082fbeef420fa4" prot="private" static="no" mutable="no">
+        <type>short *</type>
+        <definition>short* gr::avio505::three_ch_multip_rtdex_impl::dme1_shorts</definition>
+        <argsstring></argsstring>
+        <name>dme1_shorts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" line="32" bodyfile="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1ae7f065d340208d14350f8b3416fb2231" prot="private" static="no" mutable="no">
+        <type>short *</type>
+        <definition>short* gr::avio505::three_ch_multip_rtdex_impl::dme2_shorts</definition>
+        <argsstring></argsstring>
+        <name>dme2_shorts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" line="33" bodyfile="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1a7533aa0e63569506e81e76abe3233a29" prot="private" static="no" mutable="no">
+        <type>short *</type>
+        <definition>short* gr::avio505::three_ch_multip_rtdex_impl::adsb_shorts</definition>
+        <argsstring></argsstring>
+        <name>adsb_shorts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" line="34" bodyfile="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1aa32101eaf5ac49ce1b424692cc29fb00" prot="private" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* gr::avio505::three_ch_multip_rtdex_impl::dme1_floats</definition>
+        <argsstring></argsstring>
+        <name>dme1_floats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" line="35" bodyfile="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1a5d8c30c58783b83b88df2d1d8a0957a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::avio505::three_ch_multip_rtdex_impl::three_ch_multip_rtdex_impl</definition>
+        <argsstring>()</argsstring>
+        <name>three_ch_multip_rtdex_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1a7d4c6032362ca1e68a20faf96e12ab02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::avio505::three_ch_multip_rtdex_impl::~three_ch_multip_rtdex_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~three_ch_multip_rtdex_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" line="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1af2a2b4b9f0e11141a93ec314a6ddcbe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::avio505::three_ch_multip_rtdex_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1a510bf5198bcf935e8b722778cdf8623d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::avio505::three_ch_multip_rtdex_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" line="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="560">
+        <label>gr::avio505::three_ch_multip_rtdex</label>
+        <link refid="classgr_1_1avio505_1_1three__ch__multip__rtdex"/>
+      </node>
+      <node id="559">
+        <label>gr::avio505::three_ch_multip_rtdex_impl</label>
+        <link refid="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl"/>
+        <childnode refid="560" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="562">
+        <label>gr::avio505::three_ch_multip_rtdex</label>
+        <link refid="classgr_1_1avio505_1_1three__ch__multip__rtdex"/>
+      </node>
+      <node id="561">
+        <label>gr::avio505::three_ch_multip_rtdex_impl</label>
+        <link refid="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl"/>
+        <childnode refid="562" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" line="30" bodyfile="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h" bodystart="29" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1a7533aa0e63569506e81e76abe3233a29" prot="private" virt="non-virtual"><scope>gr::avio505::three_ch_multip_rtdex_impl</scope><name>adsb_shorts</name></member>
+      <member refid="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1aa32101eaf5ac49ce1b424692cc29fb00" prot="private" virt="non-virtual"><scope>gr::avio505::three_ch_multip_rtdex_impl</scope><name>dme1_floats</name></member>
+      <member refid="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1a00b00e8a4942cdbafc082fbeef420fa4" prot="private" virt="non-virtual"><scope>gr::avio505::three_ch_multip_rtdex_impl</scope><name>dme1_shorts</name></member>
+      <member refid="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1ae7f065d340208d14350f8b3416fb2231" prot="private" virt="non-virtual"><scope>gr::avio505::three_ch_multip_rtdex_impl</scope><name>dme2_shorts</name></member>
+      <member refid="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1af2a2b4b9f0e11141a93ec314a6ddcbe4" prot="public" virt="non-virtual"><scope>gr::avio505::three_ch_multip_rtdex_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1a510bf5198bcf935e8b722778cdf8623d" prot="public" virt="non-virtual"><scope>gr::avio505::three_ch_multip_rtdex_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1avio505_1_1three__ch__multip__rtdex_1a35d9f02094706a939ca565a5ee59294b" prot="public" virt="non-virtual"><scope>gr::avio505::three_ch_multip_rtdex_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1avio505_1_1three__ch__multip__rtdex_1a51c08ab7b59e1402d8b927b1ebc8e794" prot="public" virt="non-virtual"><scope>gr::avio505::three_ch_multip_rtdex_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1a5d8c30c58783b83b88df2d1d8a0957a8" prot="public" virt="non-virtual"><scope>gr::avio505::three_ch_multip_rtdex_impl</scope><name>three_ch_multip_rtdex_impl</name></member>
+      <member refid="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl_1a7d4c6032362ca1e68a20faf96e12ab02" prot="public" virt="non-virtual"><scope>gr::avio505::three_ch_multip_rtdex_impl</scope><name>~three_ch_multip_rtdex_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

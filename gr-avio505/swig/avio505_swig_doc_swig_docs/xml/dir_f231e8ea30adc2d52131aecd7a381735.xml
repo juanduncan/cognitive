@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f231e8ea30adc2d52131aecd7a381735" kind="dir">
+    <compoundname>/home/juan/cognitive/gr-avio505/include/avio505</compoundname>
+    <innerfile refid="adc__three__ch__demux__rtdex_8h">adc_three_ch_demux_rtdex.h</innerfile>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="sink__test_8h">sink_test.h</innerfile>
+    <innerfile refid="three__ch__multip__rtdex_8h">three_ch_multip_rtdex.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-avio505/include/avio505/"/>
+  </compounddef>
+</doxygen>

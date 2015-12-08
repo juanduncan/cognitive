@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="three__ch__multip__rtdex__impl_8h" kind="file">
+    <compoundname>three_ch_multip_rtdex_impl.h</compoundname>
+    <includes refid="three__ch__multip__rtdex_8h" local="no">avio505/three_ch_multip_rtdex.h</includes>
+    <incdepgraph>
+      <node id="17">
+        <label>avio505/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>three_ch_multip_rtdex_impl.h</label>
+        <link refid="three_ch_multip_rtdex_impl.h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="19">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="16">
+        <label>avio505/three_ch_multip_rtdex.h</label>
+        <link refid="three__ch__multip__rtdex_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1avio505_1_1three__ch__multip__rtdex__impl" prot="public">gr::avio505::three_ch_multip_rtdex_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1avio505">gr::avio505</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/ets/gr-avio505/lib/three_ch_multip_rtdex_impl.h"/>
+  </compounddef>
+</doxygen>

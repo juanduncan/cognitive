@@ -1,0 +1,12 @@
+/home/juan/cognitive/gr-COWN_misc/swig/CMakeFiles/COWN_misc_swig_swig_2d0df.dir
+/home/juan/cognitive/gr-COWN_misc/swig/CMakeFiles/COWN_misc_swig_swig_doc.dir
+/home/juan/cognitive/gr-COWN_misc/swig/CMakeFiles/_COWN_misc_swig.dir
+/home/juan/cognitive/gr-COWN_misc/swig/CMakeFiles/_COWN_misc_swig_doc_tag.dir
+/home/juan/cognitive/gr-COWN_misc/swig/CMakeFiles/_COWN_misc_swig_swig_tag.dir
+/home/juan/cognitive/gr-COWN_misc/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/juan/cognitive/gr-COWN_misc/lib/CMakeFiles/gnuradio-COWN_misc.dir
+/home/juan/cognitive/gr-COWN_misc/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/juan/cognitive/gr-COWN_misc/python/CMakeFiles/pygen_python_8063c.dir
+/home/juan/cognitive/gr-COWN_misc/swig/CMakeFiles/pygen_swig_68ca3.dir
+/home/juan/cognitive/gr-COWN_misc/lib/CMakeFiles/test-COWN_misc.dir
+/home/juan/cognitive/gr-COWN_misc/CMakeFiles/uninstall.dir

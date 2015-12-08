@@ -1,0 +1,12 @@
+/home/juan/cognitive/gr-avio505/swig/CMakeFiles/_avio505_swig.dir
+/home/juan/cognitive/gr-avio505/swig/CMakeFiles/_avio505_swig_doc_tag.dir
+/home/juan/cognitive/gr-avio505/swig/CMakeFiles/_avio505_swig_swig_tag.dir
+/home/juan/cognitive/gr-avio505/swig/CMakeFiles/avio505_swig_swig_2d0df.dir
+/home/juan/cognitive/gr-avio505/swig/CMakeFiles/avio505_swig_swig_doc.dir
+/home/juan/cognitive/gr-avio505/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/juan/cognitive/gr-avio505/lib/CMakeFiles/gnuradio-avio505.dir
+/home/juan/cognitive/gr-avio505/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/juan/cognitive/gr-avio505/python/CMakeFiles/pygen_python_f1d22.dir
+/home/juan/cognitive/gr-avio505/swig/CMakeFiles/pygen_swig_be387.dir
+/home/juan/cognitive/gr-avio505/lib/CMakeFiles/test-avio505.dir
+/home/juan/cognitive/gr-avio505/CMakeFiles/uninstall.dir
