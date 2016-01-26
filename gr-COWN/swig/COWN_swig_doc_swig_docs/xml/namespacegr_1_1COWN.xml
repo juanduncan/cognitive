@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacegr_1_1COWN" kind="namespace">
+    <compoundname>gr::COWN</compoundname>
+    <innerclass refid="classgr_1_1COWN_1_1resta" prot="public">gr::COWN::resta</innerclass>
+    <innerclass refid="classgr_1_1COWN_1_1syncher" prot="public">gr::COWN::syncher</innerclass>
+    <innerclass refid="classgr_1_1COWN_1_1syncher2" prot="public">gr::COWN::syncher2</innerclass>
+    <innerclass refid="classgr_1_1COWN_1_1tag__generator" prot="public">gr::COWN::tag_generator</innerclass>
+    <innerclass refid="classgr_1_1COWN_1_1test" prot="public">gr::COWN::test</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-COWN/include/COWN/resta.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

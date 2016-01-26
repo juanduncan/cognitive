@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<block>
+  <name>syncher2</name>
+  <key>COWN_syncher2</key>
+  <category>COWN</category>
+  <import>import COWN</import>
+  <make>COWN.syncher2()</make>
+
+
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+ 
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

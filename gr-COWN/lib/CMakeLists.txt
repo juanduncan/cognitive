@@ -24,17 +24,20 @@ include(GrPlatform) #define LIB_SUFFIX
 
 include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
-
 list(APPEND COWN_sources
-)
+    tag_generator_impl.cc
+    test_impl.cc
+    syncher_impl.cc
+    syncher2_impl.cc
+    resta_impl.cc )
 
 set(COWN_sources "${COWN_sources}" PARENT_SCOPE)
 if(NOT COWN_sources)
 	MESSAGE(STATUS "No C++ sources... skipping lib/")
 	return()
 endif(NOT COWN_sources)
-
-add_library(gnuradio-COWN SHARED ${COWN_sources})
+add_library(gnuradio-COWN SHARED ${COWN_sources}
+    )
 target_link_libraries(gnuradio-COWN ${Boost_LIBRARIES} ${GNURADIO_ALL_LIBRARIES})
 set_target_properties(gnuradio-COWN PROPERTIES DEFINE_SYMBOL "gnuradio_COWN_EXPORTS")
 

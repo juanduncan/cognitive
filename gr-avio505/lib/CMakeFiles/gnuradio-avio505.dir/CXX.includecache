@@ -6,30 +6,20 @@
 
 #IncludeRegexTransform: 
 
-/home/juan/cognitive/gr-avio505/lib/adc_three_ch_demux_rtdex_impl.cc
+/home/juan/cognitive/gr-avio505/lib/resta_impl.cc
 config.h
 /home/juan/cognitive/gr-avio505/lib/config.h
+gnuradio/io_signature.h
+-
+resta_impl.h
+/home/juan/cognitive/gr-avio505/lib/resta_impl.h
 iostream
 -
-cstdio
--
-gnuradio/io_signature.h
--
-gnuradio/io_signature.h
--
-adc_three_ch_demux_rtdex_impl.h
-/home/juan/cognitive/gr-avio505/lib/adc_three_ch_demux_rtdex_impl.h
 volk/volk.h
 -
-functional
--
 
-/home/juan/cognitive/gr-avio505/lib/adc_three_ch_demux_rtdex_impl.h
-avio505/adc_three_ch_demux_rtdex.h
--
-iostream
--
-gnuradio/io_signature.h
+/home/juan/cognitive/gr-avio505/lib/resta_impl.h
+avio505/resta.h
 -
 
 /usr/local/include/gnuradio/api.h
@@ -88,6 +78,8 @@ gnuradio/basic_block.h
 map
 -
 
+/usr/local/include/gnuradio/config.h
+
 /usr/local/include/gnuradio/gr_complex.h
 complex
 -
@@ -99,6 +91,8 @@ gnuradio/runtime_types.h
 -
 
 /usr/local/include/gnuradio/logger.h
+sys/types.h
+-
 gnuradio/api.h
 -
 assert.h
@@ -225,6 +219,8 @@ vector
 -
 
 /usr/local/include/gnuradio/rpcserver_selector.h
+gnuradio/config.h
+-
 
 /usr/local/include/gnuradio/runtime_types.h
 gnuradio/api.h
@@ -236,6 +232,12 @@ gnuradio/types.h
 gnuradio/api.h
 -
 boost/shared_ptr.hpp
+-
+
+/usr/local/include/gnuradio/sync_block.h
+gnuradio/api.h
+-
+gnuradio/block.h
 -
 
 /usr/local/include/gnuradio/tags.h
@@ -325,9 +327,7 @@ stdbool.h
 /usr/local/include/volk/volk_common.h
 inttypes.h
 -
-xmmintrin.h
--
-emmintrin.h
+x86intrin.h
 -
 
 /usr/local/include/volk/volk_complex.h
@@ -352,13 +352,13 @@ inttypes.h
 volk/volk_complex.h
 -
 
-include/avio505/adc_three_ch_demux_rtdex.h
-avio505/api.h
--
-gnuradio/block.h
--
-
 include/avio505/api.h
 gnuradio/attributes.h
+-
+
+include/avio505/resta.h
+avio505/api.h
+-
+gnuradio/sync_block.h
 -
 

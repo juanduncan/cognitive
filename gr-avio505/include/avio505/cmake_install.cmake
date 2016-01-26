@@ -38,6 +38,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/juan/cognitive/gr-avio505/include/avio505/three_ch_multip_rtdex.h"
     "/home/juan/cognitive/gr-avio505/include/avio505/adc_three_ch_demux_rtdex.h"
     "/home/juan/cognitive/gr-avio505/include/avio505/sink_test.h"
+    "/home/juan/cognitive/gr-avio505/include/avio505/resta.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

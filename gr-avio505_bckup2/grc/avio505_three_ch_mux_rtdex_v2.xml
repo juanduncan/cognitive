@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<block>
+  <name>AVIO505 DAC MUX</name>
+  <key>avio505_three_ch_mux_rtdex_v2</key>
+  <category>avio505</category>
+  <import>import avio505</import>
+  <make>avio505.three_ch_mux_rtdex_v2()</make>
+
+
+
+
+  <sink>
+    <name>in_dme1</name>
+    <type>complex</type>
+  </sink>
+
+  <sink>
+    <name>in_dme2</name>
+    <type>complex</type>
+  </sink>
+
+    <sink>
+    <name>in_adsb</name>
+    <type>complex</type>
+  </sink>
+
+
+
+
+  <source>
+    <name>out</name>
+    <type>int</type>
+  </source>
+
+</block>

@@ -24,5 +24,6 @@ install(FILES
     api.h
     three_ch_multip_rtdex.h
     adc_three_ch_demux_rtdex.h
-    sink_test.h DESTINATION include/avio505
+    sink_test.h
+    resta.h DESTINATION include/avio505
 )

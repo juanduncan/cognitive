@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<block>
+  <name>adc_three_ch_demux_rtdex</name>
+  <key>avio505_adc_three_ch_demux_rtdex</key>
+  <category>avio505</category>
+  <import>import avio505</import>
+  <make>avio505.adc_three_ch_demux_rtdex()</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+
+
+
+ 
+
+
+
+    <sink>
+          <name>in</name>
+          <type>short</type>
+    </sink>
+
+
+
+ <source>
+    <name>out_dme1</name>
+    <type>complex</type>
+ </source>
+
+ <source>
+    <name>out_dme2</name>
+    <type>complex</type>
+ </source>
+
+  <source>
+    <name>out_adsb</name>
+    <type>complex</type>
+  </source>
+
+
+
+</block>

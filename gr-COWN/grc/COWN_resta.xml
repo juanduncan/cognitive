@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<block>
+  <name>resta</name>
+  <key>COWN_resta</key>
+  <category>COWN</category>
+  <import>import COWN</import>
+  <make>COWN.resta()</make>
+  
+  <sink>
+    <name>in</name>
+    <type>int</type>
+  </sink>
+
+
+  <source>
+    <name>out</name>
+    <type>int</type>
+  </source>
+</block>

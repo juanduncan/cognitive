@@ -55,6 +55,8 @@ avio505/adc_three_ch_demux_rtdex.h
 /home/juan/cognitive/gr-avio505/swig/avio505/adc_three_ch_demux_rtdex.h
 avio505/sink_test.h
 /home/juan/cognitive/gr-avio505/swig/avio505/sink_test.h
+avio505/resta.h
+/home/juan/cognitive/gr-avio505/swig/avio505/resta.h
 float.h
 -
 math.h
@@ -460,6 +462,8 @@ gnuradio/basic_block.h
 map
 -
 
+/usr/local/include/gnuradio/config.h
+
 /usr/local/include/gnuradio/feval.h
 gnuradio/api.h
 -
@@ -495,6 +499,8 @@ gnuradio/runtime_types.h
 -
 
 /usr/local/include/gnuradio/logger.h
+sys/types.h
+-
 gnuradio/api.h
 -
 assert.h
@@ -627,6 +633,8 @@ vector
 -
 
 /usr/local/include/gnuradio/rpcserver_selector.h
+gnuradio/config.h
+-
 
 /usr/local/include/gnuradio/runtime_types.h
 gnuradio/api.h
@@ -742,6 +750,12 @@ gnuradio/block.h
 
 include/avio505/api.h
 gnuradio/attributes.h
+-
+
+include/avio505/resta.h
+avio505/api.h
+-
+gnuradio/sync_block.h
 -
 
 include/avio505/sink_test.h

@@ -273,6 +273,30 @@ qa_three_ch_multip_rtdex.cc.s:
 	cd /home/juan/cognitive/gr-avio505 && $(MAKE) -f lib/CMakeFiles/test-avio505.dir/build.make lib/CMakeFiles/test-avio505.dir/qa_three_ch_multip_rtdex.cc.s
 .PHONY : qa_three_ch_multip_rtdex.cc.s
 
+resta_impl.o: resta_impl.cc.o
+.PHONY : resta_impl.o
+
+# target to build an object file
+resta_impl.cc.o:
+	cd /home/juan/cognitive/gr-avio505 && $(MAKE) -f lib/CMakeFiles/gnuradio-avio505.dir/build.make lib/CMakeFiles/gnuradio-avio505.dir/resta_impl.cc.o
+.PHONY : resta_impl.cc.o
+
+resta_impl.i: resta_impl.cc.i
+.PHONY : resta_impl.i
+
+# target to preprocess a source file
+resta_impl.cc.i:
+	cd /home/juan/cognitive/gr-avio505 && $(MAKE) -f lib/CMakeFiles/gnuradio-avio505.dir/build.make lib/CMakeFiles/gnuradio-avio505.dir/resta_impl.cc.i
+.PHONY : resta_impl.cc.i
+
+resta_impl.s: resta_impl.cc.s
+.PHONY : resta_impl.s
+
+# target to generate assembly for a file
+resta_impl.cc.s:
+	cd /home/juan/cognitive/gr-avio505 && $(MAKE) -f lib/CMakeFiles/gnuradio-avio505.dir/build.make lib/CMakeFiles/gnuradio-avio505.dir/resta_impl.cc.s
+.PHONY : resta_impl.cc.s
+
 sink_test_impl.o: sink_test_impl.cc.o
 .PHONY : sink_test_impl.o
 
@@ -372,6 +396,9 @@ help:
 	@echo "... qa_three_ch_multip_rtdex.o"
 	@echo "... qa_three_ch_multip_rtdex.i"
 	@echo "... qa_three_ch_multip_rtdex.s"
+	@echo "... resta_impl.o"
+	@echo "... resta_impl.i"
+	@echo "... resta_impl.s"
 	@echo "... sink_test_impl.o"
 	@echo "... sink_test_impl.i"
 	@echo "... sink_test_impl.s"

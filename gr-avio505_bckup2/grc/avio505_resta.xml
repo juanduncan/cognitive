@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<block>
+  <name>Sequence check</name>
+  <key>avio505_resta</key>
+  <category>avio505</category>
+  <import>import avio505</import>
+  <make>avio505.resta()</make>
+
+
+
+  <sink>
+    <name>in</name>
+    <type>int</type>
+  </sink>
+
+ 
+  <source>
+    <name>out</name>
+    <type>int</type>
+  </source>
+
+
+
+</block>

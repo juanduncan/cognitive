@@ -22,5 +22,9 @@
 ########################################################################
 install(FILES
     api.h
-    DESTINATION include/COWN
+    tag_generator.h
+    test.h
+    syncher.h
+    syncher2.h
+    resta.h DESTINATION include/COWN
 )

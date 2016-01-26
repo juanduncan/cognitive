@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<block>
+  <name>resta</name>
+  <key>rtdex_tests_resta</key>
+  <category>rtdex_tests</category>
+  <import>import rtdex_tests</import>
+  <make>rtdex_tests.resta($step)</make>
+ 
+  <param>
+    <name>Step</name>
+    <key>step</key>
+    <type>int</type>
+    <value>1</value>
+  </param>
+
+	<sink>
+		<name>in</name>
+		<type>int</type>
+		<vlen>1</vlen>
+	</sink>
+	<source>
+		<name>out</name>
+		<type>int</type>
+		<vlen>1</vlen>
+	</source>
+   
+</block>

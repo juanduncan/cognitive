@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/_COWN_swig_swig_tag.dir/_COWN_swig_swig_tag.cpp.o  -o _COWN_swig_swig_tag -rdynamic 

@@ -29,6 +29,7 @@ list(APPEND avio505_sources
     three_ch_multip_rtdex_impl.cc
     adc_three_ch_demux_rtdex_impl.cc
     sink_test_impl.cc
+    resta_impl.cc
 )
 
 set(avio505_sources "${avio505_sources}" PARENT_SCOPE)

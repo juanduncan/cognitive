@@ -69,6 +69,7 @@ swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: /usr/local/incl
 swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: /usr/local/include/gnuradio/block.h
 swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: /usr/local/include/gnuradio/block_gateway.h
 swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: /usr/local/include/gnuradio/block_registry.h
+swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: /usr/local/include/gnuradio/config.h
 swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: /usr/local/include/gnuradio/feval.h
 swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: /usr/local/include/gnuradio/gr_complex.h
 swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: /usr/local/include/gnuradio/high_res_timer.h
@@ -102,6 +103,7 @@ swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: /usr/local/incl
 swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: /usr/local/include/pmt/pmt_sugar.h
 swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: include/avio505/adc_three_ch_demux_rtdex.h
 swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: include/avio505/api.h
+swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: include/avio505/resta.h
 swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: include/avio505/sink_test.h
 swig/CMakeFiles/_avio505_swig.dir/avio505_swigPYTHON_wrap.cxx.o: include/avio505/three_ch_multip_rtdex.h
 

@@ -20,5 +20,6 @@
 install(FILES
     avio505_three_ch_multip_rtdex.xml
     avio505_adc_three_ch_demux_rtdex.xml
-    avio505_sink_test.xml DESTINATION share/gnuradio/grc/blocks
+    avio505_sink_test.xml
+    avio505_resta.xml DESTINATION share/gnuradio/grc/blocks
 )

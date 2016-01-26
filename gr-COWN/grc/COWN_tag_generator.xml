@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<block>
+  <name>tag_generator</name>
+  <key>COWN_tag_generator</key>
+  <category>COWN</category>
+  <import>import COWN</import>
+  <make>COWN.tag_generator()</make>
+ 
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+ 
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>
