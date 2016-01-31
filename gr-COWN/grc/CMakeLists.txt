@@ -21,5 +21,8 @@ install(FILES
     COWN_test.xml
     COWN_syncher.xml
     COWN_syncher2.xml
-    COWN_resta.xml DESTINATION share/gnuradio/grc/blocks
+    COWN_resta.xml
+    COWN_tx_valve.xml
+    COWN_tx_valve2.xml
+    COWN_tx_valve3.xml DESTINATION share/gnuradio/grc/blocks
 )

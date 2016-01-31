@@ -2,7 +2,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Tag Generator
-# Generated: Fri Jan  8 14:19:21 2016
+# Generated: Thu Jan 28 14:36:44 2016
 ##################################################
 
 if __name__ == '__main__':
@@ -18,18 +18,14 @@ if __name__ == '__main__':
 from PyQt4 import Qt
 from gnuradio import blocks
 from gnuradio import eng_notation
-from gnuradio import fft
 from gnuradio import gr
 from gnuradio import qtgui
 from gnuradio.eng_option import eng_option
-from gnuradio.fft import window
 from gnuradio.filter import firdes
 from gnuradio.qtgui import Range, RangeWidget
 from optparse import OptionParser
 import COWN
-import ieee802_11
 import nutaq
-import ofdm_80211
 import sip
 import sys
 
@@ -62,8 +58,6 @@ class top_tag_generator(gr.top_block, Qt.QWidget):
         ##################################################
         # Variables
         ##################################################
-        self.threshold = threshold = 1000
-        self.sync_length = sync_length = 320
         self.samp_rate = samp_rate = 5e5
         self.freq_sin = freq_sin = 1000
         self.freq = freq = 943e6
@@ -72,27 +66,27 @@ class top_tag_generator(gr.top_block, Qt.QWidget):
         ##################################################
         # Blocks
         ##################################################
-        self.qtgui_time_sink_x_0_0_0 = qtgui.time_sink_f(
-        	2**17, #size
+        self.qtgui_time_sink_x_0_0_0_0 = qtgui.time_sink_f(
+        	2**13, #size
         	samp_rate, #samp_rate
         	"", #name
-        	1 #number of inputs
+        	3 #number of inputs
         )
-        self.qtgui_time_sink_x_0_0_0.set_update_time(0.10)
-        self.qtgui_time_sink_x_0_0_0.set_y_axis(-0.1, 1000)
+        self.qtgui_time_sink_x_0_0_0_0.set_update_time(0.10)
+        self.qtgui_time_sink_x_0_0_0_0.set_y_axis(-1, 1)
         
-        self.qtgui_time_sink_x_0_0_0.set_y_label("Amplitude", "")
+        self.qtgui_time_sink_x_0_0_0_0.set_y_label("Amplitude", "")
         
-        self.qtgui_time_sink_x_0_0_0.enable_tags(-1, True)
-        self.qtgui_time_sink_x_0_0_0.set_trigger_mode(qtgui.TRIG_MODE_NORM, qtgui.TRIG_SLOPE_POS, threshold, 5e-3, 0, "FISTOR")
-        self.qtgui_time_sink_x_0_0_0.enable_autoscale(True)
-        self.qtgui_time_sink_x_0_0_0.enable_grid(True)
-        self.qtgui_time_sink_x_0_0_0.enable_control_panel(False)
+        self.qtgui_time_sink_x_0_0_0_0.enable_tags(-1, True)
+        self.qtgui_time_sink_x_0_0_0_0.set_trigger_mode(qtgui.TRIG_MODE_NORM, qtgui.TRIG_SLOPE_POS, 0, 1e-3, 0, "")
+        self.qtgui_time_sink_x_0_0_0_0.enable_autoscale(False)
+        self.qtgui_time_sink_x_0_0_0_0.enable_grid(True)
+        self.qtgui_time_sink_x_0_0_0_0.enable_control_panel(False)
         
         if not True:
-          self.qtgui_time_sink_x_0_0_0.disable_legend()
+          self.qtgui_time_sink_x_0_0_0_0.disable_legend()
         
-        labels = ["correlation I", "correlation Q", "correlation_big", "", "",
+        labels = ["", "", "", "", "",
                   "", "", "", "", ""]
         widths = [1, 1, 1, 1, 1,
                   1, 1, 1, 1, 1]
@@ -105,20 +99,60 @@ class top_tag_generator(gr.top_block, Qt.QWidget):
         alphas = [1.0, 1.0, 1.0, 1.0, 1.0,
                   1.0, 1.0, 1.0, 1.0, 1.0]
         
+        for i in xrange(3):
+            if len(labels[i]) == 0:
+                self.qtgui_time_sink_x_0_0_0_0.set_line_label(i, "Data {0}".format(i))
+            else:
+                self.qtgui_time_sink_x_0_0_0_0.set_line_label(i, labels[i])
+            self.qtgui_time_sink_x_0_0_0_0.set_line_width(i, widths[i])
+            self.qtgui_time_sink_x_0_0_0_0.set_line_color(i, colors[i])
+            self.qtgui_time_sink_x_0_0_0_0.set_line_style(i, styles[i])
+            self.qtgui_time_sink_x_0_0_0_0.set_line_marker(i, markers[i])
+            self.qtgui_time_sink_x_0_0_0_0.set_line_alpha(i, alphas[i])
+        
+        self._qtgui_time_sink_x_0_0_0_0_win = sip.wrapinstance(self.qtgui_time_sink_x_0_0_0_0.pyqwidget(), Qt.QWidget)
+        self.top_grid_layout.addWidget(self._qtgui_time_sink_x_0_0_0_0_win, 2,2,1,1)
+        self.qtgui_freq_sink_x_1 = qtgui.freq_sink_c(
+        	1024, #size
+        	firdes.WIN_BLACKMAN_hARRIS, #wintype
+        	0, #fc
+        	samp_rate, #bw
+        	"", #name
+        	1 #number of inputs
+        )
+        self.qtgui_freq_sink_x_1.set_update_time(0.10)
+        self.qtgui_freq_sink_x_1.set_y_axis(-140, 10)
+        self.qtgui_freq_sink_x_1.set_trigger_mode(qtgui.TRIG_MODE_FREE, 0.0, 0, "")
+        self.qtgui_freq_sink_x_1.enable_autoscale(False)
+        self.qtgui_freq_sink_x_1.enable_grid(False)
+        self.qtgui_freq_sink_x_1.set_fft_average(1.0)
+        self.qtgui_freq_sink_x_1.enable_control_panel(False)
+        
+        if not True:
+          self.qtgui_freq_sink_x_1.disable_legend()
+        
+        if complex == type(float()):
+          self.qtgui_freq_sink_x_1.set_plot_pos_half(not True)
+        
+        labels = ["", "", "", "", "",
+                  "", "", "", "", ""]
+        widths = [1, 1, 1, 1, 1,
+                  1, 1, 1, 1, 1]
+        colors = ["blue", "red", "green", "black", "cyan",
+                  "magenta", "yellow", "dark red", "dark green", "dark blue"]
+        alphas = [1.0, 1.0, 1.0, 1.0, 1.0,
+                  1.0, 1.0, 1.0, 1.0, 1.0]
         for i in xrange(1):
             if len(labels[i]) == 0:
-                self.qtgui_time_sink_x_0_0_0.set_line_label(i, "Data {0}".format(i))
+                self.qtgui_freq_sink_x_1.set_line_label(i, "Data {0}".format(i))
             else:
-                self.qtgui_time_sink_x_0_0_0.set_line_label(i, labels[i])
-            self.qtgui_time_sink_x_0_0_0.set_line_width(i, widths[i])
-            self.qtgui_time_sink_x_0_0_0.set_line_color(i, colors[i])
-            self.qtgui_time_sink_x_0_0_0.set_line_style(i, styles[i])
-            self.qtgui_time_sink_x_0_0_0.set_line_marker(i, markers[i])
-            self.qtgui_time_sink_x_0_0_0.set_line_alpha(i, alphas[i])
+                self.qtgui_freq_sink_x_1.set_line_label(i, labels[i])
+            self.qtgui_freq_sink_x_1.set_line_width(i, widths[i])
+            self.qtgui_freq_sink_x_1.set_line_color(i, colors[i])
+            self.qtgui_freq_sink_x_1.set_line_alpha(i, alphas[i])
         
-        self._qtgui_time_sink_x_0_0_0_win = sip.wrapinstance(self.qtgui_time_sink_x_0_0_0.pyqwidget(), Qt.QWidget)
-        self.top_layout.addWidget(self._qtgui_time_sink_x_0_0_0_win)
-        self.ofdm_80211_short_MF_v2_0 = ofdm_80211.short_MF_v2(160, 16)
+        self._qtgui_freq_sink_x_1_win = sip.wrapinstance(self.qtgui_freq_sink_x_1.pyqwidget(), Qt.QWidget)
+        self.top_layout.addWidget(self._qtgui_freq_sink_x_1_win)
         self.nutaq_rtdex_source_0 = nutaq.rtdex_source("nutaq_carrier_perseus_0",gr.sizeof_float,1,0)
         self.nutaq_rtdex_source_0.set_type(0)
         self.nutaq_rtdex_source_0.set_packet_size(8192)
@@ -234,20 +268,12 @@ class top_tag_generator(gr.top_block, Qt.QWidget):
         self.nutaq_custom_register_0.set_update_rate(1)
           
         self.nutaq_carrier_perseus_0 = nutaq.carrier(0,"nutaq_carrier_perseus_0", "192.168.0.102")
-        self.ieee802_11_ofdm_sync_long_0 = ieee802_11.ofdm_sync_long(sync_length, False, False)
-        self.ieee802_11_ofdm_parse_mac_0 = ieee802_11.ofdm_parse_mac(False, True)
-        self.ieee802_11_ofdm_equalize_symbols_0 = ieee802_11.ofdm_equalize_symbols(ieee802_11.LMS, False)
-        self.ieee802_11_ofdm_decode_signal_0 = ieee802_11.ofdm_decode_signal(False, False)
-        self.ieee802_11_ofdm_decode_mac_0 = ieee802_11.ofdm_decode_mac(False, False)
         self._freq_sin_range = Range(-2.5e5, 2.5e5, 500, 1000, 200)
         self._freq_sin_win = RangeWidget(self._freq_sin_range, self.set_freq_sin, "freq_sin", "counter_slider", float)
         self.top_layout.addWidget(self._freq_sin_win)
-        self.fft_vxx_0 = fft.fft_vcc(64, True, (window.rectangular(64)), True, 1)
-        self.carajito = ofdm_80211.ofdm_sync_short(threshold, 2, False, False)
-        self.blocks_stream_to_vector_0 = blocks.stream_to_vector(gr.sizeof_gr_complex*1, 64)
-        self.blocks_null_sink_0_1_0_0 = blocks.null_sink(gr.sizeof_float*1)
         self.blocks_null_sink_0_0 = blocks.null_sink(gr.sizeof_float*1)
         self.blocks_null_sink_0 = blocks.null_sink(gr.sizeof_float*1)
+        self.blocks_multiply_const_vxx_0 = blocks.multiply_const_vcc((0.6, ))
         self.blocks_interleave_0 = blocks.interleave(gr.sizeof_short*1, 1)
         self.blocks_float_to_short_0_0_0 = blocks.float_to_short(1, 2**11-1)
         self.blocks_float_to_short_0_0 = blocks.float_to_short(1, 2**11-1)
@@ -255,8 +281,7 @@ class top_tag_generator(gr.top_block, Qt.QWidget):
         (self.blocks_float_to_complex_1).set_processor_affinity([4])
         (self.blocks_float_to_complex_1).set_min_output_buffer(262144)
         (self.blocks_float_to_complex_1).set_max_output_buffer(262144)
-        self.blocks_file_source_0 = blocks.file_source(gr.sizeof_gr_complex*1, "/home/juan/juan/COWN/waveforms/test_rerecorded_20151026.bin", True)
-        self.blocks_delay_0 = blocks.delay(gr.sizeof_gr_complex*1, sync_length)
+        self.blocks_file_source_0_0 = blocks.file_source(gr.sizeof_gr_complex*1, "/home/juan/cognitive/fornutaq/gr-ofdm_80211/examples/waveforms/fmcw_chirp_80pc.bin", True)
         self.blocks_deinterleave_0 = blocks.deinterleave(gr.sizeof_int*1, 1)
         (self.blocks_deinterleave_0).set_processor_affinity([7])
         (self.blocks_deinterleave_0).set_min_output_buffer(262144)
@@ -272,51 +297,28 @@ class top_tag_generator(gr.top_block, Qt.QWidget):
         ##################################################
         # Connections
         ##################################################
-        self.msg_connect((self.ieee802_11_ofdm_decode_mac_0, 'out'), (self.ieee802_11_ofdm_parse_mac_0, 'in'))    
         self.connect((self.COWN_syncher2_0, 0), (self.blocks_deinterleave_0, 0))    
         self.connect((self.blocks_complex_to_float_0, 0), (self.blocks_float_to_short_0_0, 0))    
         self.connect((self.blocks_complex_to_float_0, 1), (self.blocks_float_to_short_0_0_0, 0))    
+        self.connect((self.blocks_complex_to_float_0, 0), (self.qtgui_time_sink_x_0_0_0_0, 0))    
         self.connect((self.blocks_deinterleave_0, 1), (self.blocks_float_to_complex_1, 0))    
         self.connect((self.blocks_deinterleave_0, 2), (self.blocks_float_to_complex_1, 1))    
         self.connect((self.blocks_deinterleave_0, 0), (self.blocks_null_sink_0, 0))    
         self.connect((self.blocks_deinterleave_0, 3), (self.blocks_null_sink_0_0, 0))    
-        self.connect((self.blocks_delay_0, 0), (self.ieee802_11_ofdm_sync_long_0, 1))    
-        self.connect((self.blocks_file_source_0, 0), (self.blocks_complex_to_float_0, 0))    
-        self.connect((self.blocks_float_to_complex_1, 0), (self.ofdm_80211_short_MF_v2_0, 0))    
+        self.connect((self.blocks_deinterleave_0, 1), (self.qtgui_time_sink_x_0_0_0_0, 1))    
+        self.connect((self.blocks_deinterleave_0, 2), (self.qtgui_time_sink_x_0_0_0_0, 2))    
+        self.connect((self.blocks_file_source_0_0, 0), (self.blocks_multiply_const_vxx_0, 0))    
+        self.connect((self.blocks_float_to_complex_1, 0), (self.qtgui_freq_sink_x_1, 0))    
         self.connect((self.blocks_float_to_short_0_0, 0), (self.blocks_interleave_0, 0))    
         self.connect((self.blocks_float_to_short_0_0_0, 0), (self.blocks_interleave_0, 1))    
         self.connect((self.blocks_interleave_0, 0), (self.nutaq_rtdex_sink_0, 0))    
-        self.connect((self.blocks_stream_to_vector_0, 0), (self.fft_vxx_0, 0))    
-        self.connect((self.carajito, 0), (self.blocks_delay_0, 0))    
-        self.connect((self.carajito, 0), (self.ieee802_11_ofdm_sync_long_0, 0))    
-        self.connect((self.fft_vxx_0, 0), (self.ieee802_11_ofdm_equalize_symbols_0, 0))    
-        self.connect((self.ieee802_11_ofdm_decode_signal_0, 0), (self.ieee802_11_ofdm_decode_mac_0, 0))    
-        self.connect((self.ieee802_11_ofdm_equalize_symbols_0, 0), (self.ieee802_11_ofdm_decode_signal_0, 0))    
-        self.connect((self.ieee802_11_ofdm_sync_long_0, 0), (self.blocks_stream_to_vector_0, 0))    
+        self.connect((self.blocks_multiply_const_vxx_0, 0), (self.blocks_complex_to_float_0, 0))    
         self.connect((self.nutaq_rtdex_source_0, 0), (self.COWN_syncher2_0, 0))    
-        self.connect((self.ofdm_80211_short_MF_v2_0, 2), (self.blocks_null_sink_0_1_0_0, 0))    
-        self.connect((self.ofdm_80211_short_MF_v2_0, 1), (self.carajito, 1))    
-        self.connect((self.ofdm_80211_short_MF_v2_0, 3), (self.carajito, 2))    
-        self.connect((self.ofdm_80211_short_MF_v2_0, 0), (self.carajito, 0))    
-        self.connect((self.ofdm_80211_short_MF_v2_0, 3), (self.qtgui_time_sink_x_0_0_0, 0))    
 
     def closeEvent(self, event):
         self.settings = Qt.QSettings("GNU Radio", "top_tag_generator")
         self.settings.setValue("geometry", self.saveGeometry())
         event.accept()
-
-    def get_threshold(self):
-        return self.threshold
-
-    def set_threshold(self, threshold):
-        self.threshold = threshold
-
-    def get_sync_length(self):
-        return self.sync_length
-
-    def set_sync_length(self, sync_length):
-        self.sync_length = sync_length
-        self.blocks_delay_0.set_dly(self.sync_length)
 
     def get_samp_rate(self):
         return self.samp_rate
@@ -325,7 +327,8 @@ class top_tag_generator(gr.top_block, Qt.QWidget):
         self.samp_rate = samp_rate
         self.nutaq_custom_register_0_2.set_value(int((4e6)/self.samp_rate/40*(2**32)))
         self.nutaq_custom_register_0_3.set_value(int((4.0e6*0 + self.freq_sin*0)/self.samp_rate/40*(2**32)))
-        self.qtgui_time_sink_x_0_0_0.set_samp_rate(self.samp_rate)
+        self.qtgui_freq_sink_x_1.set_frequency_range(0, self.samp_rate)
+        self.qtgui_time_sink_x_0_0_0_0.set_samp_rate(self.samp_rate)
 
     def get_freq_sin(self):
         return self.freq_sin

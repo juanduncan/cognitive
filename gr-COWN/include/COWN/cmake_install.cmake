@@ -40,6 +40,9 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/juan/cognitive/gr-COWN/include/COWN/syncher.h"
     "/home/juan/cognitive/gr-COWN/include/COWN/syncher2.h"
     "/home/juan/cognitive/gr-COWN/include/COWN/resta.h"
+    "/home/juan/cognitive/gr-COWN/include/COWN/tx_valve.h"
+    "/home/juan/cognitive/gr-COWN/include/COWN/tx_valve2.h"
+    "/home/juan/cognitive/gr-COWN/include/COWN/tx_valve3.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

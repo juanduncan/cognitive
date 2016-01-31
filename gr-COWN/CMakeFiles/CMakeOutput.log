@@ -382,3 +382,124 @@ make[1]: Leaving directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0;}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3551976056/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3551976056.dir/build.make CMakeFiles/cmTryCompileExec3551976056.dir/build
+make[1]: Entering directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3551976056.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3551976056.dir/CheckIncludeFile.c.o   -c /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3551976056
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3551976056.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3551976056.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3551976056 -rdynamic 
+make[1]: Leaving directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1024207224/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1024207224.dir/build.make CMakeFiles/cmTryCompileExec1024207224.dir/build
+make[1]: Entering directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1024207224.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1024207224.dir/CheckIncludeFile.c.o   -c /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1024207224
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1024207224.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1024207224.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1024207224 -rdynamic 
+make[1]: Leaving directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3764218792/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3764218792.dir/build.make CMakeFiles/cmTryCompileExec3764218792.dir/build
+make[1]: Entering directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3764218792.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3764218792.dir/CheckIncludeFile.c.o   -c /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3764218792
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3764218792.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3764218792.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3764218792 -rdynamic 
+make[1]: Leaving directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1808463564/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1808463564.dir/build.make CMakeFiles/cmTryCompileExec1808463564.dir/build
+make[1]: Entering directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1808463564.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1808463564.dir/SIZEOF_SIZE_T.c.o   -c /home/juan/cognitive/gr-COWN/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTryCompileExec1808463564
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1808463564.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1808463564.dir/SIZEOF_SIZE_T.c.o  -o cmTryCompileExec1808463564 -rdynamic 
+make[1]: Leaving directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1697800/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1697800.dir/build.make CMakeFiles/cmTryCompileExec1697800.dir/build
+make[1]: Entering directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1697800.dir/SIZEOF_UINT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1697800.dir/SIZEOF_UINT.c.o   -c /home/juan/cognitive/gr-COWN/CMakeFiles/CheckTypeSize/SIZEOF_UINT.c
+Linking C executable cmTryCompileExec1697800
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1697800.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1697800.dir/SIZEOF_UINT.c.o  -o cmTryCompileExec1697800 -rdynamic 
+make[1]: Leaving directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3912586156/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3912586156.dir/build.make CMakeFiles/cmTryCompileExec3912586156.dir/build
+make[1]: Entering directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3912586156.dir/SIZEOF_UL.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3912586156.dir/SIZEOF_UL.c.o   -c /home/juan/cognitive/gr-COWN/CMakeFiles/CheckTypeSize/SIZEOF_UL.c
+Linking C executable cmTryCompileExec3912586156
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3912586156.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3912586156.dir/SIZEOF_UL.c.o  -o cmTryCompileExec3912586156 -rdynamic 
+make[1]: Leaving directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec984898790/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec984898790.dir/build.make CMakeFiles/cmTryCompileExec984898790.dir/build
+make[1]: Entering directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec984898790.dir/SIZEOF_ULL.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec984898790.dir/SIZEOF_ULL.c.o   -c /home/juan/cognitive/gr-COWN/CMakeFiles/CheckTypeSize/SIZEOF_ULL.c
+Linking C executable cmTryCompileExec984898790
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec984898790.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec984898790.dir/SIZEOF_ULL.c.o  -o cmTryCompileExec984898790 -rdynamic 
+make[1]: Leaving directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_WNO_UNUSED_BUT_SET_VARIABLE succeded with the following output:
+Change Dir: /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3682188557/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3682188557.dir/build.make CMakeFiles/cmTryCompileExec3682188557.dir/build
+make[1]: Entering directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3682188557.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_WNO_UNUSED_BUT_SET_VARIABLE   -Wno-unused-but-set-variable -o CMakeFiles/cmTryCompileExec3682188557.dir/src.cxx.o -c /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3682188557
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3682188557.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_WNO_UNUSED_BUT_SET_VARIABLE    CMakeFiles/cmTryCompileExec3682188557.dir/src.cxx.o  -o cmTryCompileExec3682188557 -rdynamic 
+make[1]: Leaving directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}

@@ -79,16 +79,6 @@ install/local: preinstall
 install/local/fast: install/local
 .PHONY : install/local/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -162,6 +152,11 @@ gnuradio-COWN: lib/CMakeFiles/gnuradio-COWN.dir/rule
 gnuradio-COWN/fast:
 	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/build
 .PHONY : gnuradio-COWN/fast
+
+# Manual pre-install relink rule for target.
+gnuradio-COWN/preinstall:
+	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-COWN.dir/preinstall
+.PHONY : gnuradio-COWN/preinstall
 
 # Convenience name for target.
 lib/CMakeFiles/test-COWN.dir/rule:
@@ -345,6 +340,78 @@ test_impl.cc.s:
 	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.s
 .PHONY : test_impl.cc.s
 
+tx_valve2_impl.o: tx_valve2_impl.cc.o
+.PHONY : tx_valve2_impl.o
+
+# target to build an object file
+tx_valve2_impl.cc.o:
+	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o
+.PHONY : tx_valve2_impl.cc.o
+
+tx_valve2_impl.i: tx_valve2_impl.cc.i
+.PHONY : tx_valve2_impl.i
+
+# target to preprocess a source file
+tx_valve2_impl.cc.i:
+	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.i
+.PHONY : tx_valve2_impl.cc.i
+
+tx_valve2_impl.s: tx_valve2_impl.cc.s
+.PHONY : tx_valve2_impl.s
+
+# target to generate assembly for a file
+tx_valve2_impl.cc.s:
+	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.s
+.PHONY : tx_valve2_impl.cc.s
+
+tx_valve3_impl.o: tx_valve3_impl.cc.o
+.PHONY : tx_valve3_impl.o
+
+# target to build an object file
+tx_valve3_impl.cc.o:
+	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o
+.PHONY : tx_valve3_impl.cc.o
+
+tx_valve3_impl.i: tx_valve3_impl.cc.i
+.PHONY : tx_valve3_impl.i
+
+# target to preprocess a source file
+tx_valve3_impl.cc.i:
+	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.i
+.PHONY : tx_valve3_impl.cc.i
+
+tx_valve3_impl.s: tx_valve3_impl.cc.s
+.PHONY : tx_valve3_impl.s
+
+# target to generate assembly for a file
+tx_valve3_impl.cc.s:
+	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.s
+.PHONY : tx_valve3_impl.cc.s
+
+tx_valve_impl.o: tx_valve_impl.cc.o
+.PHONY : tx_valve_impl.o
+
+# target to build an object file
+tx_valve_impl.cc.o:
+	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o
+.PHONY : tx_valve_impl.cc.o
+
+tx_valve_impl.i: tx_valve_impl.cc.i
+.PHONY : tx_valve_impl.i
+
+# target to preprocess a source file
+tx_valve_impl.cc.i:
+	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.i
+.PHONY : tx_valve_impl.cc.i
+
+tx_valve_impl.s: tx_valve_impl.cc.s
+.PHONY : tx_valve_impl.s
+
+# target to generate assembly for a file
+tx_valve_impl.cc.s:
+	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.s
+.PHONY : tx_valve_impl.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -355,7 +422,6 @@ help:
 	@echo "... gnuradio-COWN"
 	@echo "... install"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
@@ -381,6 +447,15 @@ help:
 	@echo "... test_impl.o"
 	@echo "... test_impl.i"
 	@echo "... test_impl.s"
+	@echo "... tx_valve2_impl.o"
+	@echo "... tx_valve2_impl.i"
+	@echo "... tx_valve2_impl.s"
+	@echo "... tx_valve3_impl.o"
+	@echo "... tx_valve3_impl.i"
+	@echo "... tx_valve3_impl.s"
+	@echo "... tx_valve_impl.o"
+	@echo "... tx_valve_impl.i"
+	@echo "... tx_valve_impl.s"
 .PHONY : help
 
 

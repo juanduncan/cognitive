@@ -107,4 +107,7 @@ swig/CMakeFiles/_COWN_swig.dir/COWN_swigPYTHON_wrap.cxx.o: include/COWN/syncher.
 swig/CMakeFiles/_COWN_swig.dir/COWN_swigPYTHON_wrap.cxx.o: include/COWN/syncher2.h
 swig/CMakeFiles/_COWN_swig.dir/COWN_swigPYTHON_wrap.cxx.o: include/COWN/tag_generator.h
 swig/CMakeFiles/_COWN_swig.dir/COWN_swigPYTHON_wrap.cxx.o: include/COWN/test.h
+swig/CMakeFiles/_COWN_swig.dir/COWN_swigPYTHON_wrap.cxx.o: include/COWN/tx_valve.h
+swig/CMakeFiles/_COWN_swig.dir/COWN_swigPYTHON_wrap.cxx.o: include/COWN/tx_valve2.h
+swig/CMakeFiles/_COWN_swig.dir/COWN_swigPYTHON_wrap.cxx.o: include/COWN/tx_valve3.h
 

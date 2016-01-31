@@ -39,6 +39,9 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/juan/cognitive/gr-COWN/grc/COWN_syncher.xml"
     "/home/juan/cognitive/gr-COWN/grc/COWN_syncher2.xml"
     "/home/juan/cognitive/gr-COWN/grc/COWN_resta.xml"
+    "/home/juan/cognitive/gr-COWN/grc/COWN_tx_valve.xml"
+    "/home/juan/cognitive/gr-COWN/grc/COWN_tx_valve2.xml"
+    "/home/juan/cognitive/gr-COWN/grc/COWN_tx_valve3.xml"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

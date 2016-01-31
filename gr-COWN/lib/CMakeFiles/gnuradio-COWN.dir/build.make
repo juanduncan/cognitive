@@ -164,13 +164,85 @@ lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o.provides: lib/CMakeFiles/gnurad
 
 lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o
 
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o: lib/CMakeFiles/gnuradio-COWN.dir/flags.make
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o: lib/tx_valve_impl.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o"
+	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o -c /home/juan/cognitive/gr-COWN/lib/tx_valve_impl.cc
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.i"
+	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juan/cognitive/gr-COWN/lib/tx_valve_impl.cc > CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.i
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.s"
+	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juan/cognitive/gr-COWN/lib/tx_valve_impl.cc -o CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.s
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o.requires:
+.PHONY : lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o.requires
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o.provides: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o.provides.build
+.PHONY : lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o.provides
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o: lib/CMakeFiles/gnuradio-COWN.dir/flags.make
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o: lib/tx_valve2_impl.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o"
+	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o -c /home/juan/cognitive/gr-COWN/lib/tx_valve2_impl.cc
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.i"
+	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juan/cognitive/gr-COWN/lib/tx_valve2_impl.cc > CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.i
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.s"
+	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juan/cognitive/gr-COWN/lib/tx_valve2_impl.cc -o CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.s
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o.requires:
+.PHONY : lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o.requires
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o.provides: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o.provides.build
+.PHONY : lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o.provides
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o: lib/CMakeFiles/gnuradio-COWN.dir/flags.make
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o: lib/tx_valve3_impl.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o"
+	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o -c /home/juan/cognitive/gr-COWN/lib/tx_valve3_impl.cc
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.i"
+	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juan/cognitive/gr-COWN/lib/tx_valve3_impl.cc > CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.i
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.s"
+	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juan/cognitive/gr-COWN/lib/tx_valve3_impl.cc -o CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.s
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o.requires:
+.PHONY : lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o.requires
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o.provides: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o.provides.build
+.PHONY : lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o.provides
+
+lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o
+
 # Object files for target gnuradio-COWN
 gnuradio__COWN_OBJECTS = \
 "CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o" \
 "CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o" \
 "CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o" \
 "CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o" \
-"CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o"
+"CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o" \
+"CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o" \
+"CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o" \
+"CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o"
 
 # External object files for target gnuradio-COWN
 gnuradio__COWN_EXTERNAL_OBJECTS =
@@ -180,6 +252,9 @@ lib/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o
 lib/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o
 lib/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o
 lib/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o
+lib/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o
+lib/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o
+lib/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o
 lib/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/build.make
 lib/libgnuradio-COWN.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 lib/libgnuradio-COWN.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -193,11 +268,49 @@ lib/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/link.txt
 lib/CMakeFiles/gnuradio-COWN.dir/build: lib/libgnuradio-COWN.so
 .PHONY : lib/CMakeFiles/gnuradio-COWN.dir/build
 
+# Object files for target gnuradio-COWN
+gnuradio__COWN_OBJECTS = \
+"CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o" \
+"CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o" \
+"CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o" \
+"CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o" \
+"CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o" \
+"CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o" \
+"CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o" \
+"CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o"
+
+# External object files for target gnuradio-COWN
+gnuradio__COWN_EXTERNAL_OBJECTS =
+
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/build.make
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: /usr/local/lib/libgnuradio-runtime.so
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: /usr/local/lib/libgnuradio-pmt.so
+lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so"
+	cd /home/juan/cognitive/gr-COWN/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-COWN.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+lib/CMakeFiles/gnuradio-COWN.dir/preinstall: lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so
+.PHONY : lib/CMakeFiles/gnuradio-COWN.dir/preinstall
+
 lib/CMakeFiles/gnuradio-COWN.dir/requires: lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-COWN.dir/requires: lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-COWN.dir/requires: lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-COWN.dir/requires: lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-COWN.dir/requires: lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o.requires
+lib/CMakeFiles/gnuradio-COWN.dir/requires: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o.requires
+lib/CMakeFiles/gnuradio-COWN.dir/requires: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o.requires
+lib/CMakeFiles/gnuradio-COWN.dir/requires: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o.requires
 .PHONY : lib/CMakeFiles/gnuradio-COWN.dir/requires
 
 lib/CMakeFiles/gnuradio-COWN.dir/clean:

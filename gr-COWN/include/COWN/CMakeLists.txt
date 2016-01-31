@@ -26,5 +26,8 @@ install(FILES
     test.h
     syncher.h
     syncher2.h
-    resta.h DESTINATION include/COWN
+    resta.h
+    tx_valve.h
+    tx_valve2.h
+    tx_valve3.h DESTINATION include/COWN
 )

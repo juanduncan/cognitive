@@ -13,6 +13,9 @@
 #include "COWN/syncher.h"
 #include "COWN/syncher2.h"
 #include "COWN/resta.h"
+#include "COWN/tx_valve.h"
+#include "COWN/tx_valve2.h"
+#include "COWN/tx_valve3.h"
 %}
 
 
@@ -29,3 +32,10 @@ GR_SWIG_BLOCK_MAGIC2(COWN, syncher2);
 
 %include "COWN/resta.h"
 GR_SWIG_BLOCK_MAGIC2(COWN, resta);
+%include "COWN/tx_valve.h"
+GR_SWIG_BLOCK_MAGIC2(COWN, tx_valve);
+%include "COWN/tx_valve2.h"
+GR_SWIG_BLOCK_MAGIC2(COWN, tx_valve2);
+
+%include "COWN/tx_valve3.h"
+GR_SWIG_BLOCK_MAGIC2(COWN, tx_valve3);

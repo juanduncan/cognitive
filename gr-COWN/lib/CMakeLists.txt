@@ -29,7 +29,10 @@ list(APPEND COWN_sources
     test_impl.cc
     syncher_impl.cc
     syncher2_impl.cc
-    resta_impl.cc )
+    resta_impl.cc
+    tx_valve_impl.cc
+    tx_valve2_impl.cc
+    tx_valve3_impl.cc )
 
 set(COWN_sources "${COWN_sources}" PARENT_SCOPE)
 if(NOT COWN_sources)

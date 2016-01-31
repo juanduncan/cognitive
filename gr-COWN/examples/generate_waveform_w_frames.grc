@@ -284,7 +284,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>10</value>
+      <value>100</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -479,7 +479,7 @@
     </param>
     <param>
       <key>maxoutbuf</key>
-      <value>2**14</value>
+      <value>0</value>
     </param>
     <param>
       <key>minoutbuf</key>
@@ -561,7 +561,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(344, 649)</value>
+      <value>(368, 650)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -710,15 +710,15 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>file</key>
-      <value>/home/juan/juan/COWN/waveforms/recorded_ideal_frames_20160114.bin</value>
+      <value>/home/juan/cognitive/COWN/recorded_ideal_frames_20160128.bin</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(928, 299)</value>
+      <value>(952, 302)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -945,7 +945,7 @@
     </param>
     <param>
       <key>affinity</key>
-      <value>6</value>
+      <value></value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1122,15 +1122,15 @@
     </param>
     <param>
       <key>minoutbuf</key>
-      <value>out_buf_size</value>
+      <value>2**18</value>
     </param>
     <param>
       <key>pad_front</key>
-      <value>100000</value>
+      <value>10000</value>
     </param>
     <param>
       <key>pad_tail</key>
-      <value>100000</value>
+      <value>10000</value>
     </param>
   </block>
   <block>
@@ -1149,7 +1149,7 @@
     </param>
     <param>
       <key>affinity</key>
-      <value>7</value>
+      <value></value>
     </param>
     <param>
       <key>dst_mac</key>
@@ -1212,7 +1212,7 @@
     </param>
     <param>
       <key>ip_addr</key>
-      <value>192.168.0.102</value>
+      <value>192.168.0.101</value>
     </param>
   </block>
   <block>
@@ -1357,7 +1357,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1240, 251)</value>
+      <value>(1272, 285)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1534,7 +1534,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1240, 251)</value>
+      <value>(1272, 285)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1613,7 +1613,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1240, 43)</value>
+      <value>(288, -5)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1720,11 +1720,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>1</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1240, 187)</value>
+      <value>(920, 3)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1835,7 +1835,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1240, 43)</value>
+      <value>(504, -5)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1934,11 +1934,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>1</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1240, 187)</value>
+      <value>(728, 3)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2025,7 +2025,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(984, 587)</value>
+      <value>(1128, 604)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2080,7 +2080,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2155,7 +2155,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(848, 187)</value>
+      <value>(936, 190)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -2427,7 +2427,7 @@
     </param>
     <param>
       <key>size</key>
-      <value>1024</value>
+      <value>2**16</value>
     </param>
     <param>
       <key>srate</key>
@@ -2467,7 +2467,7 @@
     </param>
     <param>
       <key>ylabel</key>
-      <value>Amplitude</value>
+      <value>GENERATED FRAMES</value>
     </param>
     <param>
       <key>yunit</key>
@@ -2514,7 +2514,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1080, 851)</value>
+      <value>(976, 838)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -2802,7 +2802,7 @@
     </param>
     <param>
       <key>tr_level</key>
-      <value>0.001</value>
+      <value>0.05</value>
     </param>
     <param>
       <key>tr_mode</key>
@@ -2826,7 +2826,7 @@
     </param>
     <param>
       <key>ylabel</key>
-      <value>Amplitude</value>
+      <value>Received Samples</value>
     </param>
     <param>
       <key>yunit</key>
@@ -2877,7 +2877,7 @@
     </param>
     <param>
       <key>minoutbuf</key>
-      <value>0</value>
+      <value>2**18</value>
     </param>
     <param>
       <key>chan_est</key>

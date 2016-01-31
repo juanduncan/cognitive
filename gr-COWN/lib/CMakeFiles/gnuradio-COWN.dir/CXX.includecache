@@ -6,20 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/home/juan/cognitive/gr-COWN/lib/resta_impl.cc
+/home/juan/cognitive/gr-COWN/lib/tx_valve3_impl.cc
 config.h
 /home/juan/cognitive/gr-COWN/lib/config.h
 gnuradio/io_signature.h
 -
-resta_impl.h
-/home/juan/cognitive/gr-COWN/lib/resta_impl.h
-iostream
--
-volk/volk.h
--
+tx_valve3_impl.h
+/home/juan/cognitive/gr-COWN/lib/tx_valve3_impl.h
 
-/home/juan/cognitive/gr-COWN/lib/resta_impl.h
-COWN/resta.h
+/home/juan/cognitive/gr-COWN/lib/tx_valve3_impl.h
+COWN/tx_valve3.h
 -
 
 /usr/local/include/gnuradio/api.h
@@ -308,55 +304,11 @@ pmt/pmt_sugar.h
 gnuradio/messages/msg_accepter.h
 -
 
-/usr/local/include/volk/volk.h
-volk/volk_typedefs.h
--
-volk/volk_config_fixed.h
--
-volk/volk_common.h
--
-volk/volk_complex.h
--
-volk/volk_malloc.h
--
-stdlib.h
--
-stdbool.h
--
-
-/usr/local/include/volk/volk_common.h
-inttypes.h
--
-x86intrin.h
--
-
-/usr/local/include/volk/volk_complex.h
-complex
--
-stdint.h
--
-complex.h
--
-
-/usr/local/include/volk/volk_config_fixed.h
-
-/usr/local/include/volk/volk_malloc.h
-volk/volk_common.h
--
-stdlib.h
--
-
-/usr/local/include/volk/volk_typedefs.h
-inttypes.h
--
-volk/volk_complex.h
--
-
 include/COWN/api.h
 gnuradio/attributes.h
 -
 
-include/COWN/resta.h
+include/COWN/tx_valve3.h
 COWN/api.h
 -
 gnuradio/sync_block.h

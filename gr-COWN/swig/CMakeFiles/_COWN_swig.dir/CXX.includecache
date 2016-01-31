@@ -59,6 +59,12 @@ COWN/syncher2.h
 /home/juan/cognitive/gr-COWN/swig/COWN/syncher2.h
 COWN/resta.h
 /home/juan/cognitive/gr-COWN/swig/COWN/resta.h
+COWN/tx_valve.h
+/home/juan/cognitive/gr-COWN/swig/COWN/tx_valve.h
+COWN/tx_valve2.h
+/home/juan/cognitive/gr-COWN/swig/COWN/tx_valve2.h
+COWN/tx_valve3.h
+/home/juan/cognitive/gr-COWN/swig/COWN/tx_valve3.h
 float.h
 -
 math.h
@@ -831,6 +837,24 @@ gnuradio/sync_decimator.h
 -
 
 include/COWN/test.h
+COWN/api.h
+-
+gnuradio/sync_block.h
+-
+
+include/COWN/tx_valve.h
+COWN/api.h
+-
+gnuradio/block.h
+-
+
+include/COWN/tx_valve2.h
+COWN/api.h
+-
+gnuradio/sync_block.h
+-
+
+include/COWN/tx_valve3.h
 COWN/api.h
 -
 gnuradio/sync_block.h

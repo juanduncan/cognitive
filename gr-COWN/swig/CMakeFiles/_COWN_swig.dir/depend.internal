@@ -108,3 +108,6 @@ swig/CMakeFiles/_COWN_swig.dir/COWN_swigPYTHON_wrap.cxx.o
  include/COWN/syncher2.h
  include/COWN/tag_generator.h
  include/COWN/test.h
+ include/COWN/tx_valve.h
+ include/COWN/tx_valve2.h
+ include/COWN/tx_valve3.h
