@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="resta_8h" kind="file">
+    <compoundname>resta.h</compoundname>
+    <includes refid="api_8h" local="no">COWN/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="resta__impl_8h" local="no">resta_impl.h</includedby>
+    <incdepgraph>
+      <node id="24">
+        <label>COWN/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="25">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="23">
+        <label>resta.h</label>
+        <link refid="resta.h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="27">
+        <label>resta.h</label>
+        <link refid="resta.h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>resta_impl.h</label>
+        <link refid="resta__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1COWN_1_1resta" prot="public">gr::COWN::resta</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1COWN">gr::COWN</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-COWN/include/COWN/resta.h"/>
+  </compounddef>
+</doxygen>

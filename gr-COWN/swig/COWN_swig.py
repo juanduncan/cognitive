@@ -327,10 +327,6 @@ class tag_generator_sptr(object):
         """pc_work_time_total(tag_generator_sptr self) -> float"""
         return _COWN_swig.tag_generator_sptr_pc_work_time_total(self)
 
-    def pc_throughput_avg(self):
-        """pc_throughput_avg(tag_generator_sptr self) -> float"""
-        return _COWN_swig.tag_generator_sptr_pc_throughput_avg(self)
-
     def set_processor_affinity(self, *args, **kwargs):
         """set_processor_affinity(tag_generator_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
         return _COWN_swig.tag_generator_sptr_set_processor_affinity(self, *args, **kwargs)
@@ -644,10 +640,6 @@ class test_sptr(object):
     def pc_work_time_total(self):
         """pc_work_time_total(test_sptr self) -> float"""
         return _COWN_swig.test_sptr_pc_work_time_total(self)
-
-    def pc_throughput_avg(self):
-        """pc_throughput_avg(test_sptr self) -> float"""
-        return _COWN_swig.test_sptr_pc_throughput_avg(self)
 
     def set_processor_affinity(self, *args, **kwargs):
         """set_processor_affinity(test_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
@@ -963,10 +955,6 @@ class syncher_sptr(object):
         """pc_work_time_total(syncher_sptr self) -> float"""
         return _COWN_swig.syncher_sptr_pc_work_time_total(self)
 
-    def pc_throughput_avg(self):
-        """pc_throughput_avg(syncher_sptr self) -> float"""
-        return _COWN_swig.syncher_sptr_pc_throughput_avg(self)
-
     def set_processor_affinity(self, *args, **kwargs):
         """set_processor_affinity(syncher_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
         return _COWN_swig.syncher_sptr_set_processor_affinity(self, *args, **kwargs)
@@ -1281,10 +1269,6 @@ class syncher2_sptr(object):
         """pc_work_time_total(syncher2_sptr self) -> float"""
         return _COWN_swig.syncher2_sptr_pc_work_time_total(self)
 
-    def pc_throughput_avg(self):
-        """pc_throughput_avg(syncher2_sptr self) -> float"""
-        return _COWN_swig.syncher2_sptr_pc_throughput_avg(self)
-
     def set_processor_affinity(self, *args, **kwargs):
         """set_processor_affinity(syncher2_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
         return _COWN_swig.syncher2_sptr_set_processor_affinity(self, *args, **kwargs)
@@ -1598,10 +1582,6 @@ class resta_sptr(object):
     def pc_work_time_total(self):
         """pc_work_time_total(resta_sptr self) -> float"""
         return _COWN_swig.resta_sptr_pc_work_time_total(self)
-
-    def pc_throughput_avg(self):
-        """pc_throughput_avg(resta_sptr self) -> float"""
-        return _COWN_swig.resta_sptr_pc_throughput_avg(self)
 
     def set_processor_affinity(self, *args, **kwargs):
         """set_processor_affinity(resta_sptr self, std::vector< int,std::allocator< int > > const & mask)"""

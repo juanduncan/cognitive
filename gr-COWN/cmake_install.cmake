@@ -1,4 +1,4 @@
-# Install script for directory: /home/juan/cognitive/gr-COWN
+# Install script for directory: /home/nutaq/cognitive/gr-COWN
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,18 +33,18 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/COWN" TYPE FILE FILES "/home/juan/cognitive/gr-COWN/cmake/Modules/COWNConfig.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/COWN" TYPE FILE FILES "/home/nutaq/cognitive/gr-COWN/cmake/Modules/COWNConfig.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/juan/cognitive/gr-COWN/include/COWN/cmake_install.cmake")
-  INCLUDE("/home/juan/cognitive/gr-COWN/lib/cmake_install.cmake")
-  INCLUDE("/home/juan/cognitive/gr-COWN/swig/cmake_install.cmake")
-  INCLUDE("/home/juan/cognitive/gr-COWN/python/cmake_install.cmake")
-  INCLUDE("/home/juan/cognitive/gr-COWN/grc/cmake_install.cmake")
-  INCLUDE("/home/juan/cognitive/gr-COWN/apps/cmake_install.cmake")
-  INCLUDE("/home/juan/cognitive/gr-COWN/docs/cmake_install.cmake")
+  INCLUDE("/home/nutaq/cognitive/gr-COWN/include/COWN/cmake_install.cmake")
+  INCLUDE("/home/nutaq/cognitive/gr-COWN/lib/cmake_install.cmake")
+  INCLUDE("/home/nutaq/cognitive/gr-COWN/swig/cmake_install.cmake")
+  INCLUDE("/home/nutaq/cognitive/gr-COWN/python/cmake_install.cmake")
+  INCLUDE("/home/nutaq/cognitive/gr-COWN/grc/cmake_install.cmake")
+  INCLUDE("/home/nutaq/cognitive/gr-COWN/apps/cmake_install.cmake")
+  INCLUDE("/home/nutaq/cognitive/gr-COWN/docs/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -54,7 +54,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/juan/cognitive/gr-COWN/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/nutaq/cognitive/gr-COWN/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/juan/cognitive/gr-COWN/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/nutaq/cognitive/gr-COWN/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

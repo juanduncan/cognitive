@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1COWN_1_1syncher2__impl" kind="class" prot="public">
+    <compoundname>gr::COWN::syncher2_impl</compoundname>
+    <basecompoundref refid="classgr_1_1COWN_1_1syncher2" prot="public" virt="non-virtual">gr::COWN::syncher2</basecompoundref>
+    <includes refid="syncher2__impl_8h" local="no">syncher2_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1syncher2__impl_1a09fc21637dd7595f06e14740eaa9331e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::COWN::syncher2_impl::counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/syncher2_impl.h" line="32" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/syncher2_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1COWN_1_1syncher2__impl_1a8b84f95c30f9cddd4a46923f386841b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::syncher2_impl::syncher2_impl</definition>
+        <argsstring>()</argsstring>
+        <name>syncher2_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/syncher2_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1syncher2__impl_1a8120d2e2ae5d03d1b8468470cc66707d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::syncher2_impl::~syncher2_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~syncher2_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/syncher2_impl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1syncher2__impl_1addf615367e03cff9c51c06d6f6d892bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::COWN::syncher2_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/syncher2_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1syncher2__impl_1a8d3ed36db16568934c9e8e9e058ba4af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::COWN::syncher2_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/syncher2_impl.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="31">
+        <label>block</label>
+      </node>
+      <node id="30">
+        <label>gr::COWN::syncher2</label>
+        <link refid="classgr_1_1COWN_1_1syncher2"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>gr::COWN::syncher2_impl</label>
+        <link refid="classgr_1_1COWN_1_1syncher2__impl"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>block</label>
+      </node>
+      <node id="33">
+        <label>gr::COWN::syncher2</label>
+        <link refid="classgr_1_1COWN_1_1syncher2"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>gr::COWN::syncher2_impl</label>
+        <link refid="classgr_1_1COWN_1_1syncher2__impl"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/juan/cognitive/gr-COWN/lib/syncher2_impl.h" line="30" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/syncher2_impl.h" bodystart="29" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1COWN_1_1syncher2__impl_1a09fc21637dd7595f06e14740eaa9331e" prot="private" virt="non-virtual"><scope>gr::COWN::syncher2_impl</scope><name>counter</name></member>
+      <member refid="classgr_1_1COWN_1_1syncher2__impl_1addf615367e03cff9c51c06d6f6d892bb" prot="public" virt="non-virtual"><scope>gr::COWN::syncher2_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1COWN_1_1syncher2__impl_1a8d3ed36db16568934c9e8e9e058ba4af" prot="public" virt="non-virtual"><scope>gr::COWN::syncher2_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1COWN_1_1syncher2_1a261c49795a3633a9f6bc559f7dd599d9" prot="public" virt="non-virtual"><scope>gr::COWN::syncher2_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1COWN_1_1syncher2_1a39b9f6b391694a57a85722d038329d70" prot="public" virt="non-virtual"><scope>gr::COWN::syncher2_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1COWN_1_1syncher2__impl_1a8b84f95c30f9cddd4a46923f386841b3" prot="public" virt="non-virtual"><scope>gr::COWN::syncher2_impl</scope><name>syncher2_impl</name></member>
+      <member refid="classgr_1_1COWN_1_1syncher2__impl_1a8120d2e2ae5d03d1b8468470cc66707d" prot="public" virt="non-virtual"><scope>gr::COWN::syncher2_impl</scope><name>~syncher2_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

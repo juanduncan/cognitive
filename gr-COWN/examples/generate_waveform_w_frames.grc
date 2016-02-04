@@ -77,7 +77,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -104,7 +104,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -135,7 +135,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -374,7 +374,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -401,7 +401,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -428,7 +428,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -628,7 +628,7 @@
     </param>
     <param>
       <key>minoutbuf</key>
-      <value>2**14</value>
+      <value>2**18</value>
     </param>
     <param>
       <key>vlen</key>
@@ -710,7 +710,11 @@
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
+      <value>0</value>
+=======
       <value>1</value>
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
     </param>
     <param>
       <key>file</key>
@@ -867,7 +871,7 @@
     </param>
     <param>
       <key>minoutbuf</key>
-      <value>0</value>
+      <value>2**18</value>
     </param>
     <param>
       <key>scale</key>
@@ -922,7 +926,7 @@
     </param>
     <param>
       <key>minoutbuf</key>
-      <value>0</value>
+      <value>2**18</value>
     </param>
     <param>
       <key>num_streams</key>
@@ -1122,7 +1126,11 @@
     </param>
     <param>
       <key>minoutbuf</key>
+<<<<<<< HEAD
+      <value>2**20</value>
+=======
       <value>2**18</value>
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
     </param>
     <param>
       <key>pad_front</key>
@@ -1196,7 +1204,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1235,7 +1243,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1294,7 +1302,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1353,7 +1361,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1412,7 +1420,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1471,7 +1479,7 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1613,7 +1621,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
+      <value>(320, 19)</value>
+=======
       <value>(288, -5)</value>
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
     </param>
     <param>
       <key>_rotation</key>
@@ -1724,7 +1736,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
+      <value>(752, 19)</value>
+=======
       <value>(920, 3)</value>
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
     </param>
     <param>
       <key>_rotation</key>
@@ -1835,7 +1851,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
+      <value>(536, 19)</value>
+=======
       <value>(504, -5)</value>
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
     </param>
     <param>
       <key>_rotation</key>
@@ -1938,7 +1958,11 @@
     </param>
     <param>
       <key>_coordinate</key>
+<<<<<<< HEAD
+      <value>(968, 19)</value>
+=======
       <value>(728, 3)</value>
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
     </param>
     <param>
       <key>_rotation</key>
@@ -2447,7 +2471,7 @@
     </param>
     <param>
       <key>tr_mode</key>
-      <value>qtgui.TRIG_MODE_FREE</value>
+      <value>qtgui.TRIG_MODE_NORM</value>
     </param>
     <param>
       <key>tr_slope</key>
@@ -2802,7 +2826,11 @@
     </param>
     <param>
       <key>tr_level</key>
+<<<<<<< HEAD
+      <value>0.051</value>
+=======
       <value>0.05</value>
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
     </param>
     <param>
       <key>tr_mode</key>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1COWN_1_1resta__impl" kind="class" prot="public">
+    <compoundname>gr::COWN::resta_impl</compoundname>
+    <basecompoundref refid="classgr_1_1COWN_1_1resta" prot="public" virt="non-virtual">gr::COWN::resta</basecompoundref>
+    <includes refid="resta__impl_8h" local="no">resta_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1resta__impl_1a54772356117e273b836dc4c81775b478" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::COWN::resta_impl::count_errors</definition>
+        <argsstring></argsstring>
+        <name>count_errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" line="32" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1resta__impl_1afe4025863ce2affe9c93415ba0249731" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::COWN::resta_impl::counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" line="33" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1resta__impl_1ae9142260336540ca080caa0ebc74e7b9" prot="private" static="no" mutable="no">
+        <type>long int</type>
+        <definition>long int gr::COWN::resta_impl::mark_w</definition>
+        <argsstring></argsstring>
+        <name>mark_w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" line="34" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1resta__impl_1a8412b4d9a33e57aaa3aad1a74f38d3de" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::COWN::resta_impl::diferencia</definition>
+        <argsstring></argsstring>
+        <name>diferencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" line="35" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1resta__impl_1a6a288651d4a56534b6691465a7b788b9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::COWN::resta_impl::last_input</definition>
+        <argsstring></argsstring>
+        <name>last_input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" line="36" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1COWN_1_1resta__impl_1aef00834f835423b25eb65d7bed1541c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::resta_impl::resta_impl</definition>
+        <argsstring>()</argsstring>
+        <name>resta_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1resta__impl_1ac2bf67b93c340fa3584fdf281c760302" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::resta_impl::~resta_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~resta_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1resta__impl_1a82475549abbc0a4c8632fd6fe6c5e8d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::COWN::resta_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>gr::COWN::resta</label>
+        <link refid="classgr_1_1COWN_1_1resta"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="9">
+        <label>gr::COWN::resta_impl</label>
+        <link refid="classgr_1_1COWN_1_1resta__impl"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>gr::COWN::resta</label>
+        <link refid="classgr_1_1COWN_1_1resta"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="12">
+        <label>gr::COWN::resta_impl</label>
+        <link refid="classgr_1_1COWN_1_1resta__impl"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" line="30" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/resta_impl.h" bodystart="29" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1COWN_1_1resta__impl_1a54772356117e273b836dc4c81775b478" prot="private" virt="non-virtual"><scope>gr::COWN::resta_impl</scope><name>count_errors</name></member>
+      <member refid="classgr_1_1COWN_1_1resta__impl_1afe4025863ce2affe9c93415ba0249731" prot="private" virt="non-virtual"><scope>gr::COWN::resta_impl</scope><name>counter</name></member>
+      <member refid="classgr_1_1COWN_1_1resta__impl_1a8412b4d9a33e57aaa3aad1a74f38d3de" prot="private" virt="non-virtual"><scope>gr::COWN::resta_impl</scope><name>diferencia</name></member>
+      <member refid="classgr_1_1COWN_1_1resta__impl_1a6a288651d4a56534b6691465a7b788b9" prot="private" virt="non-virtual"><scope>gr::COWN::resta_impl</scope><name>last_input</name></member>
+      <member refid="classgr_1_1COWN_1_1resta_1acb8cd9866782db77b7fbdaa3a0565853" prot="public" virt="non-virtual"><scope>gr::COWN::resta_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1COWN_1_1resta__impl_1ae9142260336540ca080caa0ebc74e7b9" prot="private" virt="non-virtual"><scope>gr::COWN::resta_impl</scope><name>mark_w</name></member>
+      <member refid="classgr_1_1COWN_1_1resta__impl_1aef00834f835423b25eb65d7bed1541c5" prot="public" virt="non-virtual"><scope>gr::COWN::resta_impl</scope><name>resta_impl</name></member>
+      <member refid="classgr_1_1COWN_1_1resta_1a2852e7ccd939b9356c5a2dd51fb76021" prot="public" virt="non-virtual"><scope>gr::COWN::resta_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1COWN_1_1resta__impl_1a82475549abbc0a4c8632fd6fe6c5e8d8" prot="public" virt="non-virtual"><scope>gr::COWN::resta_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1COWN_1_1resta__impl_1ac2bf67b93c340fa3584fdf281c760302" prot="public" virt="non-virtual"><scope>gr::COWN::resta_impl</scope><name>~resta_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

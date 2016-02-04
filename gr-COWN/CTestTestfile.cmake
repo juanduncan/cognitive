@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/juan/cognitive/gr-COWN
-# Build directory: /home/juan/cognitive/gr-COWN
+# Source directory: /home/nutaq/cognitive/gr-COWN
+# Build directory: /home/nutaq/cognitive/gr-COWN
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

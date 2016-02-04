@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="resta__resta_8h" kind="file">
+    <compoundname>resta_resta.h</compoundname>
+    <includes local="no">resta_api.h</includes>
+    <includes local="no">gr_sync_block.h</includes>
+    <incdepgraph>
+      <node id="37">
+        <label>gr_sync_block.h</label>
+      </node>
+      <node id="35">
+        <label>resta_resta.h</label>
+        <link refid="resta_resta.h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>resta_api.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classresta__resta" prot="public">resta_resta</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="resta__resta_8h_1a5c42821b53df29df56c73fb2cad8e7db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>RESTA_API resta_resta_sptr</type>
+        <definition>RESTA_API resta_resta_sptr resta_make_resta</definition>
+        <argsstring>()</argsstring>
+        <name>resta_make_resta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/include/resta_resta.h" line="32" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-COWN/include/resta_resta.h"/>
+  </compounddef>
+</doxygen>

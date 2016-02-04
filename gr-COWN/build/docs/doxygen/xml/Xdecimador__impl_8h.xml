@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="Xdecimador__impl_8h" kind="file">
+    <compoundname>Xdecimador_impl.h</compoundname>
+    <includes local="no">DataConversion/decimador.h</includes>
+    <incdepgraph>
+      <node id="124">
+        <label>DataConversion/decimador.h</label>
+      </node>
+      <node id="123">
+        <label>Xdecimador_impl.h</label>
+        <link refid="Xdecimador_impl.h"/>
+        <childnode refid="124" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1DataConversion_1_1decimador__impl" prot="public">gr::DataConversion::decimador_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1DataConversion">gr::DataConversion</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-COWN/examples/GNURC_apps/GNURC_apps_FROM_MACBOOK/Xdecimador_impl.h"/>
+  </compounddef>
+</doxygen>

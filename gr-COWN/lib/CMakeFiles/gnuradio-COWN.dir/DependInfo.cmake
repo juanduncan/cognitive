@@ -4,6 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/juan/cognitive/gr-COWN/lib/resta_impl.cc" "/home/juan/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o"
   "/home/juan/cognitive/gr-COWN/lib/syncher2_impl.cc" "/home/juan/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o"
   "/home/juan/cognitive/gr-COWN/lib/syncher_impl.cc" "/home/juan/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o"
@@ -12,6 +13,13 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/juan/cognitive/gr-COWN/lib/tx_valve2_impl.cc" "/home/juan/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o"
   "/home/juan/cognitive/gr-COWN/lib/tx_valve3_impl.cc" "/home/juan/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o"
   "/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.cc" "/home/juan/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o"
+=======
+  "/home/nutaq/cognitive/gr-COWN/lib/resta_impl.cc" "/home/nutaq/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o"
+  "/home/nutaq/cognitive/gr-COWN/lib/syncher2_impl.cc" "/home/nutaq/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o"
+  "/home/nutaq/cognitive/gr-COWN/lib/syncher_impl.cc" "/home/nutaq/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o"
+  "/home/nutaq/cognitive/gr-COWN/lib/tag_generator_impl.cc" "/home/nutaq/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o"
+  "/home/nutaq/cognitive/gr-COWN/lib/test_impl.cc" "/home/nutaq/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o"
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

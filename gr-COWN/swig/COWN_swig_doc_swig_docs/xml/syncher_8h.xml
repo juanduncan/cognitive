@@ -5,8 +5,19 @@
     <includes refid="api_8h" local="no">COWN/api.h</includes>
     <includes local="no">gnuradio/sync_block.h</includes>
     <incdepgraph>
+<<<<<<< HEAD
       <node id="13">
         <label>/home/juan/cognitive/gr-COWN/include/COWN/syncher.h</label>
+=======
+      <node id="16">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="15">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="13">
+        <label>/home/nutaq/cognitive/gr-COWN/include/COWN/syncher.h</label>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
         <link refid="syncher.h"/>
         <childnode refid="14" relation="include">
         </childnode>
@@ -19,12 +30,15 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
+<<<<<<< HEAD
       <node id="16">
         <label>gnuradio/sync_block.h</label>
       </node>
       <node id="15">
         <label>gnuradio/attributes.h</label>
       </node>
+=======
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
     </incdepgraph>
     <innerclass refid="classgr_1_1COWN_1_1syncher" prot="public">gr::COWN::syncher</innerclass>
     <innernamespace refid="namespacegr">gr</innernamespace>
@@ -78,6 +92,10 @@
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_COWN_SYNCHER_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
 <codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
+<<<<<<< HEAD
     <location file="/home/juan/cognitive/gr-COWN/include/COWN/syncher.h"/>
+=======
+    <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/syncher.h"/>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
   </compounddef>
 </doxygen>

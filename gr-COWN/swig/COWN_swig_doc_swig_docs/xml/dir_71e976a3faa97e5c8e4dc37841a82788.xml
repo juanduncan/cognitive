@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_71e976a3faa97e5c8e4dc37841a82788" kind="dir">
-    <compoundname>/home/juan/cognitive/gr-COWN/include/COWN</compoundname>
+    <compoundname>/home/nutaq/cognitive/gr-COWN/include/COWN</compoundname>
     <innerfile refid="api_8h">api.h</innerfile>
     <innerfile refid="resta_8h">resta.h</innerfile>
     <innerfile refid="syncher_8h">syncher.h</innerfile>
@@ -12,6 +12,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/juan/cognitive/gr-COWN/include/COWN/"/>
+    <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/"/>
   </compounddef>
 </doxygen>

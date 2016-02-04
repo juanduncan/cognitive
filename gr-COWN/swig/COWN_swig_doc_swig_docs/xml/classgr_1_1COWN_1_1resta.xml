@@ -16,7 +16,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+<<<<<<< HEAD
         <location file="/home/juan/cognitive/gr-COWN/include/COWN/resta.h" line="39" column="1" bodyfile="/home/juan/cognitive/gr-COWN/include/COWN/resta.h" bodystart="39" bodyend="-1"/>
+=======
+        <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/resta.h" line="39" column="1" bodyfile="/home/nutaq/cognitive/gr-COWN/include/COWN/resta.h" bodystart="39" bodyend="-1"/>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -31,7 +35,11 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1COWN_1_1resta" kindref="compound">COWN::resta</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1COWN_1_1resta_1acb8cd9866782db77b7fbdaa3a0565853" kindref="member">COWN::resta::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+<<<<<<< HEAD
         <location file="/home/juan/cognitive/gr-COWN/include/COWN/resta.h" line="49" column="1"/>
+=======
+        <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/resta.h" line="49" column="1"/>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -60,7 +68,11 @@
         <label>gr::sync_block</label>
       </node>
     </collaborationgraph>
+<<<<<<< HEAD
     <location file="/home/juan/cognitive/gr-COWN/include/COWN/resta.h" line="37" column="1" bodyfile="/home/juan/cognitive/gr-COWN/include/COWN/resta.h" bodystart="36" bodyend="50"/>
+=======
+    <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/resta.h" line="37" column="1" bodyfile="/home/nutaq/cognitive/gr-COWN/include/COWN/resta.h" bodystart="36" bodyend="50"/>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
     <listofallmembers>
       <member refid="classgr_1_1COWN_1_1resta_1acb8cd9866782db77b7fbdaa3a0565853" prot="public" virt="non-virtual"><scope>gr::COWN::resta</scope><name>make</name></member>
       <member refid="classgr_1_1COWN_1_1resta_1a2852e7ccd939b9356c5a2dd51fb76021" prot="public" virt="non-virtual"><scope>gr::COWN::resta</scope><name>sptr</name></member>

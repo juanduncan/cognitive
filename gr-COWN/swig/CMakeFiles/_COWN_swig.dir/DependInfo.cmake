@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/juan/cognitive/gr-COWN/swig/COWN_swigPYTHON_wrap.cxx" "/home/juan/cognitive/gr-COWN/swig/CMakeFiles/_COWN_swig.dir/COWN_swigPYTHON_wrap.cxx.o"
+  "/home/nutaq/cognitive/gr-COWN/swig/COWN_swigPYTHON_wrap.cxx" "/home/nutaq/cognitive/gr-COWN/swig/CMakeFiles/_COWN_swig.dir/COWN_swigPYTHON_wrap.cxx.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/juan/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/DependInfo.cmake"
+  "/home/nutaq/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

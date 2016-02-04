@@ -117,10 +117,10 @@ namespace gr {
         // cout << "in[0] = "<< dec<<in[0]   << "\tin[1] = " <<in[1]  << "\tin[2] = " << in[2]   << "\tin[3] = " << in[3]          << endl;
 
         	 
-					cout <<  "nitems_written ="<< dec << nitems_written(0) << 
-				   "  nitems_read ="<< nitems_read(0) << " Time= " <<  nitems_read(0)/2e6  <<
-				   " Ratio ="<< nitems_written(0)*1.0/nitems_read(0)  <<  endl;
-			cout<< endl;
+					//cout <<  "nitems_written ="<< dec << nitems_written(0) << 
+				   //"  nitems_read ="<< nitems_read(0) << " Time= " <<  nitems_read(0)/2e6  <<
+				   //" Ratio ="<< nitems_written(0)*1.0/nitems_read(0)  <<  endl;
+			       //cout<< endl;
         
         
         

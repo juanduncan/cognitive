@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/juan/cognitive/gr-COWN/include/COWN/tag_generator.h" line="39" column="1" bodyfile="/home/juan/cognitive/gr-COWN/include/COWN/tag_generator.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/tag_generator.h" line="39" column="1" bodyfile="/home/nutaq/cognitive/gr-COWN/include/COWN/tag_generator.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -31,7 +31,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1COWN_1_1tag__generator" kindref="compound">COWN::tag_generator</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1COWN_1_1tag__generator_1a3591ac91da093638c40d465b9fe8eddf" kindref="member">COWN::tag_generator::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/juan/cognitive/gr-COWN/include/COWN/tag_generator.h" line="49" column="1"/>
+        <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/tag_generator.h" line="49" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -39,6 +39,7 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+<<<<<<< HEAD
       <node id="17">
         <label>gr::sync_decimator</label>
       </node>
@@ -46,10 +47,20 @@
         <label>gr::COWN::tag_generator</label>
         <link refid="classgr_1_1COWN_1_1tag__generator"/>
         <childnode refid="17" relation="public-inheritance">
+=======
+      <node id="13">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="12">
+        <label>gr::COWN::tag_generator</label>
+        <link refid="classgr_1_1COWN_1_1tag__generator"/>
+        <childnode refid="13" relation="public-inheritance">
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+<<<<<<< HEAD
       <node id="19">
         <label>gr::sync_decimator</label>
       </node>
@@ -57,10 +68,19 @@
         <label>gr::COWN::tag_generator</label>
         <link refid="classgr_1_1COWN_1_1tag__generator"/>
         <childnode refid="19" relation="public-inheritance">
+=======
+      <node id="15">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="14">
+        <label>gr::COWN::tag_generator</label>
+        <link refid="classgr_1_1COWN_1_1tag__generator"/>
+        <childnode refid="15" relation="public-inheritance">
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/juan/cognitive/gr-COWN/include/COWN/tag_generator.h" line="37" column="1" bodyfile="/home/juan/cognitive/gr-COWN/include/COWN/tag_generator.h" bodystart="36" bodyend="50"/>
+    <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/tag_generator.h" line="37" column="1" bodyfile="/home/nutaq/cognitive/gr-COWN/include/COWN/tag_generator.h" bodystart="36" bodyend="50"/>
     <listofallmembers>
       <member refid="classgr_1_1COWN_1_1tag__generator_1a3591ac91da093638c40d465b9fe8eddf" prot="public" virt="non-virtual"><scope>gr::COWN::tag_generator</scope><name>make</name></member>
       <member refid="classgr_1_1COWN_1_1tag__generator_1a069e25521abe363e02f21529075787ba" prot="public" virt="non-virtual"><scope>gr::COWN::tag_generator</scope><name>sptr</name></member>

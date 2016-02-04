@@ -16,7 +16,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+<<<<<<< HEAD
         <location file="/home/juan/cognitive/gr-COWN/include/COWN/syncher2.h" line="39" column="1" bodyfile="/home/juan/cognitive/gr-COWN/include/COWN/syncher2.h" bodystart="39" bodyend="-1"/>
+=======
+        <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/syncher2.h" line="39" column="1" bodyfile="/home/nutaq/cognitive/gr-COWN/include/COWN/syncher2.h" bodystart="39" bodyend="-1"/>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -31,7 +35,11 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1COWN_1_1syncher2" kindref="compound">COWN::syncher2</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1COWN_1_1syncher2_1a261c49795a3633a9f6bc559f7dd599d9" kindref="member">COWN::syncher2::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+<<<<<<< HEAD
         <location file="/home/juan/cognitive/gr-COWN/include/COWN/syncher2.h" line="49" column="1"/>
+=======
+        <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/syncher2.h" line="49" column="1"/>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -39,6 +47,7 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
+<<<<<<< HEAD
       <node id="12">
         <label>gr::COWN::syncher2</label>
         <link refid="classgr_1_1COWN_1_1syncher2"/>
@@ -46,10 +55,20 @@
         </childnode>
       </node>
       <node id="13">
+=======
+      <node id="8">
+        <label>gr::COWN::syncher2</label>
+        <link refid="classgr_1_1COWN_1_1syncher2"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
         <label>gr::block</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
+<<<<<<< HEAD
       <node id="14">
         <label>gr::COWN::syncher2</label>
         <link refid="classgr_1_1COWN_1_1syncher2"/>
@@ -61,6 +80,19 @@
       </node>
     </collaborationgraph>
     <location file="/home/juan/cognitive/gr-COWN/include/COWN/syncher2.h" line="37" column="1" bodyfile="/home/juan/cognitive/gr-COWN/include/COWN/syncher2.h" bodystart="36" bodyend="50"/>
+=======
+      <node id="10">
+        <label>gr::COWN::syncher2</label>
+        <link refid="classgr_1_1COWN_1_1syncher2"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/syncher2.h" line="37" column="1" bodyfile="/home/nutaq/cognitive/gr-COWN/include/COWN/syncher2.h" bodystart="36" bodyend="50"/>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
     <listofallmembers>
       <member refid="classgr_1_1COWN_1_1syncher2_1a261c49795a3633a9f6bc559f7dd599d9" prot="public" virt="non-virtual"><scope>gr::COWN::syncher2</scope><name>make</name></member>
       <member refid="classgr_1_1COWN_1_1syncher2_1a39b9f6b391694a57a85722d038329d70" prot="public" virt="non-virtual"><scope>gr::COWN::syncher2</scope><name>sptr</name></member>

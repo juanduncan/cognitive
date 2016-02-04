@@ -7,6 +7,10 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+<<<<<<< HEAD
     <location file="/home/juan/cognitive/gr-COWN/include/COWN/resta.h" line="28" column="1"/>
+=======
+    <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/resta.h" line="28" column="1"/>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
   </compounddef>
 </doxygen>

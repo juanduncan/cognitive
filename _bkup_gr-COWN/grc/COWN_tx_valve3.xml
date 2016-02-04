@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<block>
+  <name>tx_valve3</name>
+  <key>COWN_tx_valve3</key>
+  <category>COWN</category>
+  <import>import COWN</import>
+  <make>COWN.tx_valve3()</make>
+  
+
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

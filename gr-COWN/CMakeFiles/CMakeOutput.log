@@ -383,6 +383,7 @@ make[1]: Leaving directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
 Source file was:
 int main() { return 0;}
 Determining if the include file sys/types.h exists passed with the following output:
+<<<<<<< HEAD
 Change Dir: /home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec3551976056/fast"
@@ -500,6 +501,95 @@ Linking CXX executable cmTryCompileExec3682188557
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3682188557.dir/link.txt --verbose=1
 /usr/bin/c++    -DHAVE_WNO_UNUSED_BUT_SET_VARIABLE    CMakeFiles/cmTryCompileExec3682188557.dir/src.cxx.o  -o cmTryCompileExec3682188557 -rdynamic 
 make[1]: Leaving directory `/home/juan/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec582981180/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec582981180.dir/build.make CMakeFiles/cmTryCompileExec582981180.dir/build
+make[1]: Entering directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec582981180.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec582981180.dir/CheckIncludeFile.c.o   -c /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec582981180
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec582981180.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec582981180.dir/CheckIncludeFile.c.o  -o cmTryCompileExec582981180 -rdynamic 
+make[1]: Leaving directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec864552240/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec864552240.dir/build.make CMakeFiles/cmTryCompileExec864552240.dir/build
+make[1]: Entering directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec864552240.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec864552240.dir/CheckIncludeFile.c.o   -c /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec864552240
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec864552240.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec864552240.dir/CheckIncludeFile.c.o  -o cmTryCompileExec864552240 -rdynamic 
+make[1]: Leaving directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3830336000/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3830336000.dir/build.make CMakeFiles/cmTryCompileExec3830336000.dir/build
+make[1]: Entering directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3830336000.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3830336000.dir/CheckIncludeFile.c.o   -c /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3830336000
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3830336000.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3830336000.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3830336000 -rdynamic 
+make[1]: Leaving directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1806708599/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1806708599.dir/build.make CMakeFiles/cmTryCompileExec1806708599.dir/build
+make[1]: Entering directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1806708599.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1806708599.dir/SIZEOF_SIZE_T.c.o   -c /home/nutaq/cognitive/gr-COWN/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTryCompileExec1806708599
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1806708599.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1806708599.dir/SIZEOF_SIZE_T.c.o  -o cmTryCompileExec1806708599 -rdynamic 
+make[1]: Leaving directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3813234428/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3813234428.dir/build.make CMakeFiles/cmTryCompileExec3813234428.dir/build
+make[1]: Entering directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3813234428.dir/SIZEOF_UINT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3813234428.dir/SIZEOF_UINT.c.o   -c /home/nutaq/cognitive/gr-COWN/CMakeFiles/CheckTypeSize/SIZEOF_UINT.c
+Linking C executable cmTryCompileExec3813234428
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3813234428.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3813234428.dir/SIZEOF_UINT.c.o  -o cmTryCompileExec3813234428 -rdynamic 
+make[1]: Leaving directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_WNO_UNUSED_BUT_SET_VARIABLE succeded with the following output:
+Change Dir: /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2282263463/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2282263463.dir/build.make CMakeFiles/cmTryCompileExec2282263463.dir/build
+make[1]: Entering directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2282263463.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_WNO_UNUSED_BUT_SET_VARIABLE   -Wno-unused-but-set-variable -o CMakeFiles/cmTryCompileExec2282263463.dir/src.cxx.o -c /home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2282263463
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2282263463.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_WNO_UNUSED_BUT_SET_VARIABLE    CMakeFiles/cmTryCompileExec2282263463.dir/src.cxx.o  -o cmTryCompileExec2282263463 -rdynamic 
+make[1]: Leaving directory `/home/nutaq/cognitive/gr-COWN/CMakeFiles/CMakeTmp'
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 
 Source file was:
 int main() { return 0;}

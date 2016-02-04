@@ -8,6 +8,7 @@
 
 
 
+<<<<<<< HEAD
 %feature("docstring") resta_resta "<+description+>"
 
 %feature("docstring") resta_resta::resta_resta "
@@ -26,6 +27,8 @@ Params: (noutput_items, input_items, output_items)"
 
 Params: (NONE)"
 
+=======
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 %feature("docstring") gr::COWN::resta "<+description of block+>"
 
 %feature("docstring") gr::COWN::resta::make "Return a shared_ptr to a new instance of COWN::resta.

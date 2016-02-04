@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1COWN_1_1syncher__impl" kind="class" prot="public">
+    <compoundname>gr::COWN::syncher_impl</compoundname>
+    <basecompoundref refid="classgr_1_1COWN_1_1syncher" prot="public" virt="non-virtual">gr::COWN::syncher</basecompoundref>
+    <includes refid="syncher__impl_8h" local="no">syncher_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1syncher__impl_1a191edb3aed4d780d3778c168001b3b29" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::COWN::syncher_impl::counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/syncher_impl.h" line="33" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/syncher_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1COWN_1_1syncher__impl_1a016fcc337a755fc4a1413538972b0b90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::syncher_impl::syncher_impl</definition>
+        <argsstring>()</argsstring>
+        <name>syncher_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/syncher_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1syncher__impl_1a5e791bed03847c5a44097741b813c1c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::syncher_impl::~syncher_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~syncher_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/syncher_impl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1syncher__impl_1a0de9bd75173d5fe116b08f0eb15f178a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::COWN::syncher_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/syncher_impl.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>sync_block</label>
+      </node>
+      <node id="35">
+        <label>gr::COWN::syncher_impl</label>
+        <link refid="classgr_1_1COWN_1_1syncher__impl"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>gr::COWN::syncher</label>
+        <link refid="classgr_1_1COWN_1_1syncher"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="40">
+        <label>sync_block</label>
+      </node>
+      <node id="38">
+        <label>gr::COWN::syncher_impl</label>
+        <link refid="classgr_1_1COWN_1_1syncher__impl"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>gr::COWN::syncher</label>
+        <link refid="classgr_1_1COWN_1_1syncher"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/juan/cognitive/gr-COWN/lib/syncher_impl.h" line="30" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/syncher_impl.h" bodystart="29" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classgr_1_1COWN_1_1syncher__impl_1a191edb3aed4d780d3778c168001b3b29" prot="private" virt="non-virtual"><scope>gr::COWN::syncher_impl</scope><name>counter</name></member>
+      <member refid="classgr_1_1COWN_1_1syncher_1a0ecf30d38c43e62bb05428bc892504c9" prot="public" virt="non-virtual"><scope>gr::COWN::syncher_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1COWN_1_1syncher_1afed2f59e4187232a7c95656e81a0f2d7" prot="public" virt="non-virtual"><scope>gr::COWN::syncher_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1COWN_1_1syncher__impl_1a016fcc337a755fc4a1413538972b0b90" prot="public" virt="non-virtual"><scope>gr::COWN::syncher_impl</scope><name>syncher_impl</name></member>
+      <member refid="classgr_1_1COWN_1_1syncher__impl_1a0de9bd75173d5fe116b08f0eb15f178a" prot="public" virt="non-virtual"><scope>gr::COWN::syncher_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1COWN_1_1syncher__impl_1a5e791bed03847c5a44097741b813c1c7" prot="public" virt="non-virtual"><scope>gr::COWN::syncher_impl</scope><name>~syncher_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

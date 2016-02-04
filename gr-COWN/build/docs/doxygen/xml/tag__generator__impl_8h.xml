@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="tag__generator__impl_8h" kind="file">
+    <compoundname>tag_generator_impl.h</compoundname>
+    <includes refid="tag__generator_8h" local="no">COWN/tag_generator.h</includes>
+    <incdepgraph>
+      <node id="73">
+        <label>gnuradio/sync_decimator.h</label>
+      </node>
+      <node id="69">
+        <label>tag_generator_impl.h</label>
+        <link refid="tag_generator_impl.h"/>
+        <childnode refid="70" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>COWN/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="72" relation="include">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>COWN/tag_generator.h</label>
+        <link refid="tag__generator_8h"/>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1COWN_1_1tag__generator__impl" prot="public">gr::COWN::tag_generator_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1COWN">gr::COWN</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-COWN/lib/tag_generator_impl.h"/>
+  </compounddef>
+</doxygen>

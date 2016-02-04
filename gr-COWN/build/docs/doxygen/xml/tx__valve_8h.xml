@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="tx__valve_8h" kind="file">
+    <compoundname>tx_valve.h</compoundname>
+    <includes refid="api_8h" local="no">COWN/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="tx__valve__impl_8h" local="no">tx_valve_impl.h</includedby>
+    <incdepgraph>
+      <node id="88">
+        <label>COWN/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="89" relation="include">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="87">
+        <label>tx_valve.h</label>
+        <link refid="tx_valve.h"/>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="92">
+        <label>tx_valve_impl.h</label>
+        <link refid="tx__valve__impl_8h"/>
+      </node>
+      <node id="91">
+        <label>tx_valve.h</label>
+        <link refid="tx_valve.h"/>
+        <childnode refid="92" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1COWN_1_1tx__valve" prot="public">gr::COWN::tx_valve</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1COWN">gr::COWN</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-COWN/include/COWN/tx_valve.h"/>
+  </compounddef>
+</doxygen>

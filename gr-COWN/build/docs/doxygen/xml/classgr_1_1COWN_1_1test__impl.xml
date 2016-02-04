@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1COWN_1_1test__impl" kind="class" prot="public">
+    <compoundname>gr::COWN::test_impl</compoundname>
+    <basecompoundref refid="classgr_1_1COWN_1_1test" prot="public" virt="non-virtual">gr::COWN::test</basecompoundref>
+    <includes refid="test__impl_8h" local="no">test_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1COWN_1_1test__impl_1aece98d79f84bf779e3a1a1be02f71e56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::test_impl::test_impl</definition>
+        <argsstring>()</argsstring>
+        <name>test_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/test_impl.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1test__impl_1a1978dcb5620064579fdeab8f550b5e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::test_impl::~test_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~test_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/test_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1test__impl_1a6d93d61724a14f5f8dc2cd3271d5d988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::COWN::test_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/test_impl.h" line="39" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="57">
+        <label>gr::COWN::test_impl</label>
+        <link refid="classgr_1_1COWN_1_1test__impl"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>sync_block</label>
+      </node>
+      <node id="58">
+        <label>gr::COWN::test</label>
+        <link refid="classgr_1_1COWN_1_1test"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="60">
+        <label>gr::COWN::test_impl</label>
+        <link refid="classgr_1_1COWN_1_1test__impl"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>sync_block</label>
+      </node>
+      <node id="61">
+        <label>gr::COWN::test</label>
+        <link refid="classgr_1_1COWN_1_1test"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/juan/cognitive/gr-COWN/lib/test_impl.h" line="30" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/test_impl.h" bodystart="29" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classgr_1_1COWN_1_1test_1a4c26f82c3529b12867fbcb735884df82" prot="public" virt="non-virtual"><scope>gr::COWN::test_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1COWN_1_1test_1a9f7261bd59c3d52c16d1800d09d88834" prot="public" virt="non-virtual"><scope>gr::COWN::test_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1COWN_1_1test__impl_1aece98d79f84bf779e3a1a1be02f71e56" prot="public" virt="non-virtual"><scope>gr::COWN::test_impl</scope><name>test_impl</name></member>
+      <member refid="classgr_1_1COWN_1_1test__impl_1a6d93d61724a14f5f8dc2cd3271d5d988" prot="public" virt="non-virtual"><scope>gr::COWN::test_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1COWN_1_1test__impl_1a1978dcb5620064579fdeab8f550b5e42" prot="public" virt="non-virtual"><scope>gr::COWN::test_impl</scope><name>~test_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

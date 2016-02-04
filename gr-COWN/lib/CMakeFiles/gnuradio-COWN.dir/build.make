@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_SOURCE_DIR = /home/nutaq/cognitive/gr-COWN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_BINARY_DIR = /home/nutaq/cognitive/gr-COWN
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/gnuradio-COWN.dir/depend.make
@@ -51,17 +51,17 @@ include lib/CMakeFiles/gnuradio-COWN.dir/flags.make
 
 lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o: lib/CMakeFiles/gnuradio-COWN.dir/flags.make
 lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o: lib/tag_generator_impl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o -c /home/juan/cognitive/gr-COWN/lib/tag_generator_impl.cc
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o -c /home/nutaq/cognitive/gr-COWN/lib/tag_generator_impl.cc
 
 lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.i"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juan/cognitive/gr-COWN/lib/tag_generator_impl.cc > CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.i
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nutaq/cognitive/gr-COWN/lib/tag_generator_impl.cc > CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.i
 
 lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.s"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juan/cognitive/gr-COWN/lib/tag_generator_impl.cc -o CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.s
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nutaq/cognitive/gr-COWN/lib/tag_generator_impl.cc -o CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.s
 
 lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o.requires:
 .PHONY : lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o.requires
@@ -74,17 +74,17 @@ lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o.provides.build: lib/CMa
 
 lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o: lib/CMakeFiles/gnuradio-COWN.dir/flags.make
 lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o: lib/test_impl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o -c /home/juan/cognitive/gr-COWN/lib/test_impl.cc
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o -c /home/nutaq/cognitive/gr-COWN/lib/test_impl.cc
 
 lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-COWN.dir/test_impl.cc.i"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juan/cognitive/gr-COWN/lib/test_impl.cc > CMakeFiles/gnuradio-COWN.dir/test_impl.cc.i
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nutaq/cognitive/gr-COWN/lib/test_impl.cc > CMakeFiles/gnuradio-COWN.dir/test_impl.cc.i
 
 lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-COWN.dir/test_impl.cc.s"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juan/cognitive/gr-COWN/lib/test_impl.cc -o CMakeFiles/gnuradio-COWN.dir/test_impl.cc.s
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nutaq/cognitive/gr-COWN/lib/test_impl.cc -o CMakeFiles/gnuradio-COWN.dir/test_impl.cc.s
 
 lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o.requires:
 .PHONY : lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o.requires
@@ -97,17 +97,17 @@ lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o.provides.build: lib/CMakeFiles/g
 
 lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o: lib/CMakeFiles/gnuradio-COWN.dir/flags.make
 lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o: lib/syncher_impl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o -c /home/juan/cognitive/gr-COWN/lib/syncher_impl.cc
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o -c /home/nutaq/cognitive/gr-COWN/lib/syncher_impl.cc
 
 lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.i"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juan/cognitive/gr-COWN/lib/syncher_impl.cc > CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.i
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nutaq/cognitive/gr-COWN/lib/syncher_impl.cc > CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.i
 
 lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.s"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juan/cognitive/gr-COWN/lib/syncher_impl.cc -o CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.s
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nutaq/cognitive/gr-COWN/lib/syncher_impl.cc -o CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.s
 
 lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o.requires:
 .PHONY : lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o.requires
@@ -120,17 +120,17 @@ lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o.provides.build: lib/CMakeFile
 
 lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o: lib/CMakeFiles/gnuradio-COWN.dir/flags.make
 lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o: lib/syncher2_impl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o -c /home/juan/cognitive/gr-COWN/lib/syncher2_impl.cc
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o -c /home/nutaq/cognitive/gr-COWN/lib/syncher2_impl.cc
 
 lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.i"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juan/cognitive/gr-COWN/lib/syncher2_impl.cc > CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.i
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nutaq/cognitive/gr-COWN/lib/syncher2_impl.cc > CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.i
 
 lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.s"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juan/cognitive/gr-COWN/lib/syncher2_impl.cc -o CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.s
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nutaq/cognitive/gr-COWN/lib/syncher2_impl.cc -o CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.s
 
 lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o.requires:
 .PHONY : lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o.requires
@@ -143,17 +143,17 @@ lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o.provides.build: lib/CMakeFil
 
 lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o: lib/CMakeFiles/gnuradio-COWN.dir/flags.make
 lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o: lib/resta_impl.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o -c /home/juan/cognitive/gr-COWN/lib/resta_impl.cc
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o -c /home/nutaq/cognitive/gr-COWN/lib/resta_impl.cc
 
 lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.i"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juan/cognitive/gr-COWN/lib/resta_impl.cc > CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.i
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nutaq/cognitive/gr-COWN/lib/resta_impl.cc > CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.i
 
 lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.s"
-	cd /home/juan/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juan/cognitive/gr-COWN/lib/resta_impl.cc -o CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.s
+	cd /home/nutaq/cognitive/gr-COWN/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nutaq/cognitive/gr-COWN/lib/resta_impl.cc -o CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.s
 
 lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o.requires:
 .PHONY : lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o.requires
@@ -262,7 +262,7 @@ lib/libgnuradio-COWN.so: /usr/local/lib/libgnuradio-runtime.so
 lib/libgnuradio-COWN.so: /usr/local/lib/libgnuradio-pmt.so
 lib/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libgnuradio-COWN.so"
-	cd /home/juan/cognitive/gr-COWN/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-COWN.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/nutaq/cognitive/gr-COWN/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-COWN.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/gnuradio-COWN.dir/build: lib/libgnuradio-COWN.so
@@ -274,10 +274,14 @@ gnuradio__COWN_OBJECTS = \
 "CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o" \
 "CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o" \
 "CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o" \
+<<<<<<< HEAD
 "CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o" \
 "CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o" \
 "CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o" \
 "CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o"
+=======
+"CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o"
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 
 # External object files for target gnuradio-COWN
 gnuradio__COWN_EXTERNAL_OBJECTS =
@@ -287,9 +291,12 @@ lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN
 lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o
 lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o
 lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o
+<<<<<<< HEAD
 lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve_impl.cc.o
 lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve2_impl.cc.o
 lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/tx_valve3_impl.cc.o
+=======
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/build.make
 lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -297,7 +304,11 @@ lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: /usr/local/lib/libgnuradio-r
 lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: /usr/local/lib/libgnuradio-pmt.so
 lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so: lib/CMakeFiles/gnuradio-COWN.dir/relink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so"
+<<<<<<< HEAD
 	cd /home/juan/cognitive/gr-COWN/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-COWN.dir/relink.txt --verbose=$(VERBOSE)
+=======
+	cd /home/nutaq/cognitive/gr-COWN/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-COWN.dir/relink.txt --verbose=$(VERBOSE)
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 
 # Rule to relink during preinstall.
 lib/CMakeFiles/gnuradio-COWN.dir/preinstall: lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so
@@ -314,10 +325,10 @@ lib/CMakeFiles/gnuradio-COWN.dir/requires: lib/CMakeFiles/gnuradio-COWN.dir/tx_v
 .PHONY : lib/CMakeFiles/gnuradio-COWN.dir/requires
 
 lib/CMakeFiles/gnuradio-COWN.dir/clean:
-	cd /home/juan/cognitive/gr-COWN/lib && $(CMAKE_COMMAND) -P CMakeFiles/gnuradio-COWN.dir/cmake_clean.cmake
+	cd /home/nutaq/cognitive/gr-COWN/lib && $(CMAKE_COMMAND) -P CMakeFiles/gnuradio-COWN.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/gnuradio-COWN.dir/clean
 
 lib/CMakeFiles/gnuradio-COWN.dir/depend:
-	cd /home/juan/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN/lib /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN/lib /home/juan/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nutaq/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN/lib /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN/lib /home/nutaq/cognitive/gr-COWN/lib/CMakeFiles/gnuradio-COWN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/gnuradio-COWN.dir/depend
 

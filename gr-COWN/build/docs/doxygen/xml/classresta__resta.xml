@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classresta__resta" kind="class" prot="public">
+    <compoundname>resta_resta</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">gr_sync_block</basecompoundref>
+    <includes refid="resta__resta_8h" local="no">resta_resta.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classresta__resta_1a5c42821b53df29df56c73fb2cad8e7db" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend RESTA_API resta_resta_sptr</type>
+        <definition>RESTA_API resta_resta_sptr resta_make_resta</definition>
+        <argsstring>()</argsstring>
+        <name>resta_make_resta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/include/resta_resta.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classresta__resta_1a54ad676de33193fe31b35e95834193e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>resta_resta::resta_resta</definition>
+        <argsstring>()</argsstring>
+        <name>resta_resta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/include/resta_resta.h" line="44" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classresta__resta_1a07f3e9b66f69f6f139b11c191bbeb87e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>resta_resta::~resta_resta</definition>
+        <argsstring>()</argsstring>
+        <name>~resta_resta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/include/resta_resta.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classresta__resta_1af6eab750b801b92330e758dfaf446ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int resta_resta::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/include/resta_resta.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>gr_sync_block</label>
+      </node>
+      <node id="15">
+        <label>resta_resta</label>
+        <link refid="classresta__resta"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="18">
+        <label>gr_sync_block</label>
+      </node>
+      <node id="17">
+        <label>resta_resta</label>
+        <link refid="classresta__resta"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/juan/cognitive/gr-COWN/include/resta_resta.h" line="40" column="1" bodyfile="/home/juan/cognitive/gr-COWN/include/resta_resta.h" bodystart="39" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classresta__resta_1a5c42821b53df29df56c73fb2cad8e7db" prot="private" virt="non-virtual"><scope>resta_resta</scope><name>resta_make_resta</name></member>
+      <member refid="classresta__resta_1a54ad676de33193fe31b35e95834193e8" prot="private" virt="non-virtual"><scope>resta_resta</scope><name>resta_resta</name></member>
+      <member refid="classresta__resta_1af6eab750b801b92330e758dfaf446ec2" prot="public" virt="non-virtual"><scope>resta_resta</scope><name>work</name></member>
+      <member refid="classresta__resta_1a07f3e9b66f69f6f139b11c191bbeb87e" prot="public" virt="non-virtual"><scope>resta_resta</scope><name>~resta_resta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1COWN_1_1tx__valve3" kind="class" prot="public">
+    <compoundname>gr::COWN::tx_valve3</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="tx__valve3_8h" local="no">tx_valve3.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1COWN_1_1tx__valve3_1ae79046cf4b7ec7da56cd4ddcd9e050d8" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1COWN_1_1tx__valve3" kindref="compound">tx_valve3</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;tx_valve3&gt; gr::COWN::tx_valve3::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/include/COWN/tx_valve3.h" line="39" column="1" bodyfile="/home/juan/cognitive/gr-COWN/include/COWN/tx_valve3.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1COWN_1_1tx__valve3_1a2d11b84be32873618e6d8e9f795d3e5d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1COWN_1_1tx__valve3_1ae79046cf4b7ec7da56cd4ddcd9e050d8" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::COWN::tx_valve3::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1COWN_1_1tx__valve3" kindref="compound">COWN::tx_valve3</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1COWN_1_1tx__valve3" kindref="compound">COWN::tx_valve3</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1COWN_1_1tx__valve3_1a2d11b84be32873618e6d8e9f795d3e5d" kindref="member">COWN::tx_valve3::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/include/COWN/tx_valve3.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>gr::COWN::tx_valve3</label>
+        <link refid="classgr_1_1COWN_1_1tx__valve3"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>gr::COWN::tx_valve3</label>
+        <link refid="classgr_1_1COWN_1_1tx__valve3"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/juan/cognitive/gr-COWN/include/COWN/tx_valve3.h" line="37" column="1" bodyfile="/home/juan/cognitive/gr-COWN/include/COWN/tx_valve3.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1COWN_1_1tx__valve3_1a2d11b84be32873618e6d8e9f795d3e5d" prot="public" virt="non-virtual"><scope>gr::COWN::tx_valve3</scope><name>make</name></member>
+      <member refid="classgr_1_1COWN_1_1tx__valve3_1ae79046cf4b7ec7da56cd4ddcd9e050d8" prot="public" virt="non-virtual"><scope>gr::COWN::tx_valve3</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

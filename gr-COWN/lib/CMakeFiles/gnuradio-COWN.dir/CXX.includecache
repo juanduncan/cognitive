@@ -6,16 +6,80 @@
 
 #IncludeRegexTransform: 
 
-/home/juan/cognitive/gr-COWN/lib/tx_valve3_impl.cc
+<<<<<<< HEAD
+/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.cc
+=======
+/home/nutaq/cognitive/gr-COWN/lib/resta_impl.cc
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 config.h
-/home/juan/cognitive/gr-COWN/lib/config.h
+/home/nutaq/cognitive/gr-COWN/lib/config.h
 gnuradio/io_signature.h
 -
-tx_valve3_impl.h
-/home/juan/cognitive/gr-COWN/lib/tx_valve3_impl.h
+<<<<<<< HEAD
+tx_valve_impl.h
+/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h
 
-/home/juan/cognitive/gr-COWN/lib/tx_valve3_impl.h
-COWN/tx_valve3.h
+/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h
+COWN/tx_valve.h
+=======
+resta_impl.h
+/home/nutaq/cognitive/gr-COWN/lib/resta_impl.h
+iostream
+-
+
+/home/nutaq/cognitive/gr-COWN/lib/resta_impl.h
+COWN/resta.h
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
+-
+
+/home/nutaq/cognitive/gr-COWN/lib/syncher2_impl.cc
+config.h
+/home/nutaq/cognitive/gr-COWN/lib/config.h
+gnuradio/io_signature.h
+-
+syncher2_impl.h
+/home/nutaq/cognitive/gr-COWN/lib/syncher2_impl.h
+
+/home/nutaq/cognitive/gr-COWN/lib/syncher2_impl.h
+COWN/syncher2.h
+-
+
+/home/nutaq/cognitive/gr-COWN/lib/syncher_impl.cc
+config.h
+/home/nutaq/cognitive/gr-COWN/lib/config.h
+gnuradio/io_signature.h
+-
+syncher_impl.h
+/home/nutaq/cognitive/gr-COWN/lib/syncher_impl.h
+
+/home/nutaq/cognitive/gr-COWN/lib/syncher_impl.h
+COWN/syncher.h
+-
+
+/home/nutaq/cognitive/gr-COWN/lib/tag_generator_impl.cc
+config.h
+/home/nutaq/cognitive/gr-COWN/lib/config.h
+gnuradio/io_signature.h
+-
+tag_generator_impl.h
+/home/nutaq/cognitive/gr-COWN/lib/tag_generator_impl.h
+iostream
+-
+
+/home/nutaq/cognitive/gr-COWN/lib/tag_generator_impl.h
+COWN/tag_generator.h
+-
+
+/home/nutaq/cognitive/gr-COWN/lib/test_impl.cc
+config.h
+/home/nutaq/cognitive/gr-COWN/lib/config.h
+gnuradio/io_signature.h
+-
+test_impl.h
+/home/nutaq/cognitive/gr-COWN/lib/test_impl.h
+
+/home/nutaq/cognitive/gr-COWN/lib/test_impl.h
+COWN/test.h
 -
 
 /usr/local/include/gnuradio/api.h
@@ -230,12 +294,21 @@ gnuradio/api.h
 boost/shared_ptr.hpp
 -
 
+<<<<<<< HEAD
+=======
 /usr/local/include/gnuradio/sync_block.h
 gnuradio/api.h
 -
 gnuradio/block.h
 -
 
+/usr/local/include/gnuradio/sync_decimator.h
+gnuradio/api.h
+-
+gnuradio/sync_block.h
+-
+
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 /usr/local/include/gnuradio/tags.h
 gnuradio/api.h
 -
@@ -308,7 +381,31 @@ include/COWN/api.h
 gnuradio/attributes.h
 -
 
-include/COWN/tx_valve3.h
+include/COWN/tx_valve.h
+COWN/api.h
+-
+gnuradio/block.h
+-
+
+include/COWN/syncher.h
+COWN/api.h
+-
+gnuradio/sync_block.h
+-
+
+include/COWN/syncher2.h
+COWN/api.h
+-
+gnuradio/block.h
+-
+
+include/COWN/tag_generator.h
+COWN/api.h
+-
+gnuradio/sync_decimator.h
+-
+
+include/COWN/test.h
 COWN/api.h
 -
 gnuradio/sync_block.h

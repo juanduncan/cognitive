@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_SOURCE_DIR = /home/nutaq/cognitive/gr-COWN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_BINARY_DIR = /home/nutaq/cognitive/gr-COWN
 
 # Include any dependencies generated for this target.
 include swig/CMakeFiles/COWN_swig_swig_2d0df.dir/depend.make
@@ -64,6 +64,7 @@ swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/sync_interpolato
 swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/gr_types.i
 swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/basic_block.i
 swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/gr_ctrlport.i
+swig/COWN_swig_swig_2d0df.cpp: swig/COWN_swig_doc.i
 swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/io_signature.i
 swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/top_block.i
 swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/gr_extras.i
@@ -79,43 +80,42 @@ swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/runtime_swig_doc
 swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/feval.i
 swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/sync_decimator.i
 swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/gr_logger.i
-swig/COWN_swig_swig_2d0df.cpp: swig/COWN_swig_doc.i
 swig/COWN_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/prefs.i
 swig/COWN_swig_swig_2d0df.cpp: swig/COWN_swig.tag
-	cd /home/juan/cognitive/gr-COWN/swig && /usr/bin/cmake -E copy /home/juan/cognitive/gr-COWN/swig/COWN_swig_swig_2d0df.cpp.in /home/juan/cognitive/gr-COWN/swig/COWN_swig_swig_2d0df.cpp
+	cd /home/nutaq/cognitive/gr-COWN/swig && /usr/bin/cmake -E copy /home/nutaq/cognitive/gr-COWN/swig/COWN_swig_swig_2d0df.cpp.in /home/nutaq/cognitive/gr-COWN/swig/COWN_swig_swig_2d0df.cpp
 
 swig/COWN_swig_doc.i: swig/../include/resta_resta.h
 swig/COWN_swig_doc.i: swig/COWN_swig_doc_swig_docs/xml/index.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating python docstrings for COWN_swig_doc"
-	cd /home/juan/cognitive/gr-COWN/docs/doxygen && /usr/bin/python2 -B /home/juan/cognitive/gr-COWN/docs/doxygen/swig_doc.py /home/juan/cognitive/gr-COWN/swig/COWN_swig_doc_swig_docs/xml /home/juan/cognitive/gr-COWN/swig/COWN_swig_doc.i
+	cd /home/nutaq/cognitive/gr-COWN/docs/doxygen && /usr/bin/python2 -B /home/nutaq/cognitive/gr-COWN/docs/doxygen/swig_doc.py /home/nutaq/cognitive/gr-COWN/swig/COWN_swig_doc_swig_docs/xml /home/nutaq/cognitive/gr-COWN/swig/COWN_swig_doc.i
 
 swig/COWN_swig.tag: swig/_COWN_swig_swig_tag
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating COWN_swig.tag"
-	cd /home/juan/cognitive/gr-COWN/swig && ./_COWN_swig_swig_tag
-	cd /home/juan/cognitive/gr-COWN/swig && /usr/bin/cmake -E touch /home/juan/cognitive/gr-COWN/swig/COWN_swig.tag
+	cd /home/nutaq/cognitive/gr-COWN/swig && ./_COWN_swig_swig_tag
+	cd /home/nutaq/cognitive/gr-COWN/swig && /usr/bin/cmake -E touch /home/nutaq/cognitive/gr-COWN/swig/COWN_swig.tag
 
 swig/COWN_swig_doc_swig_docs/xml/index.xml: swig/../include/resta_resta.h
 swig/COWN_swig_doc_swig_docs/xml/index.xml: swig/_COWN_swig_doc_tag
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating doxygen xml for COWN_swig_doc docs"
-	cd /home/juan/cognitive/gr-COWN/swig && ./_COWN_swig_doc_tag
-	cd /home/juan/cognitive/gr-COWN/swig && /usr/bin/doxygen /home/juan/cognitive/gr-COWN/swig/COWN_swig_doc_swig_docs/Doxyfile
+	cd /home/nutaq/cognitive/gr-COWN/swig && ./_COWN_swig_doc_tag
+	cd /home/nutaq/cognitive/gr-COWN/swig && /usr/bin/doxygen /home/nutaq/cognitive/gr-COWN/swig/COWN_swig_doc_swig_docs/Doxyfile
 
 swig/CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.o: swig/CMakeFiles/COWN_swig_swig_2d0df.dir/flags.make
 swig/CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.o: swig/COWN_swig_swig_2d0df.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object swig/CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.o"
-	cd /home/juan/cognitive/gr-COWN/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.o -c /home/juan/cognitive/gr-COWN/swig/COWN_swig_swig_2d0df.cpp
+	cd /home/nutaq/cognitive/gr-COWN/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.o -c /home/nutaq/cognitive/gr-COWN/swig/COWN_swig_swig_2d0df.cpp
 
 swig/CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.i"
-	cd /home/juan/cognitive/gr-COWN/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juan/cognitive/gr-COWN/swig/COWN_swig_swig_2d0df.cpp > CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.i
+	cd /home/nutaq/cognitive/gr-COWN/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nutaq/cognitive/gr-COWN/swig/COWN_swig_swig_2d0df.cpp > CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.i
 
 swig/CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.s"
-	cd /home/juan/cognitive/gr-COWN/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juan/cognitive/gr-COWN/swig/COWN_swig_swig_2d0df.cpp -o CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.s
+	cd /home/nutaq/cognitive/gr-COWN/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nutaq/cognitive/gr-COWN/swig/COWN_swig_swig_2d0df.cpp -o CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.s
 
 swig/CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.o.requires:
 .PHONY : swig/CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_swig_2d0df.cpp.o.requires
@@ -137,10 +137,10 @@ swig/COWN_swig_swig_2d0df: swig/CMakeFiles/COWN_swig_swig_2d0df.dir/COWN_swig_sw
 swig/COWN_swig_swig_2d0df: swig/CMakeFiles/COWN_swig_swig_2d0df.dir/build.make
 swig/COWN_swig_swig_2d0df: swig/CMakeFiles/COWN_swig_swig_2d0df.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable COWN_swig_swig_2d0df"
-	cd /home/juan/cognitive/gr-COWN/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/COWN_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/nutaq/cognitive/gr-COWN/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/COWN_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
-	cd /home/juan/cognitive/gr-COWN/swig && /usr/bin/cmake -E make_directory /home/juan/cognitive/gr-COWN/swig
-	cd /home/juan/cognitive/gr-COWN/swig && /usr/bin/swig2.0 -python -fvirtual -modern -keyword -w511 -module COWN_swig -DSIZE_T_UL -I/home/juan/cognitive/gr-COWN/swig -I/home/juan/cognitive/gr-COWN/swig -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -outdir /home/juan/cognitive/gr-COWN/swig -c++ -I/home/juan/cognitive/gr-COWN/lib -I/home/juan/cognitive/gr-COWN/include -I/home/juan/cognitive/gr-COWN/lib -I/home/juan/cognitive/gr-COWN/include -I/usr/include -I/usr/include -I/usr/local/include -I/home/juan/cognitive/gr-COWN/swig -I/home/juan/cognitive/gr-COWN/swig -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -o /home/juan/cognitive/gr-COWN/swig/COWN_swigPYTHON_wrap.cxx /home/juan/cognitive/gr-COWN/swig/COWN_swig.i
+	cd /home/nutaq/cognitive/gr-COWN/swig && /usr/bin/cmake -E make_directory /home/nutaq/cognitive/gr-COWN/swig
+	cd /home/nutaq/cognitive/gr-COWN/swig && /usr/bin/swig2.0 -python -fvirtual -modern -keyword -w511 -module COWN_swig -I/home/nutaq/cognitive/gr-COWN/swig -I/home/nutaq/cognitive/gr-COWN/swig -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -outdir /home/nutaq/cognitive/gr-COWN/swig -c++ -I/home/nutaq/cognitive/gr-COWN/lib -I/home/nutaq/cognitive/gr-COWN/include -I/home/nutaq/cognitive/gr-COWN/lib -I/home/nutaq/cognitive/gr-COWN/include -I/usr/include -I/usr/include -I/usr/local/include -I/home/nutaq/cognitive/gr-COWN/swig -I/home/nutaq/cognitive/gr-COWN/swig -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -o /home/nutaq/cognitive/gr-COWN/swig/COWN_swigPYTHON_wrap.cxx /home/nutaq/cognitive/gr-COWN/swig/COWN_swig.i
 
 # Rule to build all files generated by this target.
 swig/CMakeFiles/COWN_swig_swig_2d0df.dir/build: swig/COWN_swig_swig_2d0df
@@ -150,13 +150,13 @@ swig/CMakeFiles/COWN_swig_swig_2d0df.dir/requires: swig/CMakeFiles/COWN_swig_swi
 .PHONY : swig/CMakeFiles/COWN_swig_swig_2d0df.dir/requires
 
 swig/CMakeFiles/COWN_swig_swig_2d0df.dir/clean:
-	cd /home/juan/cognitive/gr-COWN/swig && $(CMAKE_COMMAND) -P CMakeFiles/COWN_swig_swig_2d0df.dir/cmake_clean.cmake
+	cd /home/nutaq/cognitive/gr-COWN/swig && $(CMAKE_COMMAND) -P CMakeFiles/COWN_swig_swig_2d0df.dir/cmake_clean.cmake
 .PHONY : swig/CMakeFiles/COWN_swig_swig_2d0df.dir/clean
 
 swig/CMakeFiles/COWN_swig_swig_2d0df.dir/depend: swig/COWN_swig_swig_2d0df.cpp
 swig/CMakeFiles/COWN_swig_swig_2d0df.dir/depend: swig/COWN_swig_doc.i
 swig/CMakeFiles/COWN_swig_swig_2d0df.dir/depend: swig/COWN_swig.tag
 swig/CMakeFiles/COWN_swig_swig_2d0df.dir/depend: swig/COWN_swig_doc_swig_docs/xml/index.xml
-	cd /home/juan/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN/swig /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN/swig /home/juan/cognitive/gr-COWN/swig/CMakeFiles/COWN_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nutaq/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN/swig /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN/swig /home/nutaq/cognitive/gr-COWN/swig/CMakeFiles/COWN_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/COWN_swig_swig_2d0df.dir/depend
 

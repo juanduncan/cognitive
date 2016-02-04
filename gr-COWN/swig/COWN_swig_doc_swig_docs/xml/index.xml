@@ -4,12 +4,15 @@
     <member refid="classgr_1_1COWN_1_1resta_1a2852e7ccd939b9356c5a2dd51fb76021" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1COWN_1_1resta_1acb8cd9866782db77b7fbdaa3a0565853" kind="function"><name>make</name></member>
   </compound>
+<<<<<<< HEAD
   <compound refid="classresta__resta" kind="class"><name>resta_resta</name>
     <member refid="classresta__resta_1a5c42821b53df29df56c73fb2cad8e7db" kind="friend"><name>resta_make_resta</name></member>
     <member refid="classresta__resta_1a54ad676de33193fe31b35e95834193e8" kind="function"><name>resta_resta</name></member>
     <member refid="classresta__resta_1a07f3e9b66f69f6f139b11c191bbeb87e" kind="function"><name>~resta_resta</name></member>
     <member refid="classresta__resta_1af6eab750b801b92330e758dfaf446ec2" kind="function"><name>work</name></member>
   </compound>
+=======
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
   <compound refid="classgr_1_1COWN_1_1syncher" kind="class"><name>gr::COWN::syncher</name>
     <member refid="classgr_1_1COWN_1_1syncher_1afed2f59e4187232a7c95656e81a0f2d7" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1COWN_1_1syncher_1a0ecf30d38c43e62bb05428bc892504c9" kind="function"><name>make</name></member>
@@ -45,12 +48,16 @@
   </compound>
   <compound refid="test_8h" kind="file"><name>test.h</name>
   </compound>
+<<<<<<< HEAD
   <compound refid="resta__resta_8h" kind="file"><name>resta_resta.h</name>
     <member refid="resta__resta_8h_1a3fa54c5dbedf03ada0f44334965d1b71" kind="typedef"><name>resta_resta_sptr</name></member>
     <member refid="resta__resta_8h_1a5c42821b53df29df56c73fb2cad8e7db" kind="function"><name>resta_make_resta</name></member>
   </compound>
   <compound refid="dir_71e976a3faa97e5c8e4dc37841a82788" kind="dir"><name>/home/juan/cognitive/gr-COWN/include/COWN</name>
+=======
+  <compound refid="dir_71e976a3faa97e5c8e4dc37841a82788" kind="dir"><name>/home/nutaq/cognitive/gr-COWN/include/COWN</name>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/juan/cognitive/gr-COWN/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/nutaq/cognitive/gr-COWN/include</name>
   </compound>
 </doxygenindex>

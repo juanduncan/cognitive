@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1COWN_1_1tx__valve__impl" kind="class" prot="public">
+    <compoundname>gr::COWN::tx_valve_impl</compoundname>
+    <basecompoundref refid="classgr_1_1COWN_1_1tx__valve" prot="public" virt="non-virtual">gr::COWN::tx_valve</basecompoundref>
+    <includes refid="tx__valve__impl_8h" local="no">tx_valve_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1tx__valve__impl_1afaa45bfb9d9ac1222c6638718afe5d44" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr::tag_t &gt;</type>
+        <definition>std::vector&lt;gr::tag_t&gt; gr::COWN::tx_valve_impl::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" line="32" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1tx__valve__impl_1a61023b581067532707dd406eafe13039" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long gr::COWN::tx_valve_impl::packet_length</definition>
+        <argsstring></argsstring>
+        <name>packet_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" line="33" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1tx__valve__impl_1ae3c783aea43b965999c6c06edb7ed6ac" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::COWN::tx_valve_impl::transmit_tail</definition>
+        <argsstring></argsstring>
+        <name>transmit_tail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" line="34" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1tx__valve__impl_1a5e59021547539230600c9c6aad65d26f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::COWN::tx_valve_impl::Number_of_last_samples</definition>
+        <argsstring></argsstring>
+        <name>Number_of_last_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" line="35" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1COWN_1_1tx__valve__impl_1a32116e16c8f9ef9f0862867a79f13245" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::tx_valve_impl::tx_valve_impl</definition>
+        <argsstring>()</argsstring>
+        <name>tx_valve_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1tx__valve__impl_1ab9beb8844e7243acb75d910e54c1c7d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::tx_valve_impl::~tx_valve_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~tx_valve_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1tx__valve__impl_1a1a82cf7b2e55efa1900495e0a22a72e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::COWN::tx_valve_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1tx__valve__impl_1a2f6e01b1aba4e8c00990e569adc4ddae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::COWN::tx_valve_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" line="44" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="90">
+        <label>gr::COWN::tx_valve_impl</label>
+        <link refid="classgr_1_1COWN_1_1tx__valve__impl"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>gr::COWN::tx_valve</label>
+        <link refid="classgr_1_1COWN_1_1tx__valve"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="93">
+        <label>gr::COWN::tx_valve_impl</label>
+        <link refid="classgr_1_1COWN_1_1tx__valve__impl"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>gr::COWN::tx_valve</label>
+        <link refid="classgr_1_1COWN_1_1tx__valve"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" line="30" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/tx_valve_impl.h" bodystart="29" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classgr_1_1COWN_1_1tx__valve__impl_1afaa45bfb9d9ac1222c6638718afe5d44" prot="private" virt="non-virtual"><scope>gr::COWN::tx_valve_impl</scope><name>d_tags</name></member>
+      <member refid="classgr_1_1COWN_1_1tx__valve__impl_1a1a82cf7b2e55efa1900495e0a22a72e9" prot="public" virt="non-virtual"><scope>gr::COWN::tx_valve_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1COWN_1_1tx__valve__impl_1a2f6e01b1aba4e8c00990e569adc4ddae" prot="public" virt="non-virtual"><scope>gr::COWN::tx_valve_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1COWN_1_1tx__valve_1a37ed5b34e462c63c45c530edbbc6e335" prot="public" virt="non-virtual"><scope>gr::COWN::tx_valve_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1COWN_1_1tx__valve__impl_1a5e59021547539230600c9c6aad65d26f" prot="private" virt="non-virtual"><scope>gr::COWN::tx_valve_impl</scope><name>Number_of_last_samples</name></member>
+      <member refid="classgr_1_1COWN_1_1tx__valve__impl_1a61023b581067532707dd406eafe13039" prot="private" virt="non-virtual"><scope>gr::COWN::tx_valve_impl</scope><name>packet_length</name></member>
+      <member refid="classgr_1_1COWN_1_1tx__valve_1a169ac7071c16c0d3d14b62d1a5156a7c" prot="public" virt="non-virtual"><scope>gr::COWN::tx_valve_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1COWN_1_1tx__valve__impl_1ae3c783aea43b965999c6c06edb7ed6ac" prot="private" virt="non-virtual"><scope>gr::COWN::tx_valve_impl</scope><name>transmit_tail</name></member>
+      <member refid="classgr_1_1COWN_1_1tx__valve__impl_1a32116e16c8f9ef9f0862867a79f13245" prot="public" virt="non-virtual"><scope>gr::COWN::tx_valve_impl</scope><name>tx_valve_impl</name></member>
+      <member refid="classgr_1_1COWN_1_1tx__valve__impl_1ab9beb8844e7243acb75d910e54c1c7d3" prot="public" virt="non-virtual"><scope>gr::COWN::tx_valve_impl</scope><name>~tx_valve_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -31,6 +31,8 @@ namespace gr {
      private:
       std::vector<gr::tag_t> d_tags;
       long packet_length; 
+      bool transmit_tail;
+      int Number_of_last_samples;
 
      public:
       tx_valve_impl();

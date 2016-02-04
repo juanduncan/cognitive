@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="api_8h" kind="file">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="resta_8h" local="no">resta.h</includedby>
+    <includedby refid="syncher_8h" local="no">syncher.h</includedby>
+    <includedby refid="syncher2_8h" local="no">syncher2.h</includedby>
+    <includedby refid="tag__generator_8h" local="no">tag_generator.h</includedby>
+    <includedby refid="test_8h" local="no">test.h</includedby>
+    <includedby refid="tx__valve_8h" local="no">tx_valve.h</includedby>
+    <includedby refid="tx__valve2_8h" local="no">tx_valve2.h</includedby>
+    <includedby refid="tx__valve3_8h" local="no">tx_valve3.h</includedby>
+    <incdepgraph>
+      <node id="0">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8">
+        <label>syncher2_impl.h</label>
+        <link refid="syncher2__impl_8h"/>
+      </node>
+      <node id="18">
+        <label>tx_valve3_impl.h</label>
+        <link refid="tx__valve3__impl_8h"/>
+      </node>
+      <node id="10">
+        <label>tag_generator_impl.h</label>
+        <link refid="tag__generator__impl_8h"/>
+      </node>
+      <node id="16">
+        <label>tx_valve2_impl.h</label>
+        <link refid="tx__valve2__impl_8h"/>
+      </node>
+      <node id="5">
+        <label>syncher.h</label>
+        <link refid="syncher_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>tag_generator.h</label>
+        <link refid="tag__generator_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>tx_valve2.h</label>
+        <link refid="tx__valve2_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>test.h</label>
+        <link refid="test_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>tx_valve_impl.h</label>
+        <link refid="tx__valve__impl_8h"/>
+      </node>
+      <node id="3">
+        <label>resta.h</label>
+        <link refid="resta_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>tx_valve.h</label>
+        <link refid="tx__valve_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>resta_impl.h</label>
+        <link refid="resta__impl_8h"/>
+      </node>
+      <node id="6">
+        <label>syncher_impl.h</label>
+        <link refid="syncher__impl_8h"/>
+      </node>
+      <node id="7">
+        <label>syncher2.h</label>
+        <link refid="syncher2_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>test_impl.h</label>
+        <link refid="test__impl_8h"/>
+      </node>
+      <node id="17">
+        <label>tx_valve3.h</label>
+        <link refid="tx__valve3_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1aa9c4153d87e79b6d387e3953341f2b3e" prot="public" static="no">
+        <name>COWN_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/include/COWN/api.h" line="30" column="12" bodyfile="/home/juan/cognitive/gr-COWN/include/COWN/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-COWN/include/COWN/api.h"/>
+  </compounddef>
+</doxygen>

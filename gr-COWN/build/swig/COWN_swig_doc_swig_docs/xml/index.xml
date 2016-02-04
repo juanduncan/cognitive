@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1COWN_1_1resta" kind="class"><name>gr::COWN::resta</name>
+    <member refid="classgr_1_1COWN_1_1resta_1a2852e7ccd939b9356c5a2dd51fb76021" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1COWN_1_1resta_1acb8cd9866782db77b7fbdaa3a0565853" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classresta__resta" kind="class"><name>resta_resta</name>
+    <member refid="classresta__resta_1a5c42821b53df29df56c73fb2cad8e7db" kind="friend"><name>resta_make_resta</name></member>
+    <member refid="classresta__resta_1a54ad676de33193fe31b35e95834193e8" kind="function"><name>resta_resta</name></member>
+    <member refid="classresta__resta_1a07f3e9b66f69f6f139b11c191bbeb87e" kind="function"><name>~resta_resta</name></member>
+    <member refid="classresta__resta_1af6eab750b801b92330e758dfaf446ec2" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1COWN_1_1syncher" kind="class"><name>gr::COWN::syncher</name>
+    <member refid="classgr_1_1COWN_1_1syncher_1afed2f59e4187232a7c95656e81a0f2d7" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1COWN_1_1syncher_1a0ecf30d38c43e62bb05428bc892504c9" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1COWN_1_1syncher2" kind="class"><name>gr::COWN::syncher2</name>
+    <member refid="classgr_1_1COWN_1_1syncher2_1a39b9f6b391694a57a85722d038329d70" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1COWN_1_1syncher2_1a261c49795a3633a9f6bc559f7dd599d9" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1COWN_1_1tag__generator" kind="class"><name>gr::COWN::tag_generator</name>
+    <member refid="classgr_1_1COWN_1_1tag__generator_1a069e25521abe363e02f21529075787ba" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1COWN_1_1tag__generator_1a3591ac91da093638c40d465b9fe8eddf" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1COWN_1_1test" kind="class"><name>gr::COWN::test</name>
+    <member refid="classgr_1_1COWN_1_1test_1a9f7261bd59c3d52c16d1800d09d88834" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1COWN_1_1test_1a4c26f82c3529b12867fbcb735884df82" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1COWN_1_1tx__valve" kind="class"><name>gr::COWN::tx_valve</name>
+    <member refid="classgr_1_1COWN_1_1tx__valve_1a169ac7071c16c0d3d14b62d1a5156a7c" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1COWN_1_1tx__valve_1a37ed5b34e462c63c45c530edbbc6e335" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1COWN_1_1tx__valve2" kind="class"><name>gr::COWN::tx_valve2</name>
+    <member refid="classgr_1_1COWN_1_1tx__valve2_1a3fe5075ad9edadbf4fa703499ee4548e" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1COWN_1_1tx__valve2_1aad2d07e427c267bd4747a088f89dc5e0" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1COWN_1_1tx__valve3" kind="class"><name>gr::COWN::tx_valve3</name>
+    <member refid="classgr_1_1COWN_1_1tx__valve3_1ae79046cf4b7ec7da56cd4ddcd9e050d8" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1COWN_1_1tx__valve3_1a2d11b84be32873618e6d8e9f795d3e5d" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1COWN" kind="namespace"><name>gr::COWN</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1aa9c4153d87e79b6d387e3953341f2b3e" kind="define"><name>COWN_API</name></member>
+  </compound>
+  <compound refid="resta_8h" kind="file"><name>resta.h</name>
+  </compound>
+  <compound refid="syncher_8h" kind="file"><name>syncher.h</name>
+  </compound>
+  <compound refid="syncher2_8h" kind="file"><name>syncher2.h</name>
+  </compound>
+  <compound refid="tag__generator_8h" kind="file"><name>tag_generator.h</name>
+  </compound>
+  <compound refid="test_8h" kind="file"><name>test.h</name>
+  </compound>
+  <compound refid="tx__valve_8h" kind="file"><name>tx_valve.h</name>
+  </compound>
+  <compound refid="tx__valve2_8h" kind="file"><name>tx_valve2.h</name>
+  </compound>
+  <compound refid="tx__valve3_8h" kind="file"><name>tx_valve3.h</name>
+  </compound>
+  <compound refid="resta__resta_8h" kind="file"><name>resta_resta.h</name>
+    <member refid="resta__resta_8h_1a3fa54c5dbedf03ada0f44334965d1b71" kind="typedef"><name>resta_resta_sptr</name></member>
+    <member refid="resta__resta_8h_1a5c42821b53df29df56c73fb2cad8e7db" kind="function"><name>resta_make_resta</name></member>
+  </compound>
+  <compound refid="dir_71e976a3faa97e5c8e4dc37841a82788" kind="dir"><name>/home/juan/cognitive/gr-COWN/include/COWN</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/juan/cognitive/gr-COWN/include</name>
+  </compound>
+</doxygenindex>

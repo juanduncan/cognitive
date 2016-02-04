@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/juan/cognitive/gr-COWN/lib/qa_COWN.cc
+/home/nutaq/cognitive/gr-COWN/lib/qa_COWN.cc
 qa_COWN.h
-/home/juan/cognitive/gr-COWN/lib/qa_COWN.h
+/home/nutaq/cognitive/gr-COWN/lib/qa_COWN.h
 
-/home/juan/cognitive/gr-COWN/lib/qa_COWN.h
+/home/nutaq/cognitive/gr-COWN/lib/qa_COWN.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
 -
 
-/home/juan/cognitive/gr-COWN/lib/test_COWN.cc
+/home/nutaq/cognitive/gr-COWN/lib/test_COWN.cc
 config.h
-/home/juan/cognitive/gr-COWN/lib/config.h
+/home/nutaq/cognitive/gr-COWN/lib/config.h
 cppunit/TextTestRunner.h
 -
 cppunit/XmlOutputter.h
@@ -26,7 +26,7 @@ cppunit/XmlOutputter.h
 gnuradio/unittests.h
 -
 qa_COWN.h
-/home/juan/cognitive/gr-COWN/lib/qa_COWN.h
+/home/nutaq/cognitive/gr-COWN/lib/qa_COWN.h
 iostream
 -
 fstream

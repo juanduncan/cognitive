@@ -1,0 +1,109 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%opening
+\title{}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\section{Channel capacity optimization for single subband}
+%% Thourthput optimization
+% We assume a wideband received signal. Which is noise plus the signal
+% transmitted by the other users.
+ 
+% We can not say that the spectrum change abrubptly from one subband to the
+% other, and in realit there is a subband to subband interference.
+ 
+%Anyway, if we assume that the subband have a square shape and that we can
+%have very long FFTs, then.
+ 
+ For a given subband we can obtain the optimum sensing time which
+  maximizes the probability of Pnf = ( 1- Pfa ).
+ The channel capacity for the subcahnnel kwill be:
+ 
+ 
+ $$ C = \frac{T_f}{T_f + T_0}B_k \log_2(1+ \gamma_k ) \cdot P(H_0) \cdot  (1- P_{f}) $$
+ 
+%% For the moment we will not consider the transmission under missdetection assumption.
+
+
+%%$$ $$
+ 
+ $$ P_f = Q(\lambda) $$
+ 
+ s.t. $$ P_d = Q{ \left( \frac{\lambda - \mu }{\sigma}  \right) } =
+ \hat{P_d} $$
+ Where:
+ 
+ \begin{equation}
+   \mu = \sqrt{ \frac{N_k N_i }{N_i + N_k}  }, \hspace{1cm}  
+   \sigma = (1 + \gamma_k)^2,  
+   \hspace{1cm} N_k = B_k \ T_0, N_i = \textbf{Constant}   
+ \end{equation}
+  
+The optimal $\lambda$ will be a function of the sensing time $T_0$.
+
+
+ \begin{equation}
+  \lambda        =
+ \sigma \  Q_\textrm{inv}   ( \hat{P_d}   )    +  \mu  =  
+   \sigma \  Q_\textrm{inv}   ( \hat{P_d}   )    + \sqrt{ \frac{N_k N_i }{N_i + N_k}  }
+\end{equation}
+ 
+ 
+  \begin{equation}
+  \lambda        = 
+   \sigma \  Q_\textrm{inv}   ( \hat{P_d}   )    + \sqrt{ \frac{   \alpha }{ \alpha   + 1}  } B_k T_0
+\end{equation}
+
+
+with $N_i = \alpha N_k$
+
+Replacing  in the Capacity:
+
+$$ C = \frac{T_f}{T_f + T_0}R_k  \cdot P(H_0) \cdot \left(1-   Q \left(   \sigma \  Q_\textrm{inv}   ( \hat{P_d}   )    + \sqrt{ \frac{   \alpha }{ \alpha   + 1}  } B_k T_0  \right)      \right) $$
+ 
+
+\begin{equation}
+ C' =    T_f \ R_k  \ P(H_0) \cdot 
+ \left[ \frac{1}{T_f + T_0} \cdot 
+ \left(1-   Q \left(   \sigma \  Q_\textrm{inv}   ( \hat{P_d}   )    + \sqrt{ \frac{   \alpha }{ \alpha   + 1}  } B_k T_0  \right)      \right)  
+\right]'
+ \end{equation}
+  
+  
+  \begin{equation}
+ C' =    T_f \ R_k  \ P(H_0) \cdot 
+ \left[ \frac{ \left(1-   Q \left(   \sigma \  Q_\textrm{inv}   ( \hat{P_d}   )    
+ + \sqrt{ \frac{   \alpha }{ \alpha   + 1}  } B_k T_0  \right)      \right)}{T_f + T_0}    
+\right]'
+ \end{equation}
+
+ 
+   \begin{equation}
+ C' =    a_0 \cdot 
+ \left[ \frac{  -(Tf + T_0) \cdot 
+  Q' \left(   a_1   
+ + a_2 T_0  \right)     
+ -\left(1-   Q \left(  a_1
+ + a_2 T_0  \right)      \right)}
+ { (T_f + T_0)^2 }    
+\right]
+ \end{equation}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+\end{document}

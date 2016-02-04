@@ -49,6 +49,8 @@ namespace gr {
               gr::io_signature::make(1, 1, sizeof(gr_complex)))
     {
 	set_tag_propagation_policy(block::TPP_ALL_TO_ALL);
+	transmit_tail = false;
+	Number_of_last_samples =0;
 	}
 
     /*
@@ -61,9 +63,9 @@ namespace gr {
     void
     tx_valve_impl::forecast (int noutput_items, gr_vector_int &ninput_items_required)
     {      if (noutput_items >1024){
-           ninput_items_required[0] = noutput_items;
+           ninput_items_required[0] = 0;
            }else{
-			  ninput_items_required[0] = 1024; 
+			  ninput_items_required[0] = 0; 
 			  }
                  
     }
@@ -81,52 +83,88 @@ namespace gr {
 		uint64_t abs_start = nitems_read(0) ;
         uint64_t abs_end = nitems_read(0) + noutput_items ;
 		get_tags_in_range(d_tags, 0, abs_start,abs_end);
-		 if (d_tags.size()) {
-			 std::sort(d_tags.begin(), d_tags.end(), gr::tag_t::offset_compare);
-			 gr::tag_t el =  d_tags.front();
-			 //cout << "dtags " << el.key << "   " << el.value   << "\t";
-			 cout << "size " << d_tags.size()   << "\t";
-			 cout << "offset " << el.offset   << "\t";
-			 el = d_tags[2];
-			 //pmt::pmt_t packet_length = el.value;
-			 packet_length = pmt::to_long(el.value);
-			 cout << "dtags " << el.key << "   " <<   packet_length  << "\t";
-			 cout<<  "nitems_read(0)" << ": "<<  nitems_read(0)<< "\t\t"  ;
-			 cout<<  "nitems_written(0)" << ": "<<  nitems_written(0)<< "\t"  ;
-			 cout<<  "Time Written" << ": "<<  nitems_written(0)/5e5<< "\t"  ;
-			 //cout<<  "Ratio" << ": "<<  nitems_read(0)/nitems_written(0)*1.00 << "\t"  ;
-			 cout << "ninput_items: "  << ninput_items[0]  << "\t";
-			 cout << "noutput_items: "  << noutput_items  << endl;
-		 }else{ 
-			 cout << "\tsize " << d_tags.size()   << "\t";
-			 cout << "\t\t";
-			 cout << "dtags " << "llama packet_length" << "   " <<   packet_length  << "\t";
-			 cout<<  "nitems_read(0)" << ": "<<  nitems_read(0)<< "\t\t"  ;
-			 cout<<  "nitems_written(0)" << ": "<<  nitems_written(0)<< "\t"  ;
-			 cout<<  "Time Written" << ": "<<  nitems_written(0)/5e5<< "\t"  ;
-			 //cout<<  "Ratio" << ": "<<  nitems_read(0)/nitems_written(0)*1.00 << "\t"  ;
-			 cout << "ninput_items: "  << ninput_items[0]  << "\t";
-			 cout << "noutput_items: "  << noutput_items  << endl;
-	      }
+		 //if (d_tags.size()) {
+			 //std::sort(d_tags.begin(), d_tags.end(), gr::tag_t::offset_compare);
+			 //gr::tag_t el =  d_tags.front();
+			 ////cout << "dtags " << el.key << "   " << el.value   << "\t";
+			 //cout << "size " << d_tags.size()   << "\t";
+			 //cout << "offset " << el.offset   << "\t";
+			 //el = d_tags[2];
+			 ////pmt::pmt_t packet_length = el.value;
+			 //packet_length = pmt::to_long(el.value);
+			 //cout << "dtags " << el.key << " " <<   packet_length  << "\t";
+			 //cout<<  "nitems_read" << ": "<<  nitems_read(0)<< "\t"  ;
+			 //cout<<  "nitems_written" << ": "<<  nitems_written(0)<< "\t"  ;
+			 //cout<<  "Time W" << ": "<<  nitems_written(0)/5e5<< "\t"  ;
+			 ////cout<<  "Ratio" << ": "<<  nitems_read(0)/nitems_written(0)*1.00 << "\t"  ;
+			 //cout << "ninput: "  << ninput_items[0]  << "\t";
+			 //cout << "noutput: "  << noutput_items  << endl;
+		 //}else{ 
+			 //cout << "\tsize " << d_tags.size()   << "\t";
+			 //cout << " packet_length" << "   " <<   packet_length  << "\t";
+			 //cout<<  "nitems_read(0)" << ": "<<  nitems_read(0)<< "\t"  ;
+			 //cout<<  "nitems_written" << ": "<<  nitems_written(0)<< "\t"  ;
+			 //cout<<  "Time W" << ": "<<  nitems_written(0)/5e5<< "\t"  ;
+			 ////cout<<  "Ratio" << ": "<<  nitems_read(0)/nitems_written(0)*1.00 << "\t"  ;
+			 //cout << "ninput: "  << ninput_items[0]  << "\t";
+			 //cout << "noutput: "  << noutput_items  << endl;
+	      //}
          
          int items_to_produce;
 
-         if(packet_length >= noutput_items) {
-			 packet_length-=noutput_items;
-			 items_to_produce = noutput_items;
-		 }else if(packet_length < noutput_items){
-			 packet_length = 0 ;
-			 items_to_produce = noutput_items - packet_length;  
-	     }
+         //if(packet_length >= noutput_items) {
+			 //packet_length-=noutput_items;
+			 //items_to_produce = noutput_items;
+		 //}else if(packet_length < noutput_items){
+			 //packet_length = 0 ;
+			 //items_to_produce = noutput_items - packet_length;  
+	     //}
         //for(int i=0; i <1; i++ ){cout << "PUTA "<< items_to_produce<< " no"<< noutput_items << " ";} 
           
-          
-        for(int i=0; i <items_to_produce; i++ ){out[i] = in[i];}
-        for(int i=items_to_produce; i <noutput_items; i++ ){
-			out[i] = gr_complex(0,0);
+        
+        if (ninput_items[0] <  noutput_items){ 
+			for(int i=0; i <ninput_items[0]; i++ ){out[i] = in[i];}
+			for(int i=ninput_items[0]; i <noutput_items; i++ ){
+				out[i] = gr_complex(0,0); 
+			}
+			consume_each(ninput_items[0]);
+		}else{
+			for(int i=0; i <noutput_items; i++ ){out[i] = in[i];}
+			consume_each(noutput_items);
 		}
         
-        consume_each(items_to_produce);
+        
+			 
+				
+		//if(!transmit_tail){
+			//if (ninput_items[0] >= noutput_items){
+				//for(int i=0; i <noutput_items; i++ ){out[i] = in[i];}
+				//if (ninput_items[0] > noutput_items+1024){
+					//consume_each(noutput_items);
+				//}else{
+					//transmit_tail = true;
+					//Number_of_last_samples = ninput_items[0];
+				//}
+			//}else{
+				//for(int i=0; i <ninput_items[0]; i++ ){out[i] = in[i];}
+				//for(int i=ninput_items[0]; i <noutput_items; i++ ){
+					//out[i] = gr_complex(0,0); 
+				//}
+				//transmit_tail = true;
+				//Number_of_last_samples = ninput_items[0];
+			//}
+		//}else{
+			//for(int i=0; i <noutput_items; i++ ){
+					//out[i] = gr_complex(0,0);
+			//}
+			//if (ninput_items[0] > Number_of_last_samples){
+				//consume_each(Number_of_last_samples);
+				//transmit_tail = false;
+			//}
+		//}
+		 
+			
+			 
         return noutput_items;
     }
 

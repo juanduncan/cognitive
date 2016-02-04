@@ -49,8 +49,13 @@ namespace gr {
               gr::io_signature::make(0, 0, 0),
               gr::io_signature::make(1, 1, sizeof(gr_complex)))
     {
-	for(int k=0; k < 2000; k++){
-		//senoidal[k] = exp(  -gr_complex(0, k));
+	senoidal.clear();
+	Nsamples =  2000;
+	tau = PRI = Nsamples;
+	sen_index = 0;
+	remaining_PRI  = 0;
+	for(int k=0; k <Nsamples;  k++){
+		senoidal.push_back(        exp(       gr_complex(0, 2*3.141559*(k%Nsamples)*3.0/Nsamples))                   );
 		}	
 		
 	}
@@ -68,10 +73,32 @@ namespace gr {
 			  gr_vector_void_star &output_items)
     {
         gr_complex *out = (gr_complex *) output_items[0];
-
+		
+		//memset(out, 0x00, noutput_items*8 ); 
+		 
+		int Npri;
+		
+		Npri = int( ceil(  (remaining_PRI + PRI)*1.0/noutput_items    ));
+		
+		
+		
+		 
         for(int i =0; i <noutput_items ; i++){
-			out[i]= gr_complex(0 , float( i%20 )  );
-			}
+			if (sen_index < Nsamples) {
+			out[i]= senoidal[sen_index];
+		  }else{
+			  out[i] = gr_complex(0,0);
+			  }
+			
+			if (sen_index >= Nsamples -1 + 800 ){
+					sen_index =0;
+			}else{ 
+				sen_index++;
+			}	
+		}  
+
+
+
 
         // Tell runtime system how many output items we produced.
         return noutput_items;

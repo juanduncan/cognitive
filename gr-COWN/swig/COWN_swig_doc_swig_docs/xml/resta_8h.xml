@@ -5,12 +5,15 @@
     <includes refid="api_8h" local="no">COWN/api.h</includes>
     <includes local="no">gnuradio/sync_block.h</includes>
     <incdepgraph>
+<<<<<<< HEAD
       <node id="9">
         <label>COWN/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="10" relation="include">
         </childnode>
       </node>
+=======
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
       <node id="11">
         <label>gnuradio/sync_block.h</label>
       </node>
@@ -18,13 +21,26 @@
         <label>gnuradio/attributes.h</label>
       </node>
       <node id="8">
+<<<<<<< HEAD
         <label>/home/juan/cognitive/gr-COWN/include/COWN/resta.h</label>
+=======
+        <label>/home/nutaq/cognitive/gr-COWN/include/COWN/resta.h</label>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
         <link refid="resta.h"/>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
       </node>
+<<<<<<< HEAD
+=======
+      <node id="9">
+        <label>COWN/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
     </incdepgraph>
     <innerclass refid="classgr_1_1COWN_1_1resta" prot="public">gr::COWN::resta</innerclass>
     <innernamespace refid="namespacegr">gr</innernamespace>
@@ -36,7 +52,11 @@
     <programlisting>
 <codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/></highlight></codeline>
+<<<<<<< HEAD
 <codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2016<sp/>&lt;+YOU<sp/>OR<sp/>YOUR<sp/>COMPANY+&gt;.</highlight></codeline>
+=======
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2015<sp/>&lt;+YOU<sp/>OR<sp/>YOUR<sp/>COMPANY+&gt;.</highlight></codeline>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 <codeline lineno="4"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
 <codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
 <codeline lineno="6"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
@@ -78,6 +98,10 @@
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_COWN_RESTA_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
 <codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
+<<<<<<< HEAD
     <location file="/home/juan/cognitive/gr-COWN/include/COWN/resta.h"/>
+=======
+    <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/resta.h"/>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
   </compounddef>
 </doxygen>

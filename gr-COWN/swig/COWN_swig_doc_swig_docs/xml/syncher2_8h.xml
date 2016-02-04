@@ -5,12 +5,15 @@
     <includes refid="api_8h" local="no">COWN/api.h</includes>
     <includes local="no">gnuradio/block.h</includes>
     <incdepgraph>
+<<<<<<< HEAD
       <node id="19">
         <label>COWN/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="20" relation="include">
         </childnode>
       </node>
+=======
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
       <node id="20">
         <label>gnuradio/attributes.h</label>
       </node>
@@ -18,13 +21,26 @@
         <label>gnuradio/block.h</label>
       </node>
       <node id="18">
+<<<<<<< HEAD
         <label>/home/juan/cognitive/gr-COWN/include/COWN/syncher2.h</label>
+=======
+        <label>/home/nutaq/cognitive/gr-COWN/include/COWN/syncher2.h</label>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
         <link refid="syncher2.h"/>
         <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
       </node>
+<<<<<<< HEAD
+=======
+      <node id="19">
+        <label>COWN/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
     </incdepgraph>
     <innerclass refid="classgr_1_1COWN_1_1syncher2" prot="public">gr::COWN::syncher2</innerclass>
     <innernamespace refid="namespacegr">gr</innernamespace>
@@ -78,6 +94,10 @@
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_COWN_SYNCHER2_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
 <codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
+<<<<<<< HEAD
     <location file="/home/juan/cognitive/gr-COWN/include/COWN/syncher2.h"/>
+=======
+    <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/syncher2.h"/>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
   </compounddef>
 </doxygen>

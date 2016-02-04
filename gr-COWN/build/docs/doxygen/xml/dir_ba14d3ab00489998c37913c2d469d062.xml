@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ba14d3ab00489998c37913c2d469d062" kind="dir">
+    <compoundname>GNURC_apps_FROM_MACBOOK</compoundname>
+    <innerfile refid="Xdecimador__impl_8h">Xdecimador_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-COWN/examples/GNURC_apps/GNURC_apps_FROM_MACBOOK/"/>
+  </compounddef>
+</doxygen>

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_SOURCE_DIR = /home/nutaq/cognitive/gr-COWN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_BINARY_DIR = /home/nutaq/cognitive/gr-COWN
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/juan/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_progress_start /home/juan/cognitive/gr-COWN/CMakeFiles /home/juan/cognitive/gr-COWN/include/COWN/CMakeFiles/progress.marks
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 include/COWN/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juan/cognitive/gr-COWN/CMakeFiles 0
+	cd /home/nutaq/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_progress_start /home/nutaq/cognitive/gr-COWN/CMakeFiles /home/nutaq/cognitive/gr-COWN/include/COWN/CMakeFiles/progress.marks
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 include/COWN/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nutaq/cognitive/gr-COWN/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 include/COWN/clean
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 include/COWN/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,17 +126,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 include/COWN/preinstall
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 include/COWN/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 include/COWN/preinstall
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 include/COWN/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/juan/cognitive/gr-COWN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nutaq/cognitive/gr-COWN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -162,6 +162,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/juan/cognitive/gr-COWN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nutaq/cognitive/gr-COWN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

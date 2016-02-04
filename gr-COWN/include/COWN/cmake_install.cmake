@@ -1,4 +1,4 @@
-# Install script for directory: /home/juan/cognitive/gr-COWN/include/COWN
+# Install script for directory: /home/nutaq/cognitive/gr-COWN/include/COWN
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,7 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/COWN" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/juan/cognitive/gr-COWN/include/COWN/api.h"
     "/home/juan/cognitive/gr-COWN/include/COWN/tag_generator.h"
     "/home/juan/cognitive/gr-COWN/include/COWN/test.h"
@@ -43,6 +44,14 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/juan/cognitive/gr-COWN/include/COWN/tx_valve.h"
     "/home/juan/cognitive/gr-COWN/include/COWN/tx_valve2.h"
     "/home/juan/cognitive/gr-COWN/include/COWN/tx_valve3.h"
+=======
+    "/home/nutaq/cognitive/gr-COWN/include/COWN/api.h"
+    "/home/nutaq/cognitive/gr-COWN/include/COWN/tag_generator.h"
+    "/home/nutaq/cognitive/gr-COWN/include/COWN/test.h"
+    "/home/nutaq/cognitive/gr-COWN/include/COWN/syncher.h"
+    "/home/nutaq/cognitive/gr-COWN/include/COWN/syncher2.h"
+    "/home/nutaq/cognitive/gr-COWN/include/COWN/resta.h"
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

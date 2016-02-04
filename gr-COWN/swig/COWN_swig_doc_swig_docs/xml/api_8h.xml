@@ -3,29 +3,58 @@
   <compounddef id="api_8h" kind="file">
     <compoundname>api.h</compoundname>
     <includes local="no">gnuradio/attributes.h</includes>
+<<<<<<< HEAD
     <includedby refid="resta_8h" local="no">/home/juan/cognitive/gr-COWN/include/COWN/resta.h</includedby>
     <includedby refid="syncher_8h" local="no">/home/juan/cognitive/gr-COWN/include/COWN/syncher.h</includedby>
     <includedby refid="syncher2_8h" local="no">/home/juan/cognitive/gr-COWN/include/COWN/syncher2.h</includedby>
     <includedby refid="tag__generator_8h" local="no">/home/juan/cognitive/gr-COWN/include/COWN/tag_generator.h</includedby>
     <includedby refid="test_8h" local="no">/home/juan/cognitive/gr-COWN/include/COWN/test.h</includedby>
+=======
+    <includedby refid="resta_8h" local="no">/home/nutaq/cognitive/gr-COWN/include/COWN/resta.h</includedby>
+    <includedby refid="syncher_8h" local="no">/home/nutaq/cognitive/gr-COWN/include/COWN/syncher.h</includedby>
+    <includedby refid="syncher2_8h" local="no">/home/nutaq/cognitive/gr-COWN/include/COWN/syncher2.h</includedby>
+    <includedby refid="tag__generator_8h" local="no">/home/nutaq/cognitive/gr-COWN/include/COWN/tag_generator.h</includedby>
+    <includedby refid="test_8h" local="no">/home/nutaq/cognitive/gr-COWN/include/COWN/test.h</includedby>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
     <incdepgraph>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="0">
-        <label>/home/juan/cognitive/gr-COWN/include/COWN/api.h</label>
+        <label>/home/nutaq/cognitive/gr-COWN/include/COWN/api.h</label>
         <link refid="api.h"/>
         <childnode refid="1" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>gnuradio/attributes.h</label>
-      </node>
     </incdepgraph>
     <invincdepgraph>
+<<<<<<< HEAD
       <node id="4">
         <label>/home/juan/cognitive/gr-COWN/include/COWN/syncher.h</label>
+=======
+      <node id="7">
+        <label>/home/nutaq/cognitive/gr-COWN/include/COWN/test.h</label>
+        <link refid="test_8h"/>
+      </node>
+      <node id="3">
+        <label>/home/nutaq/cognitive/gr-COWN/include/COWN/resta.h</label>
+        <link refid="resta_8h"/>
+      </node>
+      <node id="5">
+        <label>/home/nutaq/cognitive/gr-COWN/include/COWN/syncher2.h</label>
+        <link refid="syncher2_8h"/>
+      </node>
+      <node id="6">
+        <label>/home/nutaq/cognitive/gr-COWN/include/COWN/tag_generator.h</label>
+        <link refid="tag__generator_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/nutaq/cognitive/gr-COWN/include/COWN/syncher.h</label>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
         <link refid="syncher_8h"/>
       </node>
       <node id="2">
-        <label>/home/juan/cognitive/gr-COWN/include/COWN/api.h</label>
+        <label>/home/nutaq/cognitive/gr-COWN/include/COWN/api.h</label>
         <link refid="api.h"/>
         <childnode refid="3" relation="include">
         </childnode>
@@ -37,10 +66,13 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+<<<<<<< HEAD
       </node>
       <node id="6">
         <label>/home/juan/cognitive/gr-COWN/include/COWN/tag_generator.h</label>
         <link refid="tag__generator_8h"/>
+=======
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
       </node>
       <node id="7">
         <label>/home/juan/cognitive/gr-COWN/include/COWN/test.h</label>
@@ -65,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/juan/cognitive/gr-COWN/include/COWN/api.h" line="30" column="12" bodyfile="/home/juan/cognitive/gr-COWN/include/COWN/api.h" bodystart="30" bodyend="-1"/>
+        <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/api.h" line="30" column="12" bodyfile="/home/nutaq/cognitive/gr-COWN/include/COWN/api.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -107,6 +139,6 @@
 <codeline lineno="32"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_COWN_API_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/home/juan/cognitive/gr-COWN/include/COWN/api.h"/>
+    <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/api.h"/>
   </compounddef>
 </doxygen>

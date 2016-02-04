@@ -1,4 +1,4 @@
-# Install script for directory: /home/juan/cognitive/gr-COWN/docs/doxygen
+# Install script for directory: /home/nutaq/cognitive/gr-COWN/docs/doxygen
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/gr-COWN" TYPE DIRECTORY FILES
-    "/home/juan/cognitive/gr-COWN/docs/doxygen/xml"
-    "/home/juan/cognitive/gr-COWN/docs/doxygen/html"
+    "/home/nutaq/cognitive/gr-COWN/docs/doxygen/xml"
+    "/home/nutaq/cognitive/gr-COWN/docs/doxygen/html"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

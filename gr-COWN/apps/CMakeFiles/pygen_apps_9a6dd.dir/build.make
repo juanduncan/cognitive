@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_SOURCE_DIR = /home/nutaq/cognitive/gr-COWN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_BINARY_DIR = /home/nutaq/cognitive/gr-COWN
 
 # Utility rule file for pygen_apps_9a6dd.
 
@@ -56,10 +56,10 @@ apps/CMakeFiles/pygen_apps_9a6dd.dir/build: pygen_apps_9a6dd
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/build
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/clean:
-	cd /home/juan/cognitive/gr-COWN/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
+	cd /home/nutaq/cognitive/gr-COWN/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/clean
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/depend:
-	cd /home/juan/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN/apps /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN/apps /home/juan/cognitive/gr-COWN/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nutaq/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN/apps /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN/apps /home/nutaq/cognitive/gr-COWN/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/depend
 

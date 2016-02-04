@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_SOURCE_DIR = /home/nutaq/cognitive/gr-COWN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_BINARY_DIR = /home/nutaq/cognitive/gr-COWN
 
 # Utility rule file for uninstall.
 
@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /home/juan/cognitive/gr-COWN
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/juan/cognitive/gr-COWN/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/nutaq/cognitive/gr-COWN/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -61,6 +61,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/juan/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nutaq/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/juan/cognitive/gr-COWN/swig/COWN_swigPYTHON_wrap.cxx
+/home/nutaq/cognitive/gr-COWN/swig/COWN_swigPYTHON_wrap.cxx
 Python.h
 -
 Python.h
@@ -18,7 +18,7 @@ stdexcept
 string
 -
 gnuradio_swig_bug_workaround.h
-/home/juan/cognitive/gr-COWN/swig/gnuradio_swig_bug_workaround.h
+/home/nutaq/cognitive/gr-COWN/swig/gnuradio_swig_bug_workaround.h
 cstddef
 -
 stdexcept
@@ -50,14 +50,15 @@ gnuradio/high_res_timer.h
 limits.h
 -
 COWN/tag_generator.h
-/home/juan/cognitive/gr-COWN/swig/COWN/tag_generator.h
+/home/nutaq/cognitive/gr-COWN/swig/COWN/tag_generator.h
 COWN/test.h
-/home/juan/cognitive/gr-COWN/swig/COWN/test.h
+/home/nutaq/cognitive/gr-COWN/swig/COWN/test.h
 COWN/syncher.h
-/home/juan/cognitive/gr-COWN/swig/COWN/syncher.h
+/home/nutaq/cognitive/gr-COWN/swig/COWN/syncher.h
 COWN/syncher2.h
-/home/juan/cognitive/gr-COWN/swig/COWN/syncher2.h
+/home/nutaq/cognitive/gr-COWN/swig/COWN/syncher2.h
 COWN/resta.h
+<<<<<<< HEAD
 /home/juan/cognitive/gr-COWN/swig/COWN/resta.h
 COWN/tx_valve.h
 /home/juan/cognitive/gr-COWN/swig/COWN/tx_valve.h
@@ -65,6 +66,9 @@ COWN/tx_valve2.h
 /home/juan/cognitive/gr-COWN/swig/COWN/tx_valve2.h
 COWN/tx_valve3.h
 /home/juan/cognitive/gr-COWN/swig/COWN/tx_valve3.h
+=======
+/home/nutaq/cognitive/gr-COWN/swig/COWN/resta.h
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 float.h
 -
 math.h

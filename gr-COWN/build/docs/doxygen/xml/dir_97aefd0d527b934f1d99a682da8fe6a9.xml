@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="resta__impl_8h">resta_impl.h</innerfile>
+    <innerfile refid="syncher2__impl_8h">syncher2_impl.h</innerfile>
+    <innerfile refid="syncher__impl_8h">syncher_impl.h</innerfile>
+    <innerfile refid="tag__generator__impl_8h">tag_generator_impl.h</innerfile>
+    <innerfile refid="test__impl_8h">test_impl.h</innerfile>
+    <innerfile refid="tx__valve2__impl_8h">tx_valve2_impl.h</innerfile>
+    <innerfile refid="tx__valve3__impl_8h">tx_valve3_impl.h</innerfile>
+    <innerfile refid="tx__valve__impl_8h">tx_valve_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-COWN/lib/"/>
+  </compounddef>
+</doxygen>

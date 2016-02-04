@@ -2,7 +2,11 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Wifi Tx Rx
+<<<<<<< HEAD
+# Generated: Thu Jan 28 15:50:03 2016
+=======
 # Generated: Thu Jan 28 17:14:43 2016
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
 ##################################################
 
 if __name__ == '__main__':
@@ -16,7 +20,10 @@ if __name__ == '__main__':
             print "Warning: failed to XInitThreads()"
 
 from PyQt4 import Qt
+<<<<<<< HEAD
+=======
 from PyQt4.QtCore import QObject, pyqtSlot
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
 from gnuradio import blocks
 from gnuradio import digital
 from gnuradio import eng_notation
@@ -28,18 +35,27 @@ from gnuradio.fft import window
 from gnuradio.filter import firdes
 from gnuradio.qtgui import Range, RangeWidget
 from optparse import OptionParser
+<<<<<<< HEAD
+import ieee802_11
+import ofdm_80211
+=======
 import COWN
 import foo
 import ieee802_11
 import nutaq
 import pmt
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
 import sip
 import sys
 
 
 class wifi_tx_rx(gr.top_block, Qt.QWidget):
 
+<<<<<<< HEAD
+    def __init__(self):
+=======
     def __init__(self, chan_est=0):
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
         gr.top_block.__init__(self, "Wifi Tx Rx")
         Qt.QWidget.__init__(self)
         self.setWindowTitle("Wifi Tx Rx")
@@ -58,14 +74,15 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
         self.top_layout = Qt.QVBoxLayout(self.top_widget)
         self.top_grid_layout = Qt.QGridLayout()
         self.top_layout.addLayout(self.top_grid_layout)
+<<<<<<< HEAD
+=======
 
         self.settings = Qt.QSettings("GNU Radio", "wifi_tx_rx")
         self.restoreGeometry(self.settings.value("geometry").toByteArray())
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
 
-        ##################################################
-        # Parameters
-        ##################################################
-        self.chan_est = chan_est
+        self.settings = Qt.QSettings("GNU Radio", "wifi_tx_rx")
+        self.restoreGeometry(self.settings.value("geometry").toByteArray())
 
         ##################################################
         # Variables
@@ -74,10 +91,16 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
         self.threshold = threshold = 1000
         self.sync_length = sync_length = 320
         self.samp_rate = samp_rate = 5e5
+<<<<<<< HEAD
+        self.period = period = 500
+        self.pdu_length = pdu_length = 30
+        self.out_buf_size = out_buf_size = 96000
+=======
         self.period = period = 10
         self.pdu_length = pdu_length = 30
         self.out_buf_size = out_buf_size = 96000
         self.header_formatter = header_formatter = ieee802_11.wifi_signal_field()
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
         self.freq_sin = freq_sin = 1000
         self.freq = freq = 943e6
         self.encoding = encoding = 0
@@ -86,6 +109,10 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
         ##################################################
         # Blocks
         ##################################################
+<<<<<<< HEAD
+        self.qtgui_time_sink_x_2 = qtgui.time_sink_f(
+        	256, #size
+=======
         self._period_range = Range(1, 10000, 1, 10, 200)
         self._period_win = RangeWidget(self._period_range, self.set_period, "period", "counter_slider", float)
         self.top_layout.addWidget(self._period_win)
@@ -106,6 +133,7 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
         self.top_layout.addWidget(self._encoding_tool_bar)
         self.qtgui_time_sink_x_2 = qtgui.time_sink_f(
         	32, #size
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
         	100, #samp_rate
         	"", #name
         	1 #number of inputs
@@ -113,7 +141,11 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
         self.qtgui_time_sink_x_2.set_update_time(0.10)
         self.qtgui_time_sink_x_2.set_y_axis(-1, 110)
         
+<<<<<<< HEAD
+        self.qtgui_time_sink_x_2.set_y_label("Amplitude", "")
+=======
         self.qtgui_time_sink_x_2.set_y_label("Frame error rata", "")
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
         
         self.qtgui_time_sink_x_2.enable_tags(-1, True)
         self.qtgui_time_sink_x_2.set_trigger_mode(qtgui.TRIG_MODE_FREE, qtgui.TRIG_SLOPE_POS, 0.0, 0, 0, "")
@@ -150,6 +182,13 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
         
         self._qtgui_time_sink_x_2_win = sip.wrapinstance(self.qtgui_time_sink_x_2.pyqwidget(), Qt.QWidget)
         self.top_layout.addWidget(self._qtgui_time_sink_x_2_win)
+<<<<<<< HEAD
+        self.qtgui_number_sink_0 = qtgui.number_sink(
+            gr.sizeof_float,
+            0.99,
+            qtgui.NUM_GRAPH_HORIZ,
+            1
+=======
         (self.qtgui_time_sink_x_2).set_processor_affinity([3])
         self.qtgui_time_sink_x_0_0_0_1_0_1 = qtgui.time_sink_c(
         	2**10, #size
@@ -205,6 +244,7 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
                 0.99,
                 qtgui.NUM_GRAPH_HORIZ,
         	1
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
         )
         self.qtgui_number_sink_0.set_update_time(0.0000010)
         self.qtgui_number_sink_0.set_title("Frame error Rata")
@@ -212,7 +252,11 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
         labels = ["", "", "", "", "",
                   "", "", "", "", ""]
         units = ["", "", "", "", "",
+<<<<<<< HEAD
+                 "", "", "", "", ""]
+=======
                   "", "", "", "", ""]
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
         colors = [("black", "black"), ("black", "black"), ("black", "black"), ("black", "black"), ("black", "black"),
                   ("black", "black"), ("black", "black"), ("black", "black"), ("black", "black"), ("black", "black")]
         factor = [1, 1, 1, 1, 1,
@@ -231,6 +275,32 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
         self.qtgui_number_sink_0.enable_autoscale(False)
         self._qtgui_number_sink_0_win = sip.wrapinstance(self.qtgui_number_sink_0.pyqwidget(), Qt.QWidget)
         self.top_layout.addWidget(self._qtgui_number_sink_0_win)
+<<<<<<< HEAD
+        self._period_range = Range(1, 10000, 1, 500, 200)
+        self._period_win = RangeWidget(self._period_range, self.set_period, "period", "counter_slider", float)
+        self.top_layout.addWidget(self._period_win)
+        self._pdu_length_range = Range(10, 1500, 1, 30, 200)
+        self._pdu_length_win = RangeWidget(self._pdu_length_range, self.set_pdu_length, "pdu_length", "counter_slider", int)
+        self.top_layout.addWidget(self._pdu_length_win)
+        self.ofdm_80211_short_MF_v2_0 = ofdm_80211.short_MF_v2(160, 16)
+        self.ieee802_11_ofdm_sync_long_0 = ieee802_11.ofdm_sync_long(sync_length, False, False)
+        self.ieee802_11_ofdm_parse_mac_0 = ieee802_11.ofdm_parse_mac(False, True)
+        self.ieee802_11_ofdm_equalize_symbols_0 = ieee802_11.ofdm_equalize_symbols(ieee802_11.LMS, False)
+        self.ieee802_11_ofdm_decode_signal_0 = ieee802_11.ofdm_decode_signal(False, False)
+        self.ieee802_11_ofdm_decode_mac_0 = ieee802_11.ofdm_decode_mac(False, False)
+        self._freq_sin_range = Range(-2.5e5, 2.5e5, 500, 1000, 200)
+        self._freq_sin_win = RangeWidget(self._freq_sin_range, self.set_freq_sin, "freq_sin", "counter_slider", float)
+        self.top_layout.addWidget(self._freq_sin_win)
+        self.fft_vxx_0 = fft.fft_vcc(64, True, (window.rectangular(64)), True, 1)
+        self.carajito = ofdm_80211.ofdm_sync_short(threshold, 2, False, False)
+        self.blocks_throttle_0 = blocks.throttle(gr.sizeof_gr_complex*1, 5e5,True)
+        self.blocks_stream_to_vector_0 = blocks.stream_to_vector(gr.sizeof_gr_complex*1, 64)
+        self.blocks_pdu_to_tagged_stream_0 = blocks.pdu_to_tagged_stream(blocks.float_t, "packet_len")
+        self.blocks_null_sink_0_1 = blocks.null_sink(gr.sizeof_float*1)
+        self.blocks_multiply_const_vxx_0_0 = blocks.multiply_const_vcc((3, ))
+        self.blocks_file_source_0_1_0 = blocks.file_source(gr.sizeof_gr_complex*1, "/home/juan/juan/COWN/waveforms/recorded_ideal_frames_20160114_v2.bin", True)
+        self.blocks_delay_0 = blocks.delay(gr.sizeof_gr_complex*1, sync_length)
+=======
         (self.qtgui_number_sink_0).set_processor_affinity([3])
         self.nutaq_rtdex_source_0 = nutaq.rtdex_source("nutaq_carrier_perseus_0",gr.sizeof_int,1,0)
         self.nutaq_rtdex_source_0.set_type(0)
@@ -407,10 +477,32 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
         (self.COWN_syncher2_0).set_processor_affinity([1])
         self.COWN_resta_0 = COWN.resta()
         (self.COWN_resta_0).set_processor_affinity([1])
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
 
         ##################################################
         # Connections
         ##################################################
+<<<<<<< HEAD
+        self.msg_connect((self.ieee802_11_ofdm_decode_mac_0, 'out'), (self.ieee802_11_ofdm_parse_mac_0, 'in'))    
+        self.msg_connect((self.ieee802_11_ofdm_parse_mac_0, 'fer'), (self.blocks_pdu_to_tagged_stream_0, 'pdus'))    
+        self.connect((self.blocks_delay_0, 0), (self.ieee802_11_ofdm_sync_long_0, 1))    
+        self.connect((self.blocks_file_source_0_1_0, 0), (self.blocks_multiply_const_vxx_0_0, 0))    
+        self.connect((self.blocks_multiply_const_vxx_0_0, 0), (self.blocks_throttle_0, 0))    
+        self.connect((self.blocks_pdu_to_tagged_stream_0, 0), (self.qtgui_number_sink_0, 0))    
+        self.connect((self.blocks_pdu_to_tagged_stream_0, 0), (self.qtgui_time_sink_x_2, 0))    
+        self.connect((self.blocks_stream_to_vector_0, 0), (self.fft_vxx_0, 0))    
+        self.connect((self.blocks_throttle_0, 0), (self.ofdm_80211_short_MF_v2_0, 0))    
+        self.connect((self.carajito, 0), (self.blocks_delay_0, 0))    
+        self.connect((self.carajito, 0), (self.ieee802_11_ofdm_sync_long_0, 0))    
+        self.connect((self.fft_vxx_0, 0), (self.ieee802_11_ofdm_equalize_symbols_0, 0))    
+        self.connect((self.ieee802_11_ofdm_decode_signal_0, 0), (self.ieee802_11_ofdm_decode_mac_0, 0))    
+        self.connect((self.ieee802_11_ofdm_equalize_symbols_0, 0), (self.ieee802_11_ofdm_decode_signal_0, 0))    
+        self.connect((self.ieee802_11_ofdm_sync_long_0, 0), (self.blocks_stream_to_vector_0, 0))    
+        self.connect((self.ofdm_80211_short_MF_v2_0, 2), (self.blocks_null_sink_0_1, 0))    
+        self.connect((self.ofdm_80211_short_MF_v2_0, 1), (self.carajito, 1))    
+        self.connect((self.ofdm_80211_short_MF_v2_0, 3), (self.carajito, 2))    
+        self.connect((self.ofdm_80211_short_MF_v2_0, 0), (self.carajito, 0))    
+=======
         self.msg_connect((self.blocks_message_strobe_0_0, 'strobe'), (self.ieee802_11_ofdm_mac_0, 'app in'))    
         self.msg_connect((self.ieee802_11_ofdm_decode_mac_0, 'out'), (self.ieee802_11_ofdm_parse_mac_0, 'in'))    
         self.msg_connect((self.ieee802_11_ofdm_mac_0, 'phy out'), (self.ieee802_11_ofdm_mapper_0, 'in'))    
@@ -462,11 +554,14 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
         self.connect((self.ieee802_11_ofdm_sync_short_0, 0), (self.blocks_null_sink_0_0_0, 0))    
         self.connect((self.ieee802_11_ofdm_sync_short_0, 0), (self.ieee802_11_ofdm_sync_long_0, 0))    
         self.connect((self.nutaq_rtdex_source_0, 0), (self.COWN_syncher2_0, 0))    
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
 
     def closeEvent(self, event):
         self.settings = Qt.QSettings("GNU Radio", "wifi_tx_rx")
         self.settings.setValue("geometry", self.saveGeometry())
         event.accept()
+<<<<<<< HEAD
+=======
 
     def get_chan_est(self):
         return self.chan_est
@@ -474,6 +569,7 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
     def set_chan_est(self, chan_est):
         self.chan_est = chan_est
         self.ieee802_11_ofdm_equalize_symbols_0.set_algorithm(self.chan_est)
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
 
     def get_window_size(self):
         return self.window_size
@@ -501,22 +597,31 @@ class wifi_tx_rx(gr.top_block, Qt.QWidget):
 
     def set_samp_rate(self, samp_rate):
         self.samp_rate = samp_rate
+<<<<<<< HEAD
+=======
         self.nutaq_custom_register_0_2.set_value(int((4e6)/self.samp_rate/40*(2**32)))
         self.qtgui_time_sink_x_0_0_0_1_0_1.set_samp_rate(self.samp_rate/1000)
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
 
     def get_period(self):
         return self.period
 
     def set_period(self, period):
         self.period = period
+<<<<<<< HEAD
+=======
         self.blocks_message_strobe_0_0.set_period(self.period)
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
 
     def get_pdu_length(self):
         return self.pdu_length
 
     def set_pdu_length(self, pdu_length):
         self.pdu_length = pdu_length
+<<<<<<< HEAD
+=======
         self.blocks_message_strobe_0_0.set_msg(pmt.intern("".join("x" for i in range(self.pdu_length)) + "1234"))
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
 
     def get_out_buf_size(self):
         return self.out_buf_size
@@ -568,7 +673,11 @@ if __name__ == '__main__':
         Qt.QApplication.setGraphicsSystem(gr.prefs().get_string('qtgui','style','raster'))
     qapp = Qt.QApplication(sys.argv)
     tb = wifi_tx_rx()
+<<<<<<< HEAD
+    tb.start(16384)
+=======
     tb.start()
+>>>>>>> b19f946300deb8819390f5fab6a8ed8f5788db9e
     tb.show()
 
     def quitting():

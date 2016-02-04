@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_SOURCE_DIR = /home/nutaq/cognitive/gr-COWN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_BINARY_DIR = /home/nutaq/cognitive/gr-COWN
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/juan/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_progress_start /home/juan/cognitive/gr-COWN/CMakeFiles /home/juan/cognitive/gr-COWN/lib/CMakeFiles/progress.marks
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juan/cognitive/gr-COWN/CMakeFiles 0
+	cd /home/nutaq/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_progress_start /home/nutaq/cognitive/gr-COWN/CMakeFiles /home/nutaq/cognitive/gr-COWN/lib/CMakeFiles/progress.marks
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nutaq/cognitive/gr-COWN/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/juan/cognitive/gr-COWN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nutaq/cognitive/gr-COWN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-COWN.dir/rule:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-COWN.dir/rule
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-COWN.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-COWN.dir/rule
 
 # Convenience name for target.
@@ -150,17 +150,21 @@ gnuradio-COWN: lib/CMakeFiles/gnuradio-COWN.dir/rule
 
 # fast build rule for target.
 gnuradio-COWN/fast:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/build
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/build
 .PHONY : gnuradio-COWN/fast
 
 # Manual pre-install relink rule for target.
 gnuradio-COWN/preinstall:
+<<<<<<< HEAD
 	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-COWN.dir/preinstall
+=======
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-COWN.dir/preinstall
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 .PHONY : gnuradio-COWN/preinstall
 
 # Convenience name for target.
 lib/CMakeFiles/test-COWN.dir/rule:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-COWN.dir/rule
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-COWN.dir/rule
 .PHONY : lib/CMakeFiles/test-COWN.dir/rule
 
 # Convenience name for target.
@@ -169,7 +173,7 @@ test-COWN: lib/CMakeFiles/test-COWN.dir/rule
 
 # fast build rule for target.
 test-COWN/fast:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/build
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/build
 .PHONY : test-COWN/fast
 
 qa_COWN.o: qa_COWN.cc.o
@@ -177,7 +181,7 @@ qa_COWN.o: qa_COWN.cc.o
 
 # target to build an object file
 qa_COWN.cc.o:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/qa_COWN.cc.o
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/qa_COWN.cc.o
 .PHONY : qa_COWN.cc.o
 
 qa_COWN.i: qa_COWN.cc.i
@@ -185,7 +189,7 @@ qa_COWN.i: qa_COWN.cc.i
 
 # target to preprocess a source file
 qa_COWN.cc.i:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/qa_COWN.cc.i
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/qa_COWN.cc.i
 .PHONY : qa_COWN.cc.i
 
 qa_COWN.s: qa_COWN.cc.s
@@ -193,7 +197,7 @@ qa_COWN.s: qa_COWN.cc.s
 
 # target to generate assembly for a file
 qa_COWN.cc.s:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/qa_COWN.cc.s
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/qa_COWN.cc.s
 .PHONY : qa_COWN.cc.s
 
 resta_impl.o: resta_impl.cc.o
@@ -201,7 +205,7 @@ resta_impl.o: resta_impl.cc.o
 
 # target to build an object file
 resta_impl.cc.o:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.o
 .PHONY : resta_impl.cc.o
 
 resta_impl.i: resta_impl.cc.i
@@ -209,7 +213,7 @@ resta_impl.i: resta_impl.cc.i
 
 # target to preprocess a source file
 resta_impl.cc.i:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.i
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.i
 .PHONY : resta_impl.cc.i
 
 resta_impl.s: resta_impl.cc.s
@@ -217,7 +221,7 @@ resta_impl.s: resta_impl.cc.s
 
 # target to generate assembly for a file
 resta_impl.cc.s:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.s
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/resta_impl.cc.s
 .PHONY : resta_impl.cc.s
 
 syncher2_impl.o: syncher2_impl.cc.o
@@ -225,7 +229,7 @@ syncher2_impl.o: syncher2_impl.cc.o
 
 # target to build an object file
 syncher2_impl.cc.o:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.o
 .PHONY : syncher2_impl.cc.o
 
 syncher2_impl.i: syncher2_impl.cc.i
@@ -233,7 +237,7 @@ syncher2_impl.i: syncher2_impl.cc.i
 
 # target to preprocess a source file
 syncher2_impl.cc.i:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.i
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.i
 .PHONY : syncher2_impl.cc.i
 
 syncher2_impl.s: syncher2_impl.cc.s
@@ -241,7 +245,7 @@ syncher2_impl.s: syncher2_impl.cc.s
 
 # target to generate assembly for a file
 syncher2_impl.cc.s:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.s
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher2_impl.cc.s
 .PHONY : syncher2_impl.cc.s
 
 syncher_impl.o: syncher_impl.cc.o
@@ -249,7 +253,7 @@ syncher_impl.o: syncher_impl.cc.o
 
 # target to build an object file
 syncher_impl.cc.o:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.o
 .PHONY : syncher_impl.cc.o
 
 syncher_impl.i: syncher_impl.cc.i
@@ -257,7 +261,7 @@ syncher_impl.i: syncher_impl.cc.i
 
 # target to preprocess a source file
 syncher_impl.cc.i:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.i
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.i
 .PHONY : syncher_impl.cc.i
 
 syncher_impl.s: syncher_impl.cc.s
@@ -265,7 +269,7 @@ syncher_impl.s: syncher_impl.cc.s
 
 # target to generate assembly for a file
 syncher_impl.cc.s:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.s
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/syncher_impl.cc.s
 .PHONY : syncher_impl.cc.s
 
 tag_generator_impl.o: tag_generator_impl.cc.o
@@ -273,7 +277,7 @@ tag_generator_impl.o: tag_generator_impl.cc.o
 
 # target to build an object file
 tag_generator_impl.cc.o:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.o
 .PHONY : tag_generator_impl.cc.o
 
 tag_generator_impl.i: tag_generator_impl.cc.i
@@ -281,7 +285,7 @@ tag_generator_impl.i: tag_generator_impl.cc.i
 
 # target to preprocess a source file
 tag_generator_impl.cc.i:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.i
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.i
 .PHONY : tag_generator_impl.cc.i
 
 tag_generator_impl.s: tag_generator_impl.cc.s
@@ -289,7 +293,7 @@ tag_generator_impl.s: tag_generator_impl.cc.s
 
 # target to generate assembly for a file
 tag_generator_impl.cc.s:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.s
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/tag_generator_impl.cc.s
 .PHONY : tag_generator_impl.cc.s
 
 test_COWN.o: test_COWN.cc.o
@@ -297,7 +301,7 @@ test_COWN.o: test_COWN.cc.o
 
 # target to build an object file
 test_COWN.cc.o:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/test_COWN.cc.o
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/test_COWN.cc.o
 .PHONY : test_COWN.cc.o
 
 test_COWN.i: test_COWN.cc.i
@@ -305,7 +309,7 @@ test_COWN.i: test_COWN.cc.i
 
 # target to preprocess a source file
 test_COWN.cc.i:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/test_COWN.cc.i
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/test_COWN.cc.i
 .PHONY : test_COWN.cc.i
 
 test_COWN.s: test_COWN.cc.s
@@ -313,7 +317,7 @@ test_COWN.s: test_COWN.cc.s
 
 # target to generate assembly for a file
 test_COWN.cc.s:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/test_COWN.cc.s
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/test-COWN.dir/build.make lib/CMakeFiles/test-COWN.dir/test_COWN.cc.s
 .PHONY : test_COWN.cc.s
 
 test_impl.o: test_impl.cc.o
@@ -321,7 +325,7 @@ test_impl.o: test_impl.cc.o
 
 # target to build an object file
 test_impl.cc.o:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.o
 .PHONY : test_impl.cc.o
 
 test_impl.i: test_impl.cc.i
@@ -329,7 +333,7 @@ test_impl.i: test_impl.cc.i
 
 # target to preprocess a source file
 test_impl.cc.i:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.i
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.i
 .PHONY : test_impl.cc.i
 
 test_impl.s: test_impl.cc.s
@@ -337,7 +341,7 @@ test_impl.s: test_impl.cc.s
 
 # target to generate assembly for a file
 test_impl.cc.s:
-	cd /home/juan/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.s
+	cd /home/nutaq/cognitive/gr-COWN && $(MAKE) -f lib/CMakeFiles/gnuradio-COWN.dir/build.make lib/CMakeFiles/gnuradio-COWN.dir/test_impl.cc.s
 .PHONY : test_impl.cc.s
 
 tx_valve2_impl.o: tx_valve2_impl.cc.o
@@ -467,6 +471,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/juan/cognitive/gr-COWN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nutaq/cognitive/gr-COWN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

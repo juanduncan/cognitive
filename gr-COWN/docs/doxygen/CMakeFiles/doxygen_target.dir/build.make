@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_SOURCE_DIR = /home/nutaq/cognitive/gr-COWN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/juan/cognitive/gr-COWN
+CMAKE_BINARY_DIR = /home/nutaq/cognitive/gr-COWN
 
 # Utility rule file for doxygen_target.
 
@@ -49,9 +49,9 @@ docs/doxygen/CMakeFiles/doxygen_target: docs/doxygen/xml
 docs/doxygen/CMakeFiles/doxygen_target: docs/doxygen/html
 
 docs/doxygen/xml:
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juan/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nutaq/cognitive/gr-COWN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating documentation with doxygen"
-	cd /home/juan/cognitive/gr-COWN/docs/doxygen && /usr/bin/doxygen /home/juan/cognitive/gr-COWN/docs/doxygen/Doxyfile
+	cd /home/nutaq/cognitive/gr-COWN/docs/doxygen && /usr/bin/doxygen /home/nutaq/cognitive/gr-COWN/docs/doxygen/Doxyfile
 
 docs/doxygen/html: docs/doxygen/xml
 
@@ -66,10 +66,10 @@ docs/doxygen/CMakeFiles/doxygen_target.dir/build: doxygen_target
 .PHONY : docs/doxygen/CMakeFiles/doxygen_target.dir/build
 
 docs/doxygen/CMakeFiles/doxygen_target.dir/clean:
-	cd /home/juan/cognitive/gr-COWN/docs/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/doxygen_target.dir/cmake_clean.cmake
+	cd /home/nutaq/cognitive/gr-COWN/docs/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/doxygen_target.dir/cmake_clean.cmake
 .PHONY : docs/doxygen/CMakeFiles/doxygen_target.dir/clean
 
 docs/doxygen/CMakeFiles/doxygen_target.dir/depend:
-	cd /home/juan/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN/docs/doxygen /home/juan/cognitive/gr-COWN /home/juan/cognitive/gr-COWN/docs/doxygen /home/juan/cognitive/gr-COWN/docs/doxygen/CMakeFiles/doxygen_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nutaq/cognitive/gr-COWN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN/docs/doxygen /home/nutaq/cognitive/gr-COWN /home/nutaq/cognitive/gr-COWN/docs/doxygen /home/nutaq/cognitive/gr-COWN/docs/doxygen/CMakeFiles/doxygen_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : docs/doxygen/CMakeFiles/doxygen_target.dir/depend
 

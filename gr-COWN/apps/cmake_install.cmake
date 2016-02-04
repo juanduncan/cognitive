@@ -1,4 +1,4 @@
-# Install script for directory: /home/juan/cognitive/gr-COWN/apps
+# Install script for directory: /home/nutaq/cognitive/gr-COWN/apps
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

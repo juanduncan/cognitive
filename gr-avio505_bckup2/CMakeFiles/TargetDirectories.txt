@@ -1,9 +1,0 @@
-/home/nutaq/avio505_juan/gr-avio505/swig/CMakeFiles/_avio505_swig.dir
-/home/nutaq/avio505_juan/gr-avio505/swig/CMakeFiles/_avio505_swig_swig_tag.dir
-/home/nutaq/avio505_juan/gr-avio505/swig/CMakeFiles/avio505_swig_swig_doc.dir
-/home/nutaq/avio505_juan/gr-avio505/lib/CMakeFiles/gnuradio-avio505.dir
-/home/nutaq/avio505_juan/gr-avio505/apps/CMakeFiles/pygen_apps_9a6dd.dir
-/home/nutaq/avio505_juan/gr-avio505/python/CMakeFiles/pygen_python_1ed1b.dir
-/home/nutaq/avio505_juan/gr-avio505/swig/CMakeFiles/pygen_swig_f94f1.dir
-/home/nutaq/avio505_juan/gr-avio505/lib/CMakeFiles/test-avio505.dir
-/home/nutaq/avio505_juan/gr-avio505/CMakeFiles/uninstall.dir

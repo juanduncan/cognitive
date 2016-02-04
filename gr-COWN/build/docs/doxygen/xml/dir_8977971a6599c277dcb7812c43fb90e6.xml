@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_8977971a6599c277dcb7812c43fb90e6" kind="dir">
+    <compoundname>GNURC_apps</compoundname>
+    <innerdir refid="dir_ba14d3ab00489998c37913c2d469d062">GNURC_apps_FROM_MACBOOK</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-COWN/examples/GNURC_apps/"/>
+  </compounddef>
+</doxygen>

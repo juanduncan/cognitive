@@ -8,6 +8,7 @@
       <node id="26">
         <label>gnuradio/sync_decimator.h</label>
       </node>
+<<<<<<< HEAD
       <node id="24">
         <label>COWN/api.h</label>
         <link refid="api_8h"/>
@@ -16,14 +17,29 @@
       </node>
       <node id="23">
         <label>/home/juan/cognitive/gr-COWN/include/COWN/tag_generator.h</label>
+=======
+      <node id="25">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="23">
+        <label>/home/nutaq/cognitive/gr-COWN/include/COWN/tag_generator.h</label>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
         <link refid="tag_generator.h"/>
         <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
       </node>
+<<<<<<< HEAD
       <node id="25">
         <label>gnuradio/attributes.h</label>
+=======
+      <node id="24">
+        <label>COWN/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
       </node>
     </incdepgraph>
     <innerclass refid="classgr_1_1COWN_1_1tag__generator" prot="public">gr::COWN::tag_generator</innerclass>
@@ -78,6 +94,6 @@
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_COWN_TAG_GENERATOR_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
 <codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/juan/cognitive/gr-COWN/include/COWN/tag_generator.h"/>
+    <location file="/home/nutaq/cognitive/gr-COWN/include/COWN/tag_generator.h"/>
   </compounddef>
 </doxygen>

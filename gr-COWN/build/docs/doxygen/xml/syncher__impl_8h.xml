@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="syncher__impl_8h" kind="file">
+    <compoundname>syncher_impl.h</compoundname>
+    <includes refid="syncher_8h" local="no">COWN/syncher.h</includes>
+    <incdepgraph>
+      <node id="58">
+        <label>COWN/syncher.h</label>
+        <link refid="syncher_8h"/>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>COWN/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="60">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="57">
+        <label>syncher_impl.h</label>
+        <link refid="syncher_impl.h"/>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1COWN_1_1syncher__impl" prot="public">gr::COWN::syncher_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1COWN">gr::COWN</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/juan/cognitive/gr-COWN/lib/syncher_impl.h"/>
+  </compounddef>
+</doxygen>

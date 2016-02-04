@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1COWN_1_1tag__generator__impl" kind="class" prot="public">
+    <compoundname>gr::COWN::tag_generator_impl</compoundname>
+    <basecompoundref refid="classgr_1_1COWN_1_1tag__generator" prot="public" virt="non-virtual">gr::COWN::tag_generator</basecompoundref>
+    <includes refid="tag__generator__impl_8h" local="no">tag_generator_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1tag__generator__impl_1ae7d0a69e197b4c745b44e93a1ecfcb28" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::COWN::tag_generator_impl::count_errors</definition>
+        <argsstring></argsstring>
+        <name>count_errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tag_generator_impl.h" line="33" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/tag_generator_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1COWN_1_1tag__generator__impl_1aa2e2c9c55b3a98063fbe3081d3b46058" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::COWN::tag_generator_impl::counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tag_generator_impl.h" line="34" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/tag_generator_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1COWN_1_1tag__generator__impl_1aa4450b105d02654fb786a8cea388e7c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::tag_generator_impl::tag_generator_impl</definition>
+        <argsstring>()</argsstring>
+        <name>tag_generator_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tag_generator_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1tag__generator__impl_1aa729c59ea5257ee94bbd55d65d2a4a6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::COWN::tag_generator_impl::~tag_generator_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~tag_generator_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tag_generator_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1COWN_1_1tag__generator__impl_1ad8201d4aafc161c830a6393fd2591179" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::COWN::tag_generator_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/juan/cognitive/gr-COWN/lib/tag_generator_impl.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="48">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="47">
+        <label>gr::COWN::tag_generator</label>
+        <link refid="classgr_1_1COWN_1_1tag__generator"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>gr::COWN::tag_generator_impl</label>
+        <link refid="classgr_1_1COWN_1_1tag__generator__impl"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="51">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="50">
+        <label>gr::COWN::tag_generator</label>
+        <link refid="classgr_1_1COWN_1_1tag__generator"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>gr::COWN::tag_generator_impl</label>
+        <link refid="classgr_1_1COWN_1_1tag__generator__impl"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/juan/cognitive/gr-COWN/lib/tag_generator_impl.h" line="30" column="1" bodyfile="/home/juan/cognitive/gr-COWN/lib/tag_generator_impl.h" bodystart="29" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classgr_1_1COWN_1_1tag__generator__impl_1ae7d0a69e197b4c745b44e93a1ecfcb28" prot="private" virt="non-virtual"><scope>gr::COWN::tag_generator_impl</scope><name>count_errors</name></member>
+      <member refid="classgr_1_1COWN_1_1tag__generator__impl_1aa2e2c9c55b3a98063fbe3081d3b46058" prot="private" virt="non-virtual"><scope>gr::COWN::tag_generator_impl</scope><name>counter</name></member>
+      <member refid="classgr_1_1COWN_1_1tag__generator_1a3591ac91da093638c40d465b9fe8eddf" prot="public" virt="non-virtual"><scope>gr::COWN::tag_generator_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1COWN_1_1tag__generator_1a069e25521abe363e02f21529075787ba" prot="public" virt="non-virtual"><scope>gr::COWN::tag_generator_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1COWN_1_1tag__generator__impl_1aa4450b105d02654fb786a8cea388e7c3" prot="public" virt="non-virtual"><scope>gr::COWN::tag_generator_impl</scope><name>tag_generator_impl</name></member>
+      <member refid="classgr_1_1COWN_1_1tag__generator__impl_1ad8201d4aafc161c830a6393fd2591179" prot="public" virt="non-virtual"><scope>gr::COWN::tag_generator_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1COWN_1_1tag__generator__impl_1aa729c59ea5257ee94bbd55d65d2a4a6d" prot="public" virt="non-virtual"><scope>gr::COWN::tag_generator_impl</scope><name>~tag_generator_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

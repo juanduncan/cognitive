@@ -30,6 +30,11 @@ namespace gr {
     {
      private:
       std::vector<gr_complex> senoidal;
+      int Nsamples;
+      int sen_index;
+      int PRI;
+      int tau;
+      int remaining_PRI;
 
      public:
       tx_valve3_impl();

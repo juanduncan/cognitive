@@ -1,4 +1,4 @@
-# Install script for directory: /home/juan/cognitive/gr-COWN/lib
+# Install script for directory: /home/nutaq/cognitive/gr-COWN/lib
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,6 +33,10 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/juan/cognitive/gr-COWN/lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so")
+=======
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nutaq/cognitive/gr-COWN/lib/CMakeFiles/CMakeRelink.dir/libgnuradio-COWN.so")
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

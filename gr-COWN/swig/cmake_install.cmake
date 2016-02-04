@@ -1,4 +1,4 @@
-# Install script for directory: /home/juan/cognitive/gr-COWN/swig
+# Install script for directory: /home/nutaq/cognitive/gr-COWN/swig
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,24 +33,28 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/COWN" TYPE MODULE FILES "/home/juan/cognitive/gr-COWN/swig/CMakeFiles/CMakeRelink.dir/_COWN_swig.so")
+=======
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/COWN" TYPE MODULE FILES "/home/nutaq/cognitive/gr-COWN/swig/CMakeFiles/CMakeRelink.dir/_COWN_swig.so")
+>>>>>>> e993df33b66c0d5f0e4079bc7eda6af8a5ee6fbf
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/COWN" TYPE FILE FILES "/home/juan/cognitive/gr-COWN/swig/COWN_swig.py")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/COWN" TYPE FILE FILES "/home/nutaq/cognitive/gr-COWN/swig/COWN_swig.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/COWN" TYPE FILE FILES
-    "/home/juan/cognitive/gr-COWN/swig/COWN_swig.pyc"
-    "/home/juan/cognitive/gr-COWN/swig/COWN_swig.pyo"
+    "/home/nutaq/cognitive/gr-COWN/swig/COWN_swig.pyc"
+    "/home/nutaq/cognitive/gr-COWN/swig/COWN_swig.pyo"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/COWN/COWN/swig" TYPE FILE FILES
-    "/home/juan/cognitive/gr-COWN/swig/COWN_swig.i"
-    "/home/juan/cognitive/gr-COWN/swig/COWN_swig_doc.i"
+    "/home/nutaq/cognitive/gr-COWN/swig/COWN_swig.i"
+    "/home/nutaq/cognitive/gr-COWN/swig/COWN_swig_doc.i"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
